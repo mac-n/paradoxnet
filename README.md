@@ -76,7 +76,7 @@ The complexity of the learned representation space, even in this small prototype
 
 The first layer learns the fundamental alphabet of the text, breaking it down into its most basic linguistic components.
 
-![Layer 0 Character Associations](analysis_results_all_layers/character_associations_layer_0.png)
+![Layer 0 Character Associations](./analysis_results_all_layers/character_associations_layer_0.png)
 *A visualization of the average pattern activation per character for Layer 0.*
 
 - **Pattern 0 (P0)** acts as a clear "Word Boundary" detector, firing strongly on the space character.
@@ -87,7 +87,7 @@ The first layer learns the fundamental alphabet of the text, breaking it down in
 
 This layer receives the features from Layer 0 and assembles them into more abstract concepts. It no longer sees just letters; it sees ideas.
 
-![Layer 1 Character Associations](analysis_results_all_layers/character_associations_layer_1.png)
+![Layer 1 Character Associations](./analysis_results_all_layers/character_associations_layer_1.png)
 *A visualization of the average pattern activation per character for Layer 1.*
 
 - **Pattern 5 (P5): The "Vowel-Following-H" Detector.** This pattern has learned a component of the most common word in English, "the". It activates most strongly on 'e' when it is preceded by an 'h' from Layer 0.
@@ -98,7 +98,7 @@ This layer receives the features from Layer 0 and assembles them into more abstr
 
 This layer doesn't see characters at all; it sees the *concepts* created by Layer 1. Its patterns are dense and holistic, representing complex rules for how to combine the signals from the layer below into a final, coherent prediction. 
 
-![Layer 2 Pattern Magnitudes](analysis_results_all_layers/layer_2_patterns.png)
+![Layer 2 Pattern Magnitudes](./analysis_results_all_layers/layer_2_patterns.png)
 *The magnitude plot for Layer 2 shows dense, holistic patterns that use all their features to synthesize concepts from Layer 1.*
 
 ---
