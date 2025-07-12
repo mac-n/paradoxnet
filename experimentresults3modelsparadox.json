@@ -1,0 +1,82 @@
+{
+    "summary": {
+        "lorenz": {
+            "standard_vs_base_ppn": {
+                "t_stat": 3.8262443024173765,
+                "p_value": 0.005044756097408836
+            },
+            "standard_vs_hierarchical_ppn": {
+                "t_stat": -10.202672847861473,
+                "p_value": 7.305851923702068e-06
+            },
+            "base_ppn_vs_hierarchical_ppn": {
+                "t_stat": -10.233818730003724,
+                "p_value": 7.141014790302685e-06
+            },
+            "standard": {
+                "mean_loss": 0.02324132784934981,
+                "std_loss": 0.0066795486955297835
+            },
+            "base_ppn": {
+                "mean_loss": 0.005849902745103463,
+                "std_loss": 0.006166247473125294
+            },
+            "hierarchical_ppn": {
+                "mean_loss": 5.725215251105173,
+                "std_loss": 1.1177212468732938
+            }
+        },
+        "memory": {
+            "standard_vs_base_ppn": {
+                "t_stat": -2.8400130772897767,
+                "p_value": 0.02181152737564151
+            },
+            "standard_vs_hierarchical_ppn": {
+                "t_stat": 9.394938726888098,
+                "p_value": 1.3499558895531015e-05
+            },
+            "base_ppn_vs_hierarchical_ppn": {
+                "t_stat": 4.78914219851493,
+                "p_value": 0.0013744897800663275
+            },
+            "standard": {
+                "mean_loss": 1.7220518469810486,
+                "std_loss": 0.07694633974596304
+            },
+            "base_ppn": {
+                "mean_loss": 2.4456200173922946,
+                "std_loss": 0.5037094581182112
+            },
+            "hierarchical_ppn": {
+                "mean_loss": 1.2272104714597976,
+                "std_loss": 0.07194597127715953
+            }
+        },
+        "language": {
+            "standard_vs_base_ppn": {
+                "t_stat": 0.21650562573385426,
+                "p_value": 0.8340125478549802
+            },
+            "standard_vs_hierarchical_ppn": {
+                "t_stat": -1.1274691755465491,
+                "p_value": 0.2922219367089821
+            },
+            "base_ppn_vs_hierarchical_ppn": {
+                "t_stat": -1.230928371951611,
+                "p_value": 0.25330913951895123
+            },
+            "standard": {
+                "mean_loss": 3.261113148853606,
+                "std_loss": 0.2868017379740266
+            },
+            "base_ppn": {
+                "mean_loss": 3.214109139307402,
+                "std_loss": 0.32600540293272406
+            },
+            "hierarchical_ppn": {
+                "mean_loss": 3.6611312887885354,
+                "std_loss": 0.6490431232080875
+            }
+        }
+    }
+}

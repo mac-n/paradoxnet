@@ -1,0 +1,30 @@
+{
+    "summary": {
+        "lorenz": {
+            "standard_vs_paradox": {
+                "t_stat": 2.8458583905709007,
+                "p_value": 0.021616294636861273
+            },
+            "standard_vs_transformer": {
+                "t_stat": -8.561459795268815,
+                "p_value": 2.6714029376564754e-05
+            },
+            "paradox_vs_transformer": {
+                "t_stat": -10.046143579564792,
+                "p_value": 8.201301703853625e-06
+            },
+            "standard": {
+                "mean_loss": 0.01576015845805939,
+                "std_loss": 0.008997569939822564
+            },
+            "paradox": {
+                "mean_loss": 0.0026437439415271267,
+                "std_loss": 0.002003336497087266
+            },
+            "transformer": {
+                "mean_loss": 0.1331342416150229,
+                "std_loss": 0.02590086688189221
+            }
+        }
+    }
+}
