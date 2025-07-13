@@ -14,9 +14,9 @@ The goal for ParadoxNet was to eliminate this final piece of opacity and increas
 
 1.  **Replacing `ReLU` with a More Transparent Non-linearity:** We replaced `ReLU` with a "Paradox" gate—a dynamic, self-referential mechanism inspired by principles of biological self-prediction. A layer's output is modulated by its own prediction error, creating a transparent, information-preserving gate.
 
-2.  **Using Complex Space for Positional Encoding:** We projected the model's representations into the complex number domain. Our hypothesis was that this would be a natural fit for Rotary Positional Embeddings (RoPE) and would allow the network to explicitly learn positional information for text processing.
+2.  **Using Complex Space for Positional Encoding:** We projected the model's representations into the complex number domain. Our hypothesis was that this would be a natural fit for Rotary Positional Embeddings (RoPE) and would allow the network to encode positional information for text processing.
 
-**The experiment worked, but not in the way that we expected.** The model learned to process language with remarkable stability. However, when we used its transparency to look inside, we found the mechanism it had discovered was far more elegant and surprising than the one we had set out to build.
+**The experiment worked, but not in the way that we expected.** The model learned to process language with remarkable stability. However, when we used its transparency to look inside, we found the mechanism it had discovered was far more elegant and surprising than the one we had expected to build.
 
 ## Architectural Components
 
@@ -42,7 +42,7 @@ Where:
 - $\sigma$ is the sigmoid function.
 - $|\cdot|$ denotes the magnitude of the complex number.
 
-4.  **The Consensus View**: Rather than a simple sequential pipeline, each hidden layer contributes its "opinion" to a final "Consensus View," creating a more holistic and robust signal for prediction.
+4.  **The Consensus View**: Rather than a simple sequential pipeline, each hidden layer contributes its "opinion" to a final "Consensus View," creating a more holistic and robust signal for prediction. This is a refinement of the confidence-baed routing/surprise-based routing mechanism in the original Pattern Predictive Net.
 
 ---
 
@@ -83,15 +83,11 @@ The network primarily encodes this contextual information not in the *magnitude*
 
 The model has, in an unsupervised manner, invented its own form of rotational encoding to capture the rich relationships within the data.
 
-### Key Finding 3: The Paradox Engine as the Sole Driver
-
-This sophisticated, emergent behavior is driven entirely by the Paradox non-linearity. This simple, self-referential rule, when applied over complex-valued states, is sufficient to generate the complex phase dynamics required for language processing.
-
 ---
 
 ## A New Paradigm for AI Safety
 
-The discovery of this complex, emergent strategy does not undermine the goal of transparency; **it is the ultimate validation of it.** Because ParadoxNet's internal state and rules are fully observable, we could uncover a sophisticated algorithm that would remain invisible in a black-box model. This has profound implications for AI safety:
+We built interpretability tools so powerful, they revealed our model was doing something completely different (and more sophisticated) than we initially thought. Because ParadoxNet's internal state and rules are fully observable, we could uncover a sophisticated algorithm that would remain invisible in a black-box model. This is exactly why transparent architectures matter for AI safety:
 
 -   **A Foundation for Scalable Oversight:** A transparent model allows for the creation of automated monitoring tools. We can build systems to watch the model's internal "language of phase," ensuring its representations remain stable and flagging any unexpected shifts in its core logic, a task impossible in opaque models.
 
@@ -101,12 +97,12 @@ The discovery of this complex, emergent strategy does not undermine the goal of 
 
 ## Future Directions
 
-This journey has revealed two distinct and powerful mechanisms for transparent learning: the "Pattern Dictionaries" of the original PPN, which excels on chaotic sequence prediction tasks, and the implicit "Paradox Engine" of the new model, which has shown emergent power on language.
+This journey has revealed two distinct and powerful mechanisms for transparent learning: the "Pattern Dictionaries" of the original PPN, which excels on chaotic sequence prediction tasks, and the "Paradox Engine" of the new model, which has shown emergent power on language.
 
-This opens up a clear and exciting path for future research:
+This opens up a clear path for future research:
 
 -   **Synthesizing Architectures:** The most compelling future direction is to investigate how these two mechanisms can be combined. A hybrid model could leverage an explicit, learned pattern dictionary while simultaneously benefiting from the fluid, emergent dynamics of the Paradox Engine.
--   **Scaling and Refinement:** Continuing to close the performance gap with opaque architectures through targeted refinements of the Paradox mechanism.
+-   **Scaling and Refinement:** Continuing to close the performance gap with opaque architectures through targeted refinements of the Paradox mechanism, and scaling to larger models. The "contextual tokeniser" behaviour discussed here emerged from a small network with only 4 layers. 
 -   **Guiding Emergent Strategy:** Investigating whether the emergent phase-based learning can be guided or constrained to learn even more robust and verifiable representations.
 
 *Code in this repository is in a state of active development. For more information, please contact 39732428+mac-n@users.noreply.github.com*
