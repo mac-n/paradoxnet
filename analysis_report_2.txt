@@ -1,0 +1,31 @@
+=== ParadoxNetComplex Interpretability Report ===
+
+Input: 'Hello world! This is a test of the neural network.'
+
+LAYER ANALYSIS:
+  hidden_0:
+    Complex magnitude: 1.5586 ± 0.9773
+    Phase variation: 1.8275
+    Sparsity: 0.50%
+  hidden_1:
+    Complex magnitude: 2.4152 ± 2.0272
+    Phase variation: 1.7984
+    Sparsity: 0.44%
+
+PATTERN SPECIALIZATION:
+  layer_0:
+    Specialization score: 0.2131
+    Pattern similarity: 0.7869 ± 0.0489
+  layer_1:
+    Specialization score: 0.2121
+    Pattern similarity: 0.7879 ± 0.0412
+
+PARADOX MECHANISM:
+  layer_0:
+    Paradox magnitude: 2.5744
+    Gating strength: 0.8702
+    High paradox ratio: 43.38%
+  layer_1:
+    Paradox magnitude: 2.2128
+    Gating strength: 0.8374
+    High paradox ratio: 40.62%

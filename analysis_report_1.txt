@@ -1,0 +1,31 @@
+=== ParadoxNetComplex Interpretability Report ===
+
+Input: 'To be or not to be, that is the question'
+
+LAYER ANALYSIS:
+  hidden_0:
+    Complex magnitude: 1.4638 ± 0.9183
+    Phase variation: 1.7937
+    Sparsity: 0.08%
+  hidden_1:
+    Complex magnitude: 2.0812 ± 1.8695
+    Phase variation: 1.8606
+    Sparsity: 0.55%
+
+PATTERN SPECIALIZATION:
+  layer_0:
+    Specialization score: 0.2131
+    Pattern similarity: 0.7869 ± 0.0489
+  layer_1:
+    Specialization score: 0.2121
+    Pattern similarity: 0.7879 ± 0.0412
+
+PARADOX MECHANISM:
+  layer_0:
+    Paradox magnitude: 2.4035
+    Gating strength: 0.8562
+    High paradox ratio: 40.86%
+  layer_1:
+    Paradox magnitude: 1.8883
+    Gating strength: 0.8116
+    High paradox ratio: 38.91%

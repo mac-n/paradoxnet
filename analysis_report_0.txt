@@ -1,0 +1,31 @@
+=== ParadoxNetComplex Interpretability Report ===
+
+Input: 'The quick brown fox jumps over the lazy dog'
+
+LAYER ANALYSIS:
+  hidden_0:
+    Complex magnitude: 1.5759 ± 1.0072
+    Phase variation: 1.8167
+    Sparsity: 0.36%
+  hidden_1:
+    Complex magnitude: 2.4300 ± 2.1763
+    Phase variation: 1.8502
+    Sparsity: 0.73%
+
+PATTERN SPECIALIZATION:
+  layer_0:
+    Specialization score: 0.2131
+    Pattern similarity: 0.7869 ± 0.0489
+  layer_1:
+    Specialization score: 0.2121
+    Pattern similarity: 0.7879 ± 0.0412
+
+PARADOX MECHANISM:
+  layer_0:
+    Paradox magnitude: 2.6421
+    Gating strength: 0.8711
+    High paradox ratio: 39.97%
+  layer_1:
+    Paradox magnitude: 2.2747
+    Gating strength: 0.8372
+    High paradox ratio: 39.39%
