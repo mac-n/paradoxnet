@@ -30,14 +30,14 @@ The final architecture that emerged from this process has four key components:
 
 2.  **Complex-Valued Representations**: All hidden states are represented as complex numbers, providing a rich space where both magnitude and phase can encode information.
 
-3.  **The "Paradox" Non-linearity**: The engine of the network. A layer's output is modulated by its own self-prediction error (`paradox = h_pred - h_linear`), allowing it to dynamically regulate information flow based on its "surprise" at the input. For a given complex hidden state $h_{\text{linear}}$, the transformation is:
+3.  **The "Paradox" Non-linearity**: The engine of the network. A layer's output is modulated by its own self-prediction error (`paradox = h\_pred - h\_linear`), allowing it to dynamically regulate information flow based on its "surprise" at the input. For a given complex hidden state $h_{\text{linear}}$, the transformation is:
 
 $$
-\text{paradox} = h{\text{pred}} - h{\text{linear}}
+\text{paradox} = h{\_text{pred}} - h{\_text{linear}}
 $$
 
 $$
-h{\text{out}} = h{\text{linear}} \cdot \sigma(\left|\text{paradox}\right|)
+h{\text{out}} = h{\_\text{linear}} \cdot \sigma(\left|\text{paradox}\right|)
 $$
 
 Where:
