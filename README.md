@@ -34,7 +34,7 @@ The final architecture that emerged from this process has four key components:
 
 $$
 \begin{aligned}
-\text{paradox} &= h_{\text{pred}} - h_{\text{linear}} \\[4pt]
+\text{paradox} &= h_{\text{pred}} - h_{\text{linear}} 
 h_{\text{out}} &= h_{\text{linear}} \cdot \sigma\!\left(|\text{paradox}|\right)
 \end{aligned}
 $$
