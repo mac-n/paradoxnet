@@ -61,7 +61,7 @@ ParadoxNet was evaluated against baseline architectures with similar parameter n
 | Standard Transformer    | **2.2901**     | Stable Learning          |
 | ParadoxNet              | 2.5753         | Stable Learning          |
 
-While there is still a ~12% performance gap with the Transformer, the stability of ParadoxNet confirms its viability as a foundation for a new class of models. (While it seems probable that ParadoxNet’s emergent phase-based “contextual tokenizer” consumes some of its limited capacity, the primary aim here is to demonstrate stable, transparent learning rather than to match Transformer perplexity.)
+While there is still a ~12% performance gap with the Transformer, the stability of ParadoxNet confirms its viability as a foundation for a new class of models. (While it seems probable that the 4-layer ParadoxNet’s emergent phase-based “contextual tokenizer” consumes some of its limited capacity, the primary aim here is to demonstrate stable, transparent learning rather than to match Transformer perplexity.)
 
 ---
 
@@ -107,4 +107,13 @@ This opens up a clear path for future research:
 -   **Scaling and Refinement:** Continuing to close the performance gap with opaque architectures through targeted refinements of the Paradox mechanism, and scaling to larger models. The "contextual tokeniser" behaviour discussed here emerged from a small network with only 4 layers. 
 -   **Guiding Emergent Strategy:** Investigating whether the emergent phase-based learning can be guided or constrained to learn even more robust and verifiable representations.
 
-*Code in this repository is in a state of active development. The main ParadoxNet module is paradox_net_complex.py. For more information, please contact 39732428+mac-n@users.noreply.github.com*
+*Code in this repository is in a state of active development. You can reproduce the results as follows:
+
+
+```bash
+git clone https://github.com/mac-n/paradoxnet.git
+cd paradoxnet
+pip install -r requirements.txt
+python run_complex.py
+
+ The main ParadoxNet module is paradox_net_complex.py. For more information, please contact 39732428+mac-n@users.noreply.github.com*
