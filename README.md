@@ -1,6 +1,10 @@
 
 
-# ParadoxNet: An Inherently Transparent Language Model
+# ParadoxNet: A Transparent Language Model
+
+> ParadoxNet is a 4-layer character-level language model whose **entire state** is inspectable.  
+> It invents a **phase-based relational code** and learns stably where prior transparent nets collapse
+
 
 This repository contains the code and analysis for **ParadoxNet**, a novel neural network architecture designed for inherent transparency. While most neural networks operate as "black boxes," ParadoxNet is a "white-box by design," allowing for direct observation of its internal mechanisms.
 
