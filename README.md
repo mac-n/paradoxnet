@@ -107,4 +107,4 @@ This opens up a clear path for future research:
 -   **Scaling and Refinement:** Continuing to close the performance gap with opaque architectures through targeted refinements of the Paradox mechanism, and scaling to larger models. The "contextual tokeniser" behaviour discussed here emerged from a small network with only 4 layers. 
 -   **Guiding Emergent Strategy:** Investigating whether the emergent phase-based learning can be guided or constrained to learn even more robust and verifiable representations.
 
-*Code in this repository is in a state of active development. For more information, please contact 39732428+mac-n@users.noreply.github.com*
+*Code in this repository is in a state of active development. The main ParadoxNet module is paradox_net_complex.py. For more information, please contact 39732428+mac-n@users.noreply.github.com*
