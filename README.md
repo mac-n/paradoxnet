@@ -8,7 +8,7 @@ In our attempt to build a more powerful and transparent model, we found that the
 
 ## The Design Journey: From a Single Flaw to a New Architecture
 
-Our work began with a predecessor to this model, the Pattern Predictive Network (PPN). The PPN is highly transparent, and excels at prediction of complex dynamics, challenging the traditional notion of a tradeoff between performance and interpretability. However the architecture had a single remaining point of opacity: the `ReLU` activation function in each layer. While simple, `ReLU` discards information (anything less than zero) in a way that is difficult to trace.
+Our work began with a predecessor to this model, the [Pattern Predictive Network (PPN).](https://github.com/mac-n/predictiveprocessing_nn/blob/main/ttnn_arxiv_format.pdf)The PPN is highly transparent, and excels at prediction of complex dynamics, challenging the traditional notion of a tradeoff between performance and interpretability. However the architecture had a single remaining point of opacity: the `ReLU` activation function in each layer. While simple, `ReLU` discards information (anything less than zero) in a way that is difficult to trace.
 
 The goal for ParadoxNet was to eliminate this final piece of opacity and increase the model's power. Our development was guided by two core hypotheses:
 
