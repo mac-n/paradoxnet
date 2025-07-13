@@ -30,21 +30,20 @@ The final architecture that emerged from this process has four key components:
 
 2.  **Complex-Valued Representations**: All hidden states are represented as complex numbers, providing a rich space where both magnitude and phase can encode information.
 
-3.  **The "Paradox" Non-linearity**: The engine of the network. A layer's output is modulated by its own self-prediction error (`paradox = h\_pred - h\_linear`), allowing it to dynamically regulate information flow based on its "surprise" at the input. For a given complex hidden state $h_{\text{linear}}$, the transformation is:
+3.  **The "Paradox" Non-linearity**: The engine of the network. A layer's output is modulated by its own self-prediction error (`paradox = h_pred - h_linear`), allowing it to dynamically regulate information flow based on its "surprise" at the input. For a given complex hidden state $h_{\text{linear}}$, the transformation is:
 
-$$
-\text{paradox} = h{\_text{pred}} - h{\_text{linear}}
-$$
+    $$
+    \begin{align}
+    \text{paradox} &= h_{\text{pred}} - h_{\text{linear}} \\
+    h_{\text{out}} &= h_{\text{linear}} \cdot \sigma(\left|\text{paradox}\right|)
+    \end{align}
+    $$
 
-$$
-h{\text{out}} = h{\_\text{linear}} \cdot \sigma(\left|\text{paradox}\right|)
-$$
-
-Where:
-- $h{\text{linear}}$ is the initial linear transformation of the layer's input.
-- $h{\text{pred}}$ is the layer's prediction of its own state.
-- $\sigma$ is the sigmoid function.
-- $|\cdot|$ denotes the magnitude of the complex number.
+    Where:
+    * $h_{\text{linear}}$ is the initial linear transformation of the layer's input.
+    * $h_{\text{pred}}$ is the layer's prediction of its own state.
+    * $\sigma$ is the sigmoid function.
+    * $|\cdot|$ denotes the magnitude of the complex number.
 
 4.  **The Consensus View**: Rather than a simple sequential pipeline, each hidden layer contributes its "opinion" to a final "Consensus View," creating a more holistic and robust signal for prediction. This is a refinement of the confidence-baed routing/surprise-based routing mechanism in the original Pattern Predictive Net.
 
