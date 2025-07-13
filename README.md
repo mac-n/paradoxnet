@@ -52,7 +52,7 @@ Where:
 
 ## Performance on Tiny Shakespeare
 
-ParadoxNet was evaluated against baseline architectures on the Tiny Shakespeare dataset. The results demonstrate a critical breakthrough: **ParadoxNet learns stably on a complex language task, whereas previous transparent architectures failed catastrophically.**
+ParadoxNet was evaluated against baseline architectures with similar parameter numbers on the Tiny Shakespeare dataset. The results demonstrate a critical breakthrough: **ParadoxNet learns stably on a complex language task, whereas previous transparent architectures failed catastrophically.**
 
 | Model                   | Best Test Loss | Learning Behaviour       |
 | :---------------------- | :------------- | :----------------------- |
@@ -61,7 +61,7 @@ ParadoxNet was evaluated against baseline architectures on the Tiny Shakespeare 
 | Standard Transformer    | **2.2901**     | Stable Learning          |
 | ParadoxNet              | 2.5753         | Stable Learning          |
 
-While there is still a ~12% performance gap with the Transformer, the stability of ParadoxNet confirms its viability as a foundation for a new class of models.
+While there is still a ~12% performance gap with the Transformer, the stability of ParadoxNet confirms its viability as a foundation for a new class of models. (While it seems probable that ParadoxNet’s emergent phase-based “contextual tokenizer” consumes some of its limited capacity, the primary aim here is to demonstrate stable, transparent learning rather than to match Transformer perplexity.)
 
 ---
 
