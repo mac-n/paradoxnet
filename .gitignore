@@ -207,3 +207,4 @@ marimo/_lsp/
 __marimo__/
 experiment_results_lorenz/detailed_experiment_results.json
 .DS_Store
+logs/
