@@ -71,15 +71,13 @@ The network had learned to function without them. The real story lay in the dyna
 
 The model does not have a fixed representation for each character. Instead, the meaning of a character is defined entirely by its surroundings. Our analysis shows that the internal representation of the character 'e', for example, changes dramatically based on the characters that precede and follow it.  
 
-*(insert the "Character 'e' in Different Contexts" plot)*
+(images/character_e.png)
 
 This proves the network is not processing tokens in isolation. It is dynamically constructing meaning based on local context - i.e. the model appears to be effectively constructing a novel contextual tokeniser.
 
 ### Key Finding 2: The Network Speaks a Language of Phase Relationships
 
 The network primarily encodes this contextual information not in the *magnitude* (strength) of its neurons, but in the *phase* (rotation) of its complex-valued representations. The relationship between characters is captured by the rotational difference between their phase vectors.
-
-*(insert the "Phase Coherence Between Characters" plot)*
 
 The model has, in an unsupervised manner, invented its own form of rotational encoding to capture the rich relationships within the data.
 
