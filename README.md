@@ -33,10 +33,9 @@ The final architecture that emerged from this process has four key components:
 3.  **The "Paradox" Non-linearity**: The engine of the network. A layer's output is modulated by its own self-prediction error (`paradox = h_pred - h_linear`), allowing it to dynamically regulate information flow based on its "surprise" at the input. For a given complex hidden state $h_{\text{linear}}$, the transformation is:
 
     $$
-    \begin{align}
-    \text{paradox} &= h_{\text{pred}} - h_{\text{linear}} \\
-    h_{\text{out}} &= h_{\text{linear}} \cdot \sigma(\left|\text{paradox}\right|)
-    \end{align}
+    \text{paradox} = h_{\text{pred}} - h_{\text{linear}}
+    $$   $$
+    h_{\text{out}} = h_{\text{linear}} \cdot \sigma(\left|\text{paradox}\right|)
     $$
 
     Where:
