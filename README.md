@@ -56,9 +56,8 @@ self_prediction = self_predictor(hidden_linear)  # Now slightly less random
 # ... repeat cycle: prediction becomes more informed about optimal transformation
 ```
 
-**Mathematical Formulation with Temporal Dynamics:**
+alternative expression of the process: 
 
-The same process expressed mathematically with time indices to show the learning dynamics:
 
 $$
 \begin{aligned}
