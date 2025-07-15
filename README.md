@@ -30,7 +30,7 @@ The final architecture that emerged from this process has four key components:
 
 2.  **Complex-Valued Representations**: All hidden states are represented as complex numbers, providing a rich space where both magnitude and phase can encode information.
 
-3. **The "Paradox" Non-linearity**: The engine of the network. A layer's output is modulated by its own self-prediction error (`paradox = h_pred − h_linear`), allowing it to dynamically regulate information flow based on its "surprise" at the input. For a given complex hidden-state **h<sub>linear</sub>**, the transformation is
+3. **The "Paradox" Non-linearity**: The engine of the network. A layer's output is modulated by its own self-prediction error (`paradox = h_pred − h_linear`), allowing it to dynamically regulate information flow based on its "surprise" at the input. 
 
 
 **Understanding the Paradox Mechanism:** The key insight is how backpropagation interacts with the self-prediction. Each layer is essentially **learning to predict its own learning strategy** (nonlinear transformation). The temporal dynamics work as follows:
