@@ -73,3 +73,7 @@ if __name__ == "__main__":
     data_generator = get_tiny_shakespeare_data
     harness = ExperimentHarness(data_generator, epochs=50)
     harness.run_trial(seed=0)
+    harness.run_trial(seed=1)
+    harness.run_trial(seed=2)
+    harness.run_trial(seed=3)
+    harness.run_trial(seed=4)

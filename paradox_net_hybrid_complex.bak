@@ -1,0 +1,212 @@
+import torch
+import torch.nn as nn
+import torch.nn.functional as F
+from typing import List, Tuple, Optional
+from dataclasses import dataclass
+
+# --- Imports from the working complex model ---
+try:
+    from paradox_net_complex import apply_rotary_pos_emb, PositionalEncoding, ComplexLinear
+except ImportError:
+    print("Could not import from paradox_net_complex. Assuming running in a different context.")
+    # Define dummy classes or functions if needed for standalone execution
+    def apply_rotary_pos_emb(x, y): return x
+    class PositionalEncoding(nn.Module):
+        def __init__(self, dim, max_len=5000):
+            super().__init__()
+            self.register_buffer("freqs_cis", torch.ones(max_len, dim // 2, dtype=torch.cfloat))
+    class ComplexLinear(nn.Module):
+        def __init__(self, i, o): super().__init__(); self.fc = nn.Linear(i, o)
+        def forward(self, x): return self.fc(x.real) # Dummy
+
+
+@dataclass
+class LayerStats:
+    """Track statistics for a single layer during forward pass"""
+    prediction_errors: torch.Tensor
+    confidence_values: torch.Tensor
+    penultimate_magnitude: torch.Tensor
+    continue_magnitude: torch.Tensor
+    layer_idx: int
+    pattern_usage: torch.Tensor
+    pattern_entropy: float = 0.0
+    self_paradox_magnitude: float = 0.0
+
+class HybridComplexLayer(nn.Module):
+    def __init__(self, input_dim, hidden_dim, next_dim, penultimate_dim, n_patterns=8):
+        super().__init__()
+        self.hidden_dim = hidden_dim
+        self.next_dim = next_dim
+        self.n_patterns = n_patterns
+        self.last_entropy = 0.0
+        self.last_paradox_magnitude = 0.0
+
+        # Use ComplexLinear for all linear transformations
+        self.process = ComplexLinear(input_dim, hidden_dim)
+        self.self_predictor = ComplexLinear(hidden_dim, hidden_dim)
+        self.to_penultimate = ComplexLinear(hidden_dim, penultimate_dim)
+
+        # Pattern dictionaries are now complex-valued
+        self.pattern_dict = nn.Parameter(torch.randn(n_patterns, hidden_dim // 2, dtype=torch.cfloat) * 0.02)
+        self.pattern_attention = nn.Linear(hidden_dim, n_patterns)
+        self.next_pattern_dict = nn.Parameter(torch.randn(n_patterns, next_dim // 2, dtype=torch.cfloat) * 0.02)
+        self.next_pattern_attention = nn.Linear(hidden_dim, n_patterns)
+        
+        self.last_stats: Optional[LayerStats] = None
+
+    def compress_activity(self, x: torch.Tensor, is_next_layer: bool = False) -> Tuple[torch.Tensor, torch.Tensor]:
+        """Compress activity using complex pattern dictionary with interleaved attention"""
+        # This function expects sequence data, so we might need to adjust for non-sequence data
+        if x.dim() == 2: # (batch, features)
+            x = x.unsqueeze(1) # (batch, seq=1, features)
+
+        attention_layer = self.next_pattern_attention if is_next_layer else self.pattern_attention
+        patterns = self.next_pattern_dict if is_next_layer else self.pattern_dict
+        
+        # Interleave complex hidden state into a real tensor
+        x_real_interleaved = torch.view_as_real(x).flatten(start_dim=2)
+        
+        attn_scores = attention_layer(x_real_interleaved)
+        pattern_weights = F.softmax(attn_scores, dim=-1)
+        
+        with torch.no_grad():
+            entropy = -torch.sum(pattern_weights * torch.log(pattern_weights + 1e-10), dim=-1)
+            self.last_entropy = entropy.mean().item()
+        
+        # Einsum for batch, seq, pattern -> batch, seq, dim
+        compressed = torch.einsum('bsp,pd->bsd', pattern_weights.cfloat(), patterns)
+        return compressed.squeeze(1), pattern_weights.squeeze(1)
+
+    def apply_self_paradox_nonlinearity(self, x: torch.Tensor) -> torch.Tensor:
+        """Apply self-prediction paradox as nonlinearity using complex numbers"""
+        hidden_linear = self.process(x)
+        self_prediction = self.self_predictor(hidden_linear)
+        paradox = self_prediction - hidden_linear
+        
+        with torch.no_grad():
+            self.last_paradox_magnitude = torch.mean(paradox.abs()).item()
+            
+        hidden = hidden_linear * torch.sigmoid(paradox.abs())
+        return hidden
+
+    def forward(self, x: torch.Tensor, next_layer: Optional['HybridComplexLayer'], 
+                layer_idx: int) -> Tuple[Optional[torch.Tensor], torch.Tensor, Optional[torch.Tensor]]:
+        
+        hidden = self.apply_self_paradox_nonlinearity(x)
+        
+        if next_layer is not None:
+            my_compressed, my_patterns = self.compress_activity(hidden, is_next_layer=False)
+            predicted_next = my_compressed
+            
+            with torch.no_grad():
+                actual_next_hidden = next_layer.apply_self_paradox_nonlinearity(hidden)
+                compressed_next, _ = next_layer.compress_activity(actual_next_hidden, is_next_layer=True)
+            
+            pred_error = torch.mean((compressed_next - predicted_next).abs()**2, dim=1, keepdim=True)
+            
+            pred_certainty = torch.abs(pred_error - torch.mean(pred_error))
+            temperature = torch.sigmoid(pred_certainty)
+            scaled_error = -pred_error * temperature
+            confidence = 0.5 * (torch.tanh(scaled_error) + 1)
+            
+            penultimate_features = self.to_penultimate(hidden)
+            penultimate_contribution = penultimate_features * confidence.cfloat()
+            continue_up = hidden * (1 - confidence).cfloat()
+            
+            self.last_stats = LayerStats(
+                prediction_errors=pred_error.detach(),
+                confidence_values=confidence.detach(),
+                penultimate_magnitude=torch.mean(penultimate_contribution.detach().abs(), dim=-1),
+                continue_magnitude=torch.mean(continue_up.detach().abs(), dim=-1),
+                layer_idx=layer_idx,
+                pattern_usage=my_patterns.detach().mean(0),
+                pattern_entropy=self.last_entropy,
+                self_paradox_magnitude=self.last_paradox_magnitude
+            )
+            
+            return continue_up, penultimate_contribution, pred_error
+            
+        else:
+            penultimate_contribution = self.to_penultimate(hidden)
+            _, my_patterns = self.compress_activity(hidden, is_next_layer=False)
+            
+            self.last_stats = LayerStats(
+                prediction_errors=torch.zeros(1, 1, device=x.device),
+                confidence_values=torch.ones(1, 1, device=x.device),
+                penultimate_magnitude=torch.mean(penultimate_contribution.detach().abs(), dim=-1),
+                continue_magnitude=torch.tensor(0.0, device=x.device),
+                layer_idx=layer_idx,
+                pattern_usage=my_patterns.detach().mean(0),
+                pattern_entropy=self.last_entropy,
+                self_paradox_magnitude=self.last_paradox_magnitude
+            )
+            
+            return None, penultimate_contribution, None
+
+class ParadoxNetHybridComplex(nn.Module):
+    def __init__(self, vocab_size, embedding_dim, hidden_dims, penultimate_dim, n_patterns=8):
+        super().__init__()
+        self.embedding = nn.Embedding(vocab_size, embedding_dim)
+        self.pos_encoder = PositionalEncoding(embedding_dim)
+        
+        self.layers = nn.ModuleList()
+        current_dim = embedding_dim
+        
+        for i, hidden_dim in enumerate(hidden_dims):
+            next_dim = hidden_dims[i + 1] if i < len(hidden_dims) - 1 else penultimate_dim
+            
+            layer = HybridComplexLayer(
+                input_dim=current_dim, 
+                hidden_dim=hidden_dim, 
+                next_dim=next_dim, 
+                penultimate_dim=penultimate_dim,
+                n_patterns=n_patterns
+            )
+            self.layers.append(layer)
+            current_dim = hidden_dim
+        
+        self.final = nn.Linear(penultimate_dim // 2, vocab_size) # Real-valued output
+
+    def forward(self, x: torch.Tensor) -> Tuple[torch.Tensor, Optional[torch.Tensor]]:
+        batch_size, seq_len = x.shape
+        embedded = self.embedding(x)
+        freqs_cis = self.pos_encoder.freqs_cis[:seq_len]
+        
+        current_seq_real = apply_rotary_pos_emb(embedded, freqs_cis)
+        current_seq = torch.view_as_complex(current_seq_real.float().reshape(batch_size, seq_len, -1, 2))
+
+        penultimate_contributions = []
+        all_errors = []
+        
+        # This part needs careful handling of sequence vs non-sequence data
+        # The original Lorenz net was not sequential. This one is.
+        # Let's process each item in the sequence independently for now.
+        
+        final_penultimate_sum = torch.zeros(batch_size, self.layers[0].to_penultimate.out_features // 2, dtype=torch.cfloat, device=x.device)
+
+        for i in range(seq_len):
+            current_slice = current_seq[:, i, :]
+            penultimate_slice_contributions = []
+
+            for j, layer in enumerate(self.layers):
+                next_layer = self.layers[j+1] if j < len(self.layers)-1 else None
+                
+                current_slice, penultimate, error = layer(current_slice, next_layer, j)
+                
+                if error is not None and i == seq_len -1: # Only collect errors for last step prediction
+                    all_errors.append(error)
+                penultimate_slice_contributions.append(penultimate)
+
+                if current_slice is None: # Last layer
+                    break
+            
+            # Sum contributions for this slice
+            penultimate_sum_slice = torch.sum(torch.stack(penultimate_slice_contributions), dim=0)
+            final_penultimate_sum += penultimate_sum_slice
+
+        # Average over sequence length
+        final_penultimate_sum /= seq_len
+
+        output = self.final(final_penultimate_sum.real)
+        
+        return output, torch.cat(all_errors, dim=1) if all_errors else None

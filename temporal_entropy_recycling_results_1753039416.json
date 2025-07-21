@@ -1,0 +1,3024 @@
+{
+  "train_losses": [
+    3.6387752494812013,
+    3.229718095779419,
+    3.221558488845825,
+    3.218779287338257,
+    NaN,
+    NaN,
+    NaN,
+    NaN,
+    NaN,
+    NaN,
+    NaN,
+    NaN,
+    NaN,
+    NaN,
+    NaN,
+    NaN,
+    NaN,
+    NaN,
+    NaN,
+    NaN,
+    NaN,
+    NaN,
+    NaN,
+    NaN,
+    NaN,
+    NaN,
+    NaN,
+    NaN,
+    NaN,
+    NaN,
+    NaN,
+    NaN,
+    NaN,
+    NaN,
+    NaN,
+    NaN,
+    NaN,
+    NaN,
+    NaN,
+    NaN,
+    NaN,
+    NaN,
+    NaN,
+    NaN,
+    NaN,
+    NaN,
+    NaN,
+    NaN,
+    NaN,
+    NaN
+  ],
+  "test_losses": [
+    3.275450214743614,
+    3.2548889741301537,
+    3.253407008945942,
+    3.2512791752815247,
+    NaN,
+    NaN,
+    NaN,
+    NaN,
+    NaN,
+    NaN,
+    NaN,
+    NaN,
+    NaN,
+    NaN,
+    NaN,
+    NaN,
+    NaN,
+    NaN,
+    NaN,
+    NaN,
+    NaN,
+    NaN,
+    NaN,
+    NaN,
+    NaN,
+    NaN,
+    NaN,
+    NaN,
+    NaN,
+    NaN,
+    NaN,
+    NaN,
+    NaN,
+    NaN,
+    NaN,
+    NaN,
+    NaN,
+    NaN,
+    NaN,
+    NaN,
+    NaN,
+    NaN,
+    NaN,
+    NaN,
+    NaN,
+    NaN,
+    NaN,
+    NaN,
+    NaN,
+    NaN
+  ],
+  "entropy_stats": [
+    [
+      {
+        "layer": 0,
+        "entropy_magnitude": 23364.1953125,
+        "temporal_entropy_magnitude": 21710.880859375,
+        "composition_alpha": 0.0,
+        "paradox_magnitude": 23364.01171875
+      },
+      {
+        "layer": 1,
+        "entropy_magnitude": 17598.51171875,
+        "temporal_entropy_magnitude": 0.0,
+        "composition_alpha": 0.7994077205657959,
+        "paradox_magnitude": 17598.1171875
+      },
+      {
+        "layer": 2,
+        "entropy_magnitude": 15227.681640625,
+        "temporal_entropy_magnitude": 0.0,
+        "composition_alpha": 0.8094730973243713,
+        "paradox_magnitude": 15227.6259765625
+      }
+    ],
+    [
+      {
+        "layer": 0,
+        "entropy_magnitude": 18814349606912.0,
+        "temporal_entropy_magnitude": 17484174327808.0,
+        "composition_alpha": 0.0,
+        "paradox_magnitude": 18814349606912.0
+      },
+      {
+        "layer": 1,
+        "entropy_magnitude": 14175488180224.0,
+        "temporal_entropy_magnitude": 0.0,
+        "composition_alpha": 0.7994130551815033,
+        "paradox_magnitude": 14175488180224.0
+      },
+      {
+        "layer": 2,
+        "entropy_magnitude": 12296330936320.0,
+        "temporal_entropy_magnitude": 0.0,
+        "composition_alpha": 0.809485450387001,
+        "paradox_magnitude": 12296330936320.0
+      }
+    ],
+    [
+      {
+        "layer": 0,
+        "entropy_magnitude": Infinity,
+        "temporal_entropy_magnitude": Infinity,
+        "composition_alpha": 0.0,
+        "paradox_magnitude": Infinity
+      },
+      {
+        "layer": 1,
+        "entropy_magnitude": Infinity,
+        "temporal_entropy_magnitude": 0.0,
+        "composition_alpha": 0.7993975281715393,
+        "paradox_magnitude": Infinity
+      },
+      {
+        "layer": 2,
+        "entropy_magnitude": Infinity,
+        "temporal_entropy_magnitude": 0.0,
+        "composition_alpha": 0.8095191419124603,
+        "paradox_magnitude": Infinity
+      }
+    ],
+    [
+      {
+        "layer": 0,
+        "entropy_magnitude": Infinity,
+        "temporal_entropy_magnitude": Infinity,
+        "composition_alpha": 0.0,
+        "paradox_magnitude": Infinity
+      },
+      {
+        "layer": 1,
+        "entropy_magnitude": Infinity,
+        "temporal_entropy_magnitude": 0.0,
+        "composition_alpha": 0.7994730323553085,
+        "paradox_magnitude": Infinity
+      },
+      {
+        "layer": 2,
+        "entropy_magnitude": Infinity,
+        "temporal_entropy_magnitude": 0.0,
+        "composition_alpha": 0.8095564693212509,
+        "paradox_magnitude": Infinity
+      }
+    ],
+    [
+      {
+        "layer": 0,
+        "entropy_magnitude": NaN,
+        "temporal_entropy_magnitude": NaN,
+        "composition_alpha": 0.0,
+        "paradox_magnitude": NaN
+      },
+      {
+        "layer": 1,
+        "entropy_magnitude": NaN,
+        "temporal_entropy_magnitude": 0.0,
+        "composition_alpha": NaN,
+        "paradox_magnitude": NaN
+      },
+      {
+        "layer": 2,
+        "entropy_magnitude": NaN,
+        "temporal_entropy_magnitude": 0.0,
+        "composition_alpha": NaN,
+        "paradox_magnitude": NaN
+      }
+    ],
+    [
+      {
+        "layer": 0,
+        "entropy_magnitude": NaN,
+        "temporal_entropy_magnitude": NaN,
+        "composition_alpha": 0.0,
+        "paradox_magnitude": NaN
+      },
+      {
+        "layer": 1,
+        "entropy_magnitude": NaN,
+        "temporal_entropy_magnitude": 0.0,
+        "composition_alpha": NaN,
+        "paradox_magnitude": NaN
+      },
+      {
+        "layer": 2,
+        "entropy_magnitude": NaN,
+        "temporal_entropy_magnitude": 0.0,
+        "composition_alpha": NaN,
+        "paradox_magnitude": NaN
+      }
+    ],
+    [
+      {
+        "layer": 0,
+        "entropy_magnitude": NaN,
+        "temporal_entropy_magnitude": NaN,
+        "composition_alpha": 0.0,
+        "paradox_magnitude": NaN
+      },
+      {
+        "layer": 1,
+        "entropy_magnitude": NaN,
+        "temporal_entropy_magnitude": 0.0,
+        "composition_alpha": NaN,
+        "paradox_magnitude": NaN
+      },
+      {
+        "layer": 2,
+        "entropy_magnitude": NaN,
+        "temporal_entropy_magnitude": 0.0,
+        "composition_alpha": NaN,
+        "paradox_magnitude": NaN
+      }
+    ],
+    [
+      {
+        "layer": 0,
+        "entropy_magnitude": NaN,
+        "temporal_entropy_magnitude": NaN,
+        "composition_alpha": 0.0,
+        "paradox_magnitude": NaN
+      },
+      {
+        "layer": 1,
+        "entropy_magnitude": NaN,
+        "temporal_entropy_magnitude": 0.0,
+        "composition_alpha": NaN,
+        "paradox_magnitude": NaN
+      },
+      {
+        "layer": 2,
+        "entropy_magnitude": NaN,
+        "temporal_entropy_magnitude": 0.0,
+        "composition_alpha": NaN,
+        "paradox_magnitude": NaN
+      }
+    ],
+    [
+      {
+        "layer": 0,
+        "entropy_magnitude": NaN,
+        "temporal_entropy_magnitude": NaN,
+        "composition_alpha": 0.0,
+        "paradox_magnitude": NaN
+      },
+      {
+        "layer": 1,
+        "entropy_magnitude": NaN,
+        "temporal_entropy_magnitude": 0.0,
+        "composition_alpha": NaN,
+        "paradox_magnitude": NaN
+      },
+      {
+        "layer": 2,
+        "entropy_magnitude": NaN,
+        "temporal_entropy_magnitude": 0.0,
+        "composition_alpha": NaN,
+        "paradox_magnitude": NaN
+      }
+    ],
+    [
+      {
+        "layer": 0,
+        "entropy_magnitude": NaN,
+        "temporal_entropy_magnitude": NaN,
+        "composition_alpha": 0.0,
+        "paradox_magnitude": NaN
+      },
+      {
+        "layer": 1,
+        "entropy_magnitude": NaN,
+        "temporal_entropy_magnitude": 0.0,
+        "composition_alpha": NaN,
+        "paradox_magnitude": NaN
+      },
+      {
+        "layer": 2,
+        "entropy_magnitude": NaN,
+        "temporal_entropy_magnitude": 0.0,
+        "composition_alpha": NaN,
+        "paradox_magnitude": NaN
+      }
+    ],
+    [
+      {
+        "layer": 0,
+        "entropy_magnitude": NaN,
+        "temporal_entropy_magnitude": NaN,
+        "composition_alpha": 0.0,
+        "paradox_magnitude": NaN
+      },
+      {
+        "layer": 1,
+        "entropy_magnitude": NaN,
+        "temporal_entropy_magnitude": 0.0,
+        "composition_alpha": NaN,
+        "paradox_magnitude": NaN
+      },
+      {
+        "layer": 2,
+        "entropy_magnitude": NaN,
+        "temporal_entropy_magnitude": 0.0,
+        "composition_alpha": NaN,
+        "paradox_magnitude": NaN
+      }
+    ],
+    [
+      {
+        "layer": 0,
+        "entropy_magnitude": NaN,
+        "temporal_entropy_magnitude": NaN,
+        "composition_alpha": 0.0,
+        "paradox_magnitude": NaN
+      },
+      {
+        "layer": 1,
+        "entropy_magnitude": NaN,
+        "temporal_entropy_magnitude": 0.0,
+        "composition_alpha": NaN,
+        "paradox_magnitude": NaN
+      },
+      {
+        "layer": 2,
+        "entropy_magnitude": NaN,
+        "temporal_entropy_magnitude": 0.0,
+        "composition_alpha": NaN,
+        "paradox_magnitude": NaN
+      }
+    ],
+    [
+      {
+        "layer": 0,
+        "entropy_magnitude": NaN,
+        "temporal_entropy_magnitude": NaN,
+        "composition_alpha": 0.0,
+        "paradox_magnitude": NaN
+      },
+      {
+        "layer": 1,
+        "entropy_magnitude": NaN,
+        "temporal_entropy_magnitude": 0.0,
+        "composition_alpha": NaN,
+        "paradox_magnitude": NaN
+      },
+      {
+        "layer": 2,
+        "entropy_magnitude": NaN,
+        "temporal_entropy_magnitude": 0.0,
+        "composition_alpha": NaN,
+        "paradox_magnitude": NaN
+      }
+    ],
+    [
+      {
+        "layer": 0,
+        "entropy_magnitude": NaN,
+        "temporal_entropy_magnitude": NaN,
+        "composition_alpha": 0.0,
+        "paradox_magnitude": NaN
+      },
+      {
+        "layer": 1,
+        "entropy_magnitude": NaN,
+        "temporal_entropy_magnitude": 0.0,
+        "composition_alpha": NaN,
+        "paradox_magnitude": NaN
+      },
+      {
+        "layer": 2,
+        "entropy_magnitude": NaN,
+        "temporal_entropy_magnitude": 0.0,
+        "composition_alpha": NaN,
+        "paradox_magnitude": NaN
+      }
+    ],
+    [
+      {
+        "layer": 0,
+        "entropy_magnitude": NaN,
+        "temporal_entropy_magnitude": NaN,
+        "composition_alpha": 0.0,
+        "paradox_magnitude": NaN
+      },
+      {
+        "layer": 1,
+        "entropy_magnitude": NaN,
+        "temporal_entropy_magnitude": 0.0,
+        "composition_alpha": NaN,
+        "paradox_magnitude": NaN
+      },
+      {
+        "layer": 2,
+        "entropy_magnitude": NaN,
+        "temporal_entropy_magnitude": 0.0,
+        "composition_alpha": NaN,
+        "paradox_magnitude": NaN
+      }
+    ],
+    [
+      {
+        "layer": 0,
+        "entropy_magnitude": NaN,
+        "temporal_entropy_magnitude": NaN,
+        "composition_alpha": 0.0,
+        "paradox_magnitude": NaN
+      },
+      {
+        "layer": 1,
+        "entropy_magnitude": NaN,
+        "temporal_entropy_magnitude": 0.0,
+        "composition_alpha": NaN,
+        "paradox_magnitude": NaN
+      },
+      {
+        "layer": 2,
+        "entropy_magnitude": NaN,
+        "temporal_entropy_magnitude": 0.0,
+        "composition_alpha": NaN,
+        "paradox_magnitude": NaN
+      }
+    ],
+    [
+      {
+        "layer": 0,
+        "entropy_magnitude": NaN,
+        "temporal_entropy_magnitude": NaN,
+        "composition_alpha": 0.0,
+        "paradox_magnitude": NaN
+      },
+      {
+        "layer": 1,
+        "entropy_magnitude": NaN,
+        "temporal_entropy_magnitude": 0.0,
+        "composition_alpha": NaN,
+        "paradox_magnitude": NaN
+      },
+      {
+        "layer": 2,
+        "entropy_magnitude": NaN,
+        "temporal_entropy_magnitude": 0.0,
+        "composition_alpha": NaN,
+        "paradox_magnitude": NaN
+      }
+    ],
+    [
+      {
+        "layer": 0,
+        "entropy_magnitude": NaN,
+        "temporal_entropy_magnitude": NaN,
+        "composition_alpha": 0.0,
+        "paradox_magnitude": NaN
+      },
+      {
+        "layer": 1,
+        "entropy_magnitude": NaN,
+        "temporal_entropy_magnitude": 0.0,
+        "composition_alpha": NaN,
+        "paradox_magnitude": NaN
+      },
+      {
+        "layer": 2,
+        "entropy_magnitude": NaN,
+        "temporal_entropy_magnitude": 0.0,
+        "composition_alpha": NaN,
+        "paradox_magnitude": NaN
+      }
+    ],
+    [
+      {
+        "layer": 0,
+        "entropy_magnitude": NaN,
+        "temporal_entropy_magnitude": NaN,
+        "composition_alpha": 0.0,
+        "paradox_magnitude": NaN
+      },
+      {
+        "layer": 1,
+        "entropy_magnitude": NaN,
+        "temporal_entropy_magnitude": 0.0,
+        "composition_alpha": NaN,
+        "paradox_magnitude": NaN
+      },
+      {
+        "layer": 2,
+        "entropy_magnitude": NaN,
+        "temporal_entropy_magnitude": 0.0,
+        "composition_alpha": NaN,
+        "paradox_magnitude": NaN
+      }
+    ],
+    [
+      {
+        "layer": 0,
+        "entropy_magnitude": NaN,
+        "temporal_entropy_magnitude": NaN,
+        "composition_alpha": 0.0,
+        "paradox_magnitude": NaN
+      },
+      {
+        "layer": 1,
+        "entropy_magnitude": NaN,
+        "temporal_entropy_magnitude": 0.0,
+        "composition_alpha": NaN,
+        "paradox_magnitude": NaN
+      },
+      {
+        "layer": 2,
+        "entropy_magnitude": NaN,
+        "temporal_entropy_magnitude": 0.0,
+        "composition_alpha": NaN,
+        "paradox_magnitude": NaN
+      }
+    ],
+    [
+      {
+        "layer": 0,
+        "entropy_magnitude": NaN,
+        "temporal_entropy_magnitude": NaN,
+        "composition_alpha": 0.0,
+        "paradox_magnitude": NaN
+      },
+      {
+        "layer": 1,
+        "entropy_magnitude": NaN,
+        "temporal_entropy_magnitude": 0.0,
+        "composition_alpha": NaN,
+        "paradox_magnitude": NaN
+      },
+      {
+        "layer": 2,
+        "entropy_magnitude": NaN,
+        "temporal_entropy_magnitude": 0.0,
+        "composition_alpha": NaN,
+        "paradox_magnitude": NaN
+      }
+    ],
+    [
+      {
+        "layer": 0,
+        "entropy_magnitude": NaN,
+        "temporal_entropy_magnitude": NaN,
+        "composition_alpha": 0.0,
+        "paradox_magnitude": NaN
+      },
+      {
+        "layer": 1,
+        "entropy_magnitude": NaN,
+        "temporal_entropy_magnitude": 0.0,
+        "composition_alpha": NaN,
+        "paradox_magnitude": NaN
+      },
+      {
+        "layer": 2,
+        "entropy_magnitude": NaN,
+        "temporal_entropy_magnitude": 0.0,
+        "composition_alpha": NaN,
+        "paradox_magnitude": NaN
+      }
+    ],
+    [
+      {
+        "layer": 0,
+        "entropy_magnitude": NaN,
+        "temporal_entropy_magnitude": NaN,
+        "composition_alpha": 0.0,
+        "paradox_magnitude": NaN
+      },
+      {
+        "layer": 1,
+        "entropy_magnitude": NaN,
+        "temporal_entropy_magnitude": 0.0,
+        "composition_alpha": NaN,
+        "paradox_magnitude": NaN
+      },
+      {
+        "layer": 2,
+        "entropy_magnitude": NaN,
+        "temporal_entropy_magnitude": 0.0,
+        "composition_alpha": NaN,
+        "paradox_magnitude": NaN
+      }
+    ],
+    [
+      {
+        "layer": 0,
+        "entropy_magnitude": NaN,
+        "temporal_entropy_magnitude": NaN,
+        "composition_alpha": 0.0,
+        "paradox_magnitude": NaN
+      },
+      {
+        "layer": 1,
+        "entropy_magnitude": NaN,
+        "temporal_entropy_magnitude": 0.0,
+        "composition_alpha": NaN,
+        "paradox_magnitude": NaN
+      },
+      {
+        "layer": 2,
+        "entropy_magnitude": NaN,
+        "temporal_entropy_magnitude": 0.0,
+        "composition_alpha": NaN,
+        "paradox_magnitude": NaN
+      }
+    ],
+    [
+      {
+        "layer": 0,
+        "entropy_magnitude": NaN,
+        "temporal_entropy_magnitude": NaN,
+        "composition_alpha": 0.0,
+        "paradox_magnitude": NaN
+      },
+      {
+        "layer": 1,
+        "entropy_magnitude": NaN,
+        "temporal_entropy_magnitude": 0.0,
+        "composition_alpha": NaN,
+        "paradox_magnitude": NaN
+      },
+      {
+        "layer": 2,
+        "entropy_magnitude": NaN,
+        "temporal_entropy_magnitude": 0.0,
+        "composition_alpha": NaN,
+        "paradox_magnitude": NaN
+      }
+    ],
+    [
+      {
+        "layer": 0,
+        "entropy_magnitude": NaN,
+        "temporal_entropy_magnitude": NaN,
+        "composition_alpha": 0.0,
+        "paradox_magnitude": NaN
+      },
+      {
+        "layer": 1,
+        "entropy_magnitude": NaN,
+        "temporal_entropy_magnitude": 0.0,
+        "composition_alpha": NaN,
+        "paradox_magnitude": NaN
+      },
+      {
+        "layer": 2,
+        "entropy_magnitude": NaN,
+        "temporal_entropy_magnitude": 0.0,
+        "composition_alpha": NaN,
+        "paradox_magnitude": NaN
+      }
+    ],
+    [
+      {
+        "layer": 0,
+        "entropy_magnitude": NaN,
+        "temporal_entropy_magnitude": NaN,
+        "composition_alpha": 0.0,
+        "paradox_magnitude": NaN
+      },
+      {
+        "layer": 1,
+        "entropy_magnitude": NaN,
+        "temporal_entropy_magnitude": 0.0,
+        "composition_alpha": NaN,
+        "paradox_magnitude": NaN
+      },
+      {
+        "layer": 2,
+        "entropy_magnitude": NaN,
+        "temporal_entropy_magnitude": 0.0,
+        "composition_alpha": NaN,
+        "paradox_magnitude": NaN
+      }
+    ],
+    [
+      {
+        "layer": 0,
+        "entropy_magnitude": NaN,
+        "temporal_entropy_magnitude": NaN,
+        "composition_alpha": 0.0,
+        "paradox_magnitude": NaN
+      },
+      {
+        "layer": 1,
+        "entropy_magnitude": NaN,
+        "temporal_entropy_magnitude": 0.0,
+        "composition_alpha": NaN,
+        "paradox_magnitude": NaN
+      },
+      {
+        "layer": 2,
+        "entropy_magnitude": NaN,
+        "temporal_entropy_magnitude": 0.0,
+        "composition_alpha": NaN,
+        "paradox_magnitude": NaN
+      }
+    ],
+    [
+      {
+        "layer": 0,
+        "entropy_magnitude": NaN,
+        "temporal_entropy_magnitude": NaN,
+        "composition_alpha": 0.0,
+        "paradox_magnitude": NaN
+      },
+      {
+        "layer": 1,
+        "entropy_magnitude": NaN,
+        "temporal_entropy_magnitude": 0.0,
+        "composition_alpha": NaN,
+        "paradox_magnitude": NaN
+      },
+      {
+        "layer": 2,
+        "entropy_magnitude": NaN,
+        "temporal_entropy_magnitude": 0.0,
+        "composition_alpha": NaN,
+        "paradox_magnitude": NaN
+      }
+    ],
+    [
+      {
+        "layer": 0,
+        "entropy_magnitude": NaN,
+        "temporal_entropy_magnitude": NaN,
+        "composition_alpha": 0.0,
+        "paradox_magnitude": NaN
+      },
+      {
+        "layer": 1,
+        "entropy_magnitude": NaN,
+        "temporal_entropy_magnitude": 0.0,
+        "composition_alpha": NaN,
+        "paradox_magnitude": NaN
+      },
+      {
+        "layer": 2,
+        "entropy_magnitude": NaN,
+        "temporal_entropy_magnitude": 0.0,
+        "composition_alpha": NaN,
+        "paradox_magnitude": NaN
+      }
+    ],
+    [
+      {
+        "layer": 0,
+        "entropy_magnitude": NaN,
+        "temporal_entropy_magnitude": NaN,
+        "composition_alpha": 0.0,
+        "paradox_magnitude": NaN
+      },
+      {
+        "layer": 1,
+        "entropy_magnitude": NaN,
+        "temporal_entropy_magnitude": 0.0,
+        "composition_alpha": NaN,
+        "paradox_magnitude": NaN
+      },
+      {
+        "layer": 2,
+        "entropy_magnitude": NaN,
+        "temporal_entropy_magnitude": 0.0,
+        "composition_alpha": NaN,
+        "paradox_magnitude": NaN
+      }
+    ],
+    [
+      {
+        "layer": 0,
+        "entropy_magnitude": NaN,
+        "temporal_entropy_magnitude": NaN,
+        "composition_alpha": 0.0,
+        "paradox_magnitude": NaN
+      },
+      {
+        "layer": 1,
+        "entropy_magnitude": NaN,
+        "temporal_entropy_magnitude": 0.0,
+        "composition_alpha": NaN,
+        "paradox_magnitude": NaN
+      },
+      {
+        "layer": 2,
+        "entropy_magnitude": NaN,
+        "temporal_entropy_magnitude": 0.0,
+        "composition_alpha": NaN,
+        "paradox_magnitude": NaN
+      }
+    ],
+    [
+      {
+        "layer": 0,
+        "entropy_magnitude": NaN,
+        "temporal_entropy_magnitude": NaN,
+        "composition_alpha": 0.0,
+        "paradox_magnitude": NaN
+      },
+      {
+        "layer": 1,
+        "entropy_magnitude": NaN,
+        "temporal_entropy_magnitude": 0.0,
+        "composition_alpha": NaN,
+        "paradox_magnitude": NaN
+      },
+      {
+        "layer": 2,
+        "entropy_magnitude": NaN,
+        "temporal_entropy_magnitude": 0.0,
+        "composition_alpha": NaN,
+        "paradox_magnitude": NaN
+      }
+    ],
+    [
+      {
+        "layer": 0,
+        "entropy_magnitude": NaN,
+        "temporal_entropy_magnitude": NaN,
+        "composition_alpha": 0.0,
+        "paradox_magnitude": NaN
+      },
+      {
+        "layer": 1,
+        "entropy_magnitude": NaN,
+        "temporal_entropy_magnitude": 0.0,
+        "composition_alpha": NaN,
+        "paradox_magnitude": NaN
+      },
+      {
+        "layer": 2,
+        "entropy_magnitude": NaN,
+        "temporal_entropy_magnitude": 0.0,
+        "composition_alpha": NaN,
+        "paradox_magnitude": NaN
+      }
+    ],
+    [
+      {
+        "layer": 0,
+        "entropy_magnitude": NaN,
+        "temporal_entropy_magnitude": NaN,
+        "composition_alpha": 0.0,
+        "paradox_magnitude": NaN
+      },
+      {
+        "layer": 1,
+        "entropy_magnitude": NaN,
+        "temporal_entropy_magnitude": 0.0,
+        "composition_alpha": NaN,
+        "paradox_magnitude": NaN
+      },
+      {
+        "layer": 2,
+        "entropy_magnitude": NaN,
+        "temporal_entropy_magnitude": 0.0,
+        "composition_alpha": NaN,
+        "paradox_magnitude": NaN
+      }
+    ],
+    [
+      {
+        "layer": 0,
+        "entropy_magnitude": NaN,
+        "temporal_entropy_magnitude": NaN,
+        "composition_alpha": 0.0,
+        "paradox_magnitude": NaN
+      },
+      {
+        "layer": 1,
+        "entropy_magnitude": NaN,
+        "temporal_entropy_magnitude": 0.0,
+        "composition_alpha": NaN,
+        "paradox_magnitude": NaN
+      },
+      {
+        "layer": 2,
+        "entropy_magnitude": NaN,
+        "temporal_entropy_magnitude": 0.0,
+        "composition_alpha": NaN,
+        "paradox_magnitude": NaN
+      }
+    ],
+    [
+      {
+        "layer": 0,
+        "entropy_magnitude": NaN,
+        "temporal_entropy_magnitude": NaN,
+        "composition_alpha": 0.0,
+        "paradox_magnitude": NaN
+      },
+      {
+        "layer": 1,
+        "entropy_magnitude": NaN,
+        "temporal_entropy_magnitude": 0.0,
+        "composition_alpha": NaN,
+        "paradox_magnitude": NaN
+      },
+      {
+        "layer": 2,
+        "entropy_magnitude": NaN,
+        "temporal_entropy_magnitude": 0.0,
+        "composition_alpha": NaN,
+        "paradox_magnitude": NaN
+      }
+    ],
+    [
+      {
+        "layer": 0,
+        "entropy_magnitude": NaN,
+        "temporal_entropy_magnitude": NaN,
+        "composition_alpha": 0.0,
+        "paradox_magnitude": NaN
+      },
+      {
+        "layer": 1,
+        "entropy_magnitude": NaN,
+        "temporal_entropy_magnitude": 0.0,
+        "composition_alpha": NaN,
+        "paradox_magnitude": NaN
+      },
+      {
+        "layer": 2,
+        "entropy_magnitude": NaN,
+        "temporal_entropy_magnitude": 0.0,
+        "composition_alpha": NaN,
+        "paradox_magnitude": NaN
+      }
+    ],
+    [
+      {
+        "layer": 0,
+        "entropy_magnitude": NaN,
+        "temporal_entropy_magnitude": NaN,
+        "composition_alpha": 0.0,
+        "paradox_magnitude": NaN
+      },
+      {
+        "layer": 1,
+        "entropy_magnitude": NaN,
+        "temporal_entropy_magnitude": 0.0,
+        "composition_alpha": NaN,
+        "paradox_magnitude": NaN
+      },
+      {
+        "layer": 2,
+        "entropy_magnitude": NaN,
+        "temporal_entropy_magnitude": 0.0,
+        "composition_alpha": NaN,
+        "paradox_magnitude": NaN
+      }
+    ],
+    [
+      {
+        "layer": 0,
+        "entropy_magnitude": NaN,
+        "temporal_entropy_magnitude": NaN,
+        "composition_alpha": 0.0,
+        "paradox_magnitude": NaN
+      },
+      {
+        "layer": 1,
+        "entropy_magnitude": NaN,
+        "temporal_entropy_magnitude": 0.0,
+        "composition_alpha": NaN,
+        "paradox_magnitude": NaN
+      },
+      {
+        "layer": 2,
+        "entropy_magnitude": NaN,
+        "temporal_entropy_magnitude": 0.0,
+        "composition_alpha": NaN,
+        "paradox_magnitude": NaN
+      }
+    ],
+    [
+      {
+        "layer": 0,
+        "entropy_magnitude": NaN,
+        "temporal_entropy_magnitude": NaN,
+        "composition_alpha": 0.0,
+        "paradox_magnitude": NaN
+      },
+      {
+        "layer": 1,
+        "entropy_magnitude": NaN,
+        "temporal_entropy_magnitude": 0.0,
+        "composition_alpha": NaN,
+        "paradox_magnitude": NaN
+      },
+      {
+        "layer": 2,
+        "entropy_magnitude": NaN,
+        "temporal_entropy_magnitude": 0.0,
+        "composition_alpha": NaN,
+        "paradox_magnitude": NaN
+      }
+    ],
+    [
+      {
+        "layer": 0,
+        "entropy_magnitude": NaN,
+        "temporal_entropy_magnitude": NaN,
+        "composition_alpha": 0.0,
+        "paradox_magnitude": NaN
+      },
+      {
+        "layer": 1,
+        "entropy_magnitude": NaN,
+        "temporal_entropy_magnitude": 0.0,
+        "composition_alpha": NaN,
+        "paradox_magnitude": NaN
+      },
+      {
+        "layer": 2,
+        "entropy_magnitude": NaN,
+        "temporal_entropy_magnitude": 0.0,
+        "composition_alpha": NaN,
+        "paradox_magnitude": NaN
+      }
+    ],
+    [
+      {
+        "layer": 0,
+        "entropy_magnitude": NaN,
+        "temporal_entropy_magnitude": NaN,
+        "composition_alpha": 0.0,
+        "paradox_magnitude": NaN
+      },
+      {
+        "layer": 1,
+        "entropy_magnitude": NaN,
+        "temporal_entropy_magnitude": 0.0,
+        "composition_alpha": NaN,
+        "paradox_magnitude": NaN
+      },
+      {
+        "layer": 2,
+        "entropy_magnitude": NaN,
+        "temporal_entropy_magnitude": 0.0,
+        "composition_alpha": NaN,
+        "paradox_magnitude": NaN
+      }
+    ],
+    [
+      {
+        "layer": 0,
+        "entropy_magnitude": NaN,
+        "temporal_entropy_magnitude": NaN,
+        "composition_alpha": 0.0,
+        "paradox_magnitude": NaN
+      },
+      {
+        "layer": 1,
+        "entropy_magnitude": NaN,
+        "temporal_entropy_magnitude": 0.0,
+        "composition_alpha": NaN,
+        "paradox_magnitude": NaN
+      },
+      {
+        "layer": 2,
+        "entropy_magnitude": NaN,
+        "temporal_entropy_magnitude": 0.0,
+        "composition_alpha": NaN,
+        "paradox_magnitude": NaN
+      }
+    ],
+    [
+      {
+        "layer": 0,
+        "entropy_magnitude": NaN,
+        "temporal_entropy_magnitude": NaN,
+        "composition_alpha": 0.0,
+        "paradox_magnitude": NaN
+      },
+      {
+        "layer": 1,
+        "entropy_magnitude": NaN,
+        "temporal_entropy_magnitude": 0.0,
+        "composition_alpha": NaN,
+        "paradox_magnitude": NaN
+      },
+      {
+        "layer": 2,
+        "entropy_magnitude": NaN,
+        "temporal_entropy_magnitude": 0.0,
+        "composition_alpha": NaN,
+        "paradox_magnitude": NaN
+      }
+    ],
+    [
+      {
+        "layer": 0,
+        "entropy_magnitude": NaN,
+        "temporal_entropy_magnitude": NaN,
+        "composition_alpha": 0.0,
+        "paradox_magnitude": NaN
+      },
+      {
+        "layer": 1,
+        "entropy_magnitude": NaN,
+        "temporal_entropy_magnitude": 0.0,
+        "composition_alpha": NaN,
+        "paradox_magnitude": NaN
+      },
+      {
+        "layer": 2,
+        "entropy_magnitude": NaN,
+        "temporal_entropy_magnitude": 0.0,
+        "composition_alpha": NaN,
+        "paradox_magnitude": NaN
+      }
+    ],
+    [
+      {
+        "layer": 0,
+        "entropy_magnitude": NaN,
+        "temporal_entropy_magnitude": NaN,
+        "composition_alpha": 0.0,
+        "paradox_magnitude": NaN
+      },
+      {
+        "layer": 1,
+        "entropy_magnitude": NaN,
+        "temporal_entropy_magnitude": 0.0,
+        "composition_alpha": NaN,
+        "paradox_magnitude": NaN
+      },
+      {
+        "layer": 2,
+        "entropy_magnitude": NaN,
+        "temporal_entropy_magnitude": 0.0,
+        "composition_alpha": NaN,
+        "paradox_magnitude": NaN
+      }
+    ],
+    [
+      {
+        "layer": 0,
+        "entropy_magnitude": NaN,
+        "temporal_entropy_magnitude": NaN,
+        "composition_alpha": 0.0,
+        "paradox_magnitude": NaN
+      },
+      {
+        "layer": 1,
+        "entropy_magnitude": NaN,
+        "temporal_entropy_magnitude": 0.0,
+        "composition_alpha": NaN,
+        "paradox_magnitude": NaN
+      },
+      {
+        "layer": 2,
+        "entropy_magnitude": NaN,
+        "temporal_entropy_magnitude": 0.0,
+        "composition_alpha": NaN,
+        "paradox_magnitude": NaN
+      }
+    ],
+    [
+      {
+        "layer": 0,
+        "entropy_magnitude": NaN,
+        "temporal_entropy_magnitude": NaN,
+        "composition_alpha": 0.0,
+        "paradox_magnitude": NaN
+      },
+      {
+        "layer": 1,
+        "entropy_magnitude": NaN,
+        "temporal_entropy_magnitude": 0.0,
+        "composition_alpha": NaN,
+        "paradox_magnitude": NaN
+      },
+      {
+        "layer": 2,
+        "entropy_magnitude": NaN,
+        "temporal_entropy_magnitude": 0.0,
+        "composition_alpha": NaN,
+        "paradox_magnitude": NaN
+      }
+    ],
+    [
+      {
+        "layer": 0,
+        "entropy_magnitude": NaN,
+        "temporal_entropy_magnitude": NaN,
+        "composition_alpha": 0.0,
+        "paradox_magnitude": NaN
+      },
+      {
+        "layer": 1,
+        "entropy_magnitude": NaN,
+        "temporal_entropy_magnitude": 0.0,
+        "composition_alpha": NaN,
+        "paradox_magnitude": NaN
+      },
+      {
+        "layer": 2,
+        "entropy_magnitude": NaN,
+        "temporal_entropy_magnitude": 0.0,
+        "composition_alpha": NaN,
+        "paradox_magnitude": NaN
+      }
+    ]
+  ],
+  "temporal_entropy_evolution": [
+    {
+      "epoch": 0,
+      "batch": 0,
+      "temporal_entropy_magnitude": 0.0
+    },
+    {
+      "epoch": 0,
+      "batch": 20,
+      "temporal_entropy_magnitude": 1.249779462814331
+    },
+    {
+      "epoch": 0,
+      "batch": 40,
+      "temporal_entropy_magnitude": 2.8356575965881348
+    },
+    {
+      "epoch": 0,
+      "batch": 60,
+      "temporal_entropy_magnitude": 12.62427806854248
+    },
+    {
+      "epoch": 0,
+      "batch": 80,
+      "temporal_entropy_magnitude": 141.27297973632812
+    },
+    {
+      "epoch": 0,
+      "batch": 100,
+      "temporal_entropy_magnitude": 1670.3597412109375
+    },
+    {
+      "epoch": 0,
+      "batch": 120,
+      "temporal_entropy_magnitude": 21710.880859375
+    },
+    {
+      "epoch": 1,
+      "batch": 0,
+      "temporal_entropy_magnitude": 2395550.25
+    },
+    {
+      "epoch": 1,
+      "batch": 20,
+      "temporal_entropy_magnitude": 32557618.0
+    },
+    {
+      "epoch": 1,
+      "batch": 40,
+      "temporal_entropy_magnitude": 451450688.0
+    },
+    {
+      "epoch": 1,
+      "batch": 60,
+      "temporal_entropy_magnitude": 6370405376.0
+    },
+    {
+      "epoch": 1,
+      "batch": 80,
+      "temporal_entropy_magnitude": 91566571520.0
+    },
+    {
+      "epoch": 1,
+      "batch": 100,
+      "temporal_entropy_magnitude": 1280282460160.0
+    },
+    {
+      "epoch": 1,
+      "batch": 120,
+      "temporal_entropy_magnitude": 17484174327808.0
+    },
+    {
+      "epoch": 2,
+      "batch": 0,
+      "temporal_entropy_magnitude": 2109372389916672.0
+    },
+    {
+      "epoch": 2,
+      "batch": 20,
+      "temporal_entropy_magnitude": 2.972794685174579e+16
+    },
+    {
+      "epoch": 2,
+      "batch": 40,
+      "temporal_entropy_magnitude": 4.194179188250378e+17
+    },
+    {
+      "epoch": 2,
+      "batch": 60,
+      "temporal_entropy_magnitude": 5.849100043826495e+18
+    },
+    {
+      "epoch": 2,
+      "batch": 80,
+      "temporal_entropy_magnitude": Infinity
+    },
+    {
+      "epoch": 2,
+      "batch": 100,
+      "temporal_entropy_magnitude": Infinity
+    },
+    {
+      "epoch": 2,
+      "batch": 120,
+      "temporal_entropy_magnitude": Infinity
+    },
+    {
+      "epoch": 3,
+      "batch": 0,
+      "temporal_entropy_magnitude": Infinity
+    },
+    {
+      "epoch": 3,
+      "batch": 20,
+      "temporal_entropy_magnitude": Infinity
+    },
+    {
+      "epoch": 3,
+      "batch": 40,
+      "temporal_entropy_magnitude": Infinity
+    },
+    {
+      "epoch": 3,
+      "batch": 60,
+      "temporal_entropy_magnitude": Infinity
+    },
+    {
+      "epoch": 3,
+      "batch": 80,
+      "temporal_entropy_magnitude": Infinity
+    },
+    {
+      "epoch": 3,
+      "batch": 100,
+      "temporal_entropy_magnitude": Infinity
+    },
+    {
+      "epoch": 3,
+      "batch": 120,
+      "temporal_entropy_magnitude": Infinity
+    },
+    {
+      "epoch": 4,
+      "batch": 0,
+      "temporal_entropy_magnitude": Infinity
+    },
+    {
+      "epoch": 4,
+      "batch": 20,
+      "temporal_entropy_magnitude": Infinity
+    },
+    {
+      "epoch": 4,
+      "batch": 40,
+      "temporal_entropy_magnitude": Infinity
+    },
+    {
+      "epoch": 4,
+      "batch": 60,
+      "temporal_entropy_magnitude": Infinity
+    },
+    {
+      "epoch": 4,
+      "batch": 80,
+      "temporal_entropy_magnitude": Infinity
+    },
+    {
+      "epoch": 4,
+      "batch": 100,
+      "temporal_entropy_magnitude": NaN
+    },
+    {
+      "epoch": 4,
+      "batch": 120,
+      "temporal_entropy_magnitude": NaN
+    },
+    {
+      "epoch": 5,
+      "batch": 0,
+      "temporal_entropy_magnitude": NaN
+    },
+    {
+      "epoch": 5,
+      "batch": 20,
+      "temporal_entropy_magnitude": NaN
+    },
+    {
+      "epoch": 5,
+      "batch": 40,
+      "temporal_entropy_magnitude": NaN
+    },
+    {
+      "epoch": 5,
+      "batch": 60,
+      "temporal_entropy_magnitude": NaN
+    },
+    {
+      "epoch": 5,
+      "batch": 80,
+      "temporal_entropy_magnitude": NaN
+    },
+    {
+      "epoch": 5,
+      "batch": 100,
+      "temporal_entropy_magnitude": NaN
+    },
+    {
+      "epoch": 5,
+      "batch": 120,
+      "temporal_entropy_magnitude": NaN
+    },
+    {
+      "epoch": 6,
+      "batch": 0,
+      "temporal_entropy_magnitude": NaN
+    },
+    {
+      "epoch": 6,
+      "batch": 20,
+      "temporal_entropy_magnitude": NaN
+    },
+    {
+      "epoch": 6,
+      "batch": 40,
+      "temporal_entropy_magnitude": NaN
+    },
+    {
+      "epoch": 6,
+      "batch": 60,
+      "temporal_entropy_magnitude": NaN
+    },
+    {
+      "epoch": 6,
+      "batch": 80,
+      "temporal_entropy_magnitude": NaN
+    },
+    {
+      "epoch": 6,
+      "batch": 100,
+      "temporal_entropy_magnitude": NaN
+    },
+    {
+      "epoch": 6,
+      "batch": 120,
+      "temporal_entropy_magnitude": NaN
+    },
+    {
+      "epoch": 7,
+      "batch": 0,
+      "temporal_entropy_magnitude": NaN
+    },
+    {
+      "epoch": 7,
+      "batch": 20,
+      "temporal_entropy_magnitude": NaN
+    },
+    {
+      "epoch": 7,
+      "batch": 40,
+      "temporal_entropy_magnitude": NaN
+    },
+    {
+      "epoch": 7,
+      "batch": 60,
+      "temporal_entropy_magnitude": NaN
+    },
+    {
+      "epoch": 7,
+      "batch": 80,
+      "temporal_entropy_magnitude": NaN
+    },
+    {
+      "epoch": 7,
+      "batch": 100,
+      "temporal_entropy_magnitude": NaN
+    },
+    {
+      "epoch": 7,
+      "batch": 120,
+      "temporal_entropy_magnitude": NaN
+    },
+    {
+      "epoch": 8,
+      "batch": 0,
+      "temporal_entropy_magnitude": NaN
+    },
+    {
+      "epoch": 8,
+      "batch": 20,
+      "temporal_entropy_magnitude": NaN
+    },
+    {
+      "epoch": 8,
+      "batch": 40,
+      "temporal_entropy_magnitude": NaN
+    },
+    {
+      "epoch": 8,
+      "batch": 60,
+      "temporal_entropy_magnitude": NaN
+    },
+    {
+      "epoch": 8,
+      "batch": 80,
+      "temporal_entropy_magnitude": NaN
+    },
+    {
+      "epoch": 8,
+      "batch": 100,
+      "temporal_entropy_magnitude": NaN
+    },
+    {
+      "epoch": 8,
+      "batch": 120,
+      "temporal_entropy_magnitude": NaN
+    },
+    {
+      "epoch": 9,
+      "batch": 0,
+      "temporal_entropy_magnitude": NaN
+    },
+    {
+      "epoch": 9,
+      "batch": 20,
+      "temporal_entropy_magnitude": NaN
+    },
+    {
+      "epoch": 9,
+      "batch": 40,
+      "temporal_entropy_magnitude": NaN
+    },
+    {
+      "epoch": 9,
+      "batch": 60,
+      "temporal_entropy_magnitude": NaN
+    },
+    {
+      "epoch": 9,
+      "batch": 80,
+      "temporal_entropy_magnitude": NaN
+    },
+    {
+      "epoch": 9,
+      "batch": 100,
+      "temporal_entropy_magnitude": NaN
+    },
+    {
+      "epoch": 9,
+      "batch": 120,
+      "temporal_entropy_magnitude": NaN
+    },
+    {
+      "epoch": 10,
+      "batch": 0,
+      "temporal_entropy_magnitude": NaN
+    },
+    {
+      "epoch": 10,
+      "batch": 20,
+      "temporal_entropy_magnitude": NaN
+    },
+    {
+      "epoch": 10,
+      "batch": 40,
+      "temporal_entropy_magnitude": NaN
+    },
+    {
+      "epoch": 10,
+      "batch": 60,
+      "temporal_entropy_magnitude": NaN
+    },
+    {
+      "epoch": 10,
+      "batch": 80,
+      "temporal_entropy_magnitude": NaN
+    },
+    {
+      "epoch": 10,
+      "batch": 100,
+      "temporal_entropy_magnitude": NaN
+    },
+    {
+      "epoch": 10,
+      "batch": 120,
+      "temporal_entropy_magnitude": NaN
+    },
+    {
+      "epoch": 11,
+      "batch": 0,
+      "temporal_entropy_magnitude": NaN
+    },
+    {
+      "epoch": 11,
+      "batch": 20,
+      "temporal_entropy_magnitude": NaN
+    },
+    {
+      "epoch": 11,
+      "batch": 40,
+      "temporal_entropy_magnitude": NaN
+    },
+    {
+      "epoch": 11,
+      "batch": 60,
+      "temporal_entropy_magnitude": NaN
+    },
+    {
+      "epoch": 11,
+      "batch": 80,
+      "temporal_entropy_magnitude": NaN
+    },
+    {
+      "epoch": 11,
+      "batch": 100,
+      "temporal_entropy_magnitude": NaN
+    },
+    {
+      "epoch": 11,
+      "batch": 120,
+      "temporal_entropy_magnitude": NaN
+    },
+    {
+      "epoch": 12,
+      "batch": 0,
+      "temporal_entropy_magnitude": NaN
+    },
+    {
+      "epoch": 12,
+      "batch": 20,
+      "temporal_entropy_magnitude": NaN
+    },
+    {
+      "epoch": 12,
+      "batch": 40,
+      "temporal_entropy_magnitude": NaN
+    },
+    {
+      "epoch": 12,
+      "batch": 60,
+      "temporal_entropy_magnitude": NaN
+    },
+    {
+      "epoch": 12,
+      "batch": 80,
+      "temporal_entropy_magnitude": NaN
+    },
+    {
+      "epoch": 12,
+      "batch": 100,
+      "temporal_entropy_magnitude": NaN
+    },
+    {
+      "epoch": 12,
+      "batch": 120,
+      "temporal_entropy_magnitude": NaN
+    },
+    {
+      "epoch": 13,
+      "batch": 0,
+      "temporal_entropy_magnitude": NaN
+    },
+    {
+      "epoch": 13,
+      "batch": 20,
+      "temporal_entropy_magnitude": NaN
+    },
+    {
+      "epoch": 13,
+      "batch": 40,
+      "temporal_entropy_magnitude": NaN
+    },
+    {
+      "epoch": 13,
+      "batch": 60,
+      "temporal_entropy_magnitude": NaN
+    },
+    {
+      "epoch": 13,
+      "batch": 80,
+      "temporal_entropy_magnitude": NaN
+    },
+    {
+      "epoch": 13,
+      "batch": 100,
+      "temporal_entropy_magnitude": NaN
+    },
+    {
+      "epoch": 13,
+      "batch": 120,
+      "temporal_entropy_magnitude": NaN
+    },
+    {
+      "epoch": 14,
+      "batch": 0,
+      "temporal_entropy_magnitude": NaN
+    },
+    {
+      "epoch": 14,
+      "batch": 20,
+      "temporal_entropy_magnitude": NaN
+    },
+    {
+      "epoch": 14,
+      "batch": 40,
+      "temporal_entropy_magnitude": NaN
+    },
+    {
+      "epoch": 14,
+      "batch": 60,
+      "temporal_entropy_magnitude": NaN
+    },
+    {
+      "epoch": 14,
+      "batch": 80,
+      "temporal_entropy_magnitude": NaN
+    },
+    {
+      "epoch": 14,
+      "batch": 100,
+      "temporal_entropy_magnitude": NaN
+    },
+    {
+      "epoch": 14,
+      "batch": 120,
+      "temporal_entropy_magnitude": NaN
+    },
+    {
+      "epoch": 15,
+      "batch": 0,
+      "temporal_entropy_magnitude": NaN
+    },
+    {
+      "epoch": 15,
+      "batch": 20,
+      "temporal_entropy_magnitude": NaN
+    },
+    {
+      "epoch": 15,
+      "batch": 40,
+      "temporal_entropy_magnitude": NaN
+    },
+    {
+      "epoch": 15,
+      "batch": 60,
+      "temporal_entropy_magnitude": NaN
+    },
+    {
+      "epoch": 15,
+      "batch": 80,
+      "temporal_entropy_magnitude": NaN
+    },
+    {
+      "epoch": 15,
+      "batch": 100,
+      "temporal_entropy_magnitude": NaN
+    },
+    {
+      "epoch": 15,
+      "batch": 120,
+      "temporal_entropy_magnitude": NaN
+    },
+    {
+      "epoch": 16,
+      "batch": 0,
+      "temporal_entropy_magnitude": NaN
+    },
+    {
+      "epoch": 16,
+      "batch": 20,
+      "temporal_entropy_magnitude": NaN
+    },
+    {
+      "epoch": 16,
+      "batch": 40,
+      "temporal_entropy_magnitude": NaN
+    },
+    {
+      "epoch": 16,
+      "batch": 60,
+      "temporal_entropy_magnitude": NaN
+    },
+    {
+      "epoch": 16,
+      "batch": 80,
+      "temporal_entropy_magnitude": NaN
+    },
+    {
+      "epoch": 16,
+      "batch": 100,
+      "temporal_entropy_magnitude": NaN
+    },
+    {
+      "epoch": 16,
+      "batch": 120,
+      "temporal_entropy_magnitude": NaN
+    },
+    {
+      "epoch": 17,
+      "batch": 0,
+      "temporal_entropy_magnitude": NaN
+    },
+    {
+      "epoch": 17,
+      "batch": 20,
+      "temporal_entropy_magnitude": NaN
+    },
+    {
+      "epoch": 17,
+      "batch": 40,
+      "temporal_entropy_magnitude": NaN
+    },
+    {
+      "epoch": 17,
+      "batch": 60,
+      "temporal_entropy_magnitude": NaN
+    },
+    {
+      "epoch": 17,
+      "batch": 80,
+      "temporal_entropy_magnitude": NaN
+    },
+    {
+      "epoch": 17,
+      "batch": 100,
+      "temporal_entropy_magnitude": NaN
+    },
+    {
+      "epoch": 17,
+      "batch": 120,
+      "temporal_entropy_magnitude": NaN
+    },
+    {
+      "epoch": 18,
+      "batch": 0,
+      "temporal_entropy_magnitude": NaN
+    },
+    {
+      "epoch": 18,
+      "batch": 20,
+      "temporal_entropy_magnitude": NaN
+    },
+    {
+      "epoch": 18,
+      "batch": 40,
+      "temporal_entropy_magnitude": NaN
+    },
+    {
+      "epoch": 18,
+      "batch": 60,
+      "temporal_entropy_magnitude": NaN
+    },
+    {
+      "epoch": 18,
+      "batch": 80,
+      "temporal_entropy_magnitude": NaN
+    },
+    {
+      "epoch": 18,
+      "batch": 100,
+      "temporal_entropy_magnitude": NaN
+    },
+    {
+      "epoch": 18,
+      "batch": 120,
+      "temporal_entropy_magnitude": NaN
+    },
+    {
+      "epoch": 19,
+      "batch": 0,
+      "temporal_entropy_magnitude": NaN
+    },
+    {
+      "epoch": 19,
+      "batch": 20,
+      "temporal_entropy_magnitude": NaN
+    },
+    {
+      "epoch": 19,
+      "batch": 40,
+      "temporal_entropy_magnitude": NaN
+    },
+    {
+      "epoch": 19,
+      "batch": 60,
+      "temporal_entropy_magnitude": NaN
+    },
+    {
+      "epoch": 19,
+      "batch": 80,
+      "temporal_entropy_magnitude": NaN
+    },
+    {
+      "epoch": 19,
+      "batch": 100,
+      "temporal_entropy_magnitude": NaN
+    },
+    {
+      "epoch": 19,
+      "batch": 120,
+      "temporal_entropy_magnitude": NaN
+    },
+    {
+      "epoch": 20,
+      "batch": 0,
+      "temporal_entropy_magnitude": NaN
+    },
+    {
+      "epoch": 20,
+      "batch": 20,
+      "temporal_entropy_magnitude": NaN
+    },
+    {
+      "epoch": 20,
+      "batch": 40,
+      "temporal_entropy_magnitude": NaN
+    },
+    {
+      "epoch": 20,
+      "batch": 60,
+      "temporal_entropy_magnitude": NaN
+    },
+    {
+      "epoch": 20,
+      "batch": 80,
+      "temporal_entropy_magnitude": NaN
+    },
+    {
+      "epoch": 20,
+      "batch": 100,
+      "temporal_entropy_magnitude": NaN
+    },
+    {
+      "epoch": 20,
+      "batch": 120,
+      "temporal_entropy_magnitude": NaN
+    },
+    {
+      "epoch": 21,
+      "batch": 0,
+      "temporal_entropy_magnitude": NaN
+    },
+    {
+      "epoch": 21,
+      "batch": 20,
+      "temporal_entropy_magnitude": NaN
+    },
+    {
+      "epoch": 21,
+      "batch": 40,
+      "temporal_entropy_magnitude": NaN
+    },
+    {
+      "epoch": 21,
+      "batch": 60,
+      "temporal_entropy_magnitude": NaN
+    },
+    {
+      "epoch": 21,
+      "batch": 80,
+      "temporal_entropy_magnitude": NaN
+    },
+    {
+      "epoch": 21,
+      "batch": 100,
+      "temporal_entropy_magnitude": NaN
+    },
+    {
+      "epoch": 21,
+      "batch": 120,
+      "temporal_entropy_magnitude": NaN
+    },
+    {
+      "epoch": 22,
+      "batch": 0,
+      "temporal_entropy_magnitude": NaN
+    },
+    {
+      "epoch": 22,
+      "batch": 20,
+      "temporal_entropy_magnitude": NaN
+    },
+    {
+      "epoch": 22,
+      "batch": 40,
+      "temporal_entropy_magnitude": NaN
+    },
+    {
+      "epoch": 22,
+      "batch": 60,
+      "temporal_entropy_magnitude": NaN
+    },
+    {
+      "epoch": 22,
+      "batch": 80,
+      "temporal_entropy_magnitude": NaN
+    },
+    {
+      "epoch": 22,
+      "batch": 100,
+      "temporal_entropy_magnitude": NaN
+    },
+    {
+      "epoch": 22,
+      "batch": 120,
+      "temporal_entropy_magnitude": NaN
+    },
+    {
+      "epoch": 23,
+      "batch": 0,
+      "temporal_entropy_magnitude": NaN
+    },
+    {
+      "epoch": 23,
+      "batch": 20,
+      "temporal_entropy_magnitude": NaN
+    },
+    {
+      "epoch": 23,
+      "batch": 40,
+      "temporal_entropy_magnitude": NaN
+    },
+    {
+      "epoch": 23,
+      "batch": 60,
+      "temporal_entropy_magnitude": NaN
+    },
+    {
+      "epoch": 23,
+      "batch": 80,
+      "temporal_entropy_magnitude": NaN
+    },
+    {
+      "epoch": 23,
+      "batch": 100,
+      "temporal_entropy_magnitude": NaN
+    },
+    {
+      "epoch": 23,
+      "batch": 120,
+      "temporal_entropy_magnitude": NaN
+    },
+    {
+      "epoch": 24,
+      "batch": 0,
+      "temporal_entropy_magnitude": NaN
+    },
+    {
+      "epoch": 24,
+      "batch": 20,
+      "temporal_entropy_magnitude": NaN
+    },
+    {
+      "epoch": 24,
+      "batch": 40,
+      "temporal_entropy_magnitude": NaN
+    },
+    {
+      "epoch": 24,
+      "batch": 60,
+      "temporal_entropy_magnitude": NaN
+    },
+    {
+      "epoch": 24,
+      "batch": 80,
+      "temporal_entropy_magnitude": NaN
+    },
+    {
+      "epoch": 24,
+      "batch": 100,
+      "temporal_entropy_magnitude": NaN
+    },
+    {
+      "epoch": 24,
+      "batch": 120,
+      "temporal_entropy_magnitude": NaN
+    },
+    {
+      "epoch": 25,
+      "batch": 0,
+      "temporal_entropy_magnitude": NaN
+    },
+    {
+      "epoch": 25,
+      "batch": 20,
+      "temporal_entropy_magnitude": NaN
+    },
+    {
+      "epoch": 25,
+      "batch": 40,
+      "temporal_entropy_magnitude": NaN
+    },
+    {
+      "epoch": 25,
+      "batch": 60,
+      "temporal_entropy_magnitude": NaN
+    },
+    {
+      "epoch": 25,
+      "batch": 80,
+      "temporal_entropy_magnitude": NaN
+    },
+    {
+      "epoch": 25,
+      "batch": 100,
+      "temporal_entropy_magnitude": NaN
+    },
+    {
+      "epoch": 25,
+      "batch": 120,
+      "temporal_entropy_magnitude": NaN
+    },
+    {
+      "epoch": 26,
+      "batch": 0,
+      "temporal_entropy_magnitude": NaN
+    },
+    {
+      "epoch": 26,
+      "batch": 20,
+      "temporal_entropy_magnitude": NaN
+    },
+    {
+      "epoch": 26,
+      "batch": 40,
+      "temporal_entropy_magnitude": NaN
+    },
+    {
+      "epoch": 26,
+      "batch": 60,
+      "temporal_entropy_magnitude": NaN
+    },
+    {
+      "epoch": 26,
+      "batch": 80,
+      "temporal_entropy_magnitude": NaN
+    },
+    {
+      "epoch": 26,
+      "batch": 100,
+      "temporal_entropy_magnitude": NaN
+    },
+    {
+      "epoch": 26,
+      "batch": 120,
+      "temporal_entropy_magnitude": NaN
+    },
+    {
+      "epoch": 27,
+      "batch": 0,
+      "temporal_entropy_magnitude": NaN
+    },
+    {
+      "epoch": 27,
+      "batch": 20,
+      "temporal_entropy_magnitude": NaN
+    },
+    {
+      "epoch": 27,
+      "batch": 40,
+      "temporal_entropy_magnitude": NaN
+    },
+    {
+      "epoch": 27,
+      "batch": 60,
+      "temporal_entropy_magnitude": NaN
+    },
+    {
+      "epoch": 27,
+      "batch": 80,
+      "temporal_entropy_magnitude": NaN
+    },
+    {
+      "epoch": 27,
+      "batch": 100,
+      "temporal_entropy_magnitude": NaN
+    },
+    {
+      "epoch": 27,
+      "batch": 120,
+      "temporal_entropy_magnitude": NaN
+    },
+    {
+      "epoch": 28,
+      "batch": 0,
+      "temporal_entropy_magnitude": NaN
+    },
+    {
+      "epoch": 28,
+      "batch": 20,
+      "temporal_entropy_magnitude": NaN
+    },
+    {
+      "epoch": 28,
+      "batch": 40,
+      "temporal_entropy_magnitude": NaN
+    },
+    {
+      "epoch": 28,
+      "batch": 60,
+      "temporal_entropy_magnitude": NaN
+    },
+    {
+      "epoch": 28,
+      "batch": 80,
+      "temporal_entropy_magnitude": NaN
+    },
+    {
+      "epoch": 28,
+      "batch": 100,
+      "temporal_entropy_magnitude": NaN
+    },
+    {
+      "epoch": 28,
+      "batch": 120,
+      "temporal_entropy_magnitude": NaN
+    },
+    {
+      "epoch": 29,
+      "batch": 0,
+      "temporal_entropy_magnitude": NaN
+    },
+    {
+      "epoch": 29,
+      "batch": 20,
+      "temporal_entropy_magnitude": NaN
+    },
+    {
+      "epoch": 29,
+      "batch": 40,
+      "temporal_entropy_magnitude": NaN
+    },
+    {
+      "epoch": 29,
+      "batch": 60,
+      "temporal_entropy_magnitude": NaN
+    },
+    {
+      "epoch": 29,
+      "batch": 80,
+      "temporal_entropy_magnitude": NaN
+    },
+    {
+      "epoch": 29,
+      "batch": 100,
+      "temporal_entropy_magnitude": NaN
+    },
+    {
+      "epoch": 29,
+      "batch": 120,
+      "temporal_entropy_magnitude": NaN
+    },
+    {
+      "epoch": 30,
+      "batch": 0,
+      "temporal_entropy_magnitude": NaN
+    },
+    {
+      "epoch": 30,
+      "batch": 20,
+      "temporal_entropy_magnitude": NaN
+    },
+    {
+      "epoch": 30,
+      "batch": 40,
+      "temporal_entropy_magnitude": NaN
+    },
+    {
+      "epoch": 30,
+      "batch": 60,
+      "temporal_entropy_magnitude": NaN
+    },
+    {
+      "epoch": 30,
+      "batch": 80,
+      "temporal_entropy_magnitude": NaN
+    },
+    {
+      "epoch": 30,
+      "batch": 100,
+      "temporal_entropy_magnitude": NaN
+    },
+    {
+      "epoch": 30,
+      "batch": 120,
+      "temporal_entropy_magnitude": NaN
+    },
+    {
+      "epoch": 31,
+      "batch": 0,
+      "temporal_entropy_magnitude": NaN
+    },
+    {
+      "epoch": 31,
+      "batch": 20,
+      "temporal_entropy_magnitude": NaN
+    },
+    {
+      "epoch": 31,
+      "batch": 40,
+      "temporal_entropy_magnitude": NaN
+    },
+    {
+      "epoch": 31,
+      "batch": 60,
+      "temporal_entropy_magnitude": NaN
+    },
+    {
+      "epoch": 31,
+      "batch": 80,
+      "temporal_entropy_magnitude": NaN
+    },
+    {
+      "epoch": 31,
+      "batch": 100,
+      "temporal_entropy_magnitude": NaN
+    },
+    {
+      "epoch": 31,
+      "batch": 120,
+      "temporal_entropy_magnitude": NaN
+    },
+    {
+      "epoch": 32,
+      "batch": 0,
+      "temporal_entropy_magnitude": NaN
+    },
+    {
+      "epoch": 32,
+      "batch": 20,
+      "temporal_entropy_magnitude": NaN
+    },
+    {
+      "epoch": 32,
+      "batch": 40,
+      "temporal_entropy_magnitude": NaN
+    },
+    {
+      "epoch": 32,
+      "batch": 60,
+      "temporal_entropy_magnitude": NaN
+    },
+    {
+      "epoch": 32,
+      "batch": 80,
+      "temporal_entropy_magnitude": NaN
+    },
+    {
+      "epoch": 32,
+      "batch": 100,
+      "temporal_entropy_magnitude": NaN
+    },
+    {
+      "epoch": 32,
+      "batch": 120,
+      "temporal_entropy_magnitude": NaN
+    },
+    {
+      "epoch": 33,
+      "batch": 0,
+      "temporal_entropy_magnitude": NaN
+    },
+    {
+      "epoch": 33,
+      "batch": 20,
+      "temporal_entropy_magnitude": NaN
+    },
+    {
+      "epoch": 33,
+      "batch": 40,
+      "temporal_entropy_magnitude": NaN
+    },
+    {
+      "epoch": 33,
+      "batch": 60,
+      "temporal_entropy_magnitude": NaN
+    },
+    {
+      "epoch": 33,
+      "batch": 80,
+      "temporal_entropy_magnitude": NaN
+    },
+    {
+      "epoch": 33,
+      "batch": 100,
+      "temporal_entropy_magnitude": NaN
+    },
+    {
+      "epoch": 33,
+      "batch": 120,
+      "temporal_entropy_magnitude": NaN
+    },
+    {
+      "epoch": 34,
+      "batch": 0,
+      "temporal_entropy_magnitude": NaN
+    },
+    {
+      "epoch": 34,
+      "batch": 20,
+      "temporal_entropy_magnitude": NaN
+    },
+    {
+      "epoch": 34,
+      "batch": 40,
+      "temporal_entropy_magnitude": NaN
+    },
+    {
+      "epoch": 34,
+      "batch": 60,
+      "temporal_entropy_magnitude": NaN
+    },
+    {
+      "epoch": 34,
+      "batch": 80,
+      "temporal_entropy_magnitude": NaN
+    },
+    {
+      "epoch": 34,
+      "batch": 100,
+      "temporal_entropy_magnitude": NaN
+    },
+    {
+      "epoch": 34,
+      "batch": 120,
+      "temporal_entropy_magnitude": NaN
+    },
+    {
+      "epoch": 35,
+      "batch": 0,
+      "temporal_entropy_magnitude": NaN
+    },
+    {
+      "epoch": 35,
+      "batch": 20,
+      "temporal_entropy_magnitude": NaN
+    },
+    {
+      "epoch": 35,
+      "batch": 40,
+      "temporal_entropy_magnitude": NaN
+    },
+    {
+      "epoch": 35,
+      "batch": 60,
+      "temporal_entropy_magnitude": NaN
+    },
+    {
+      "epoch": 35,
+      "batch": 80,
+      "temporal_entropy_magnitude": NaN
+    },
+    {
+      "epoch": 35,
+      "batch": 100,
+      "temporal_entropy_magnitude": NaN
+    },
+    {
+      "epoch": 35,
+      "batch": 120,
+      "temporal_entropy_magnitude": NaN
+    },
+    {
+      "epoch": 36,
+      "batch": 0,
+      "temporal_entropy_magnitude": NaN
+    },
+    {
+      "epoch": 36,
+      "batch": 20,
+      "temporal_entropy_magnitude": NaN
+    },
+    {
+      "epoch": 36,
+      "batch": 40,
+      "temporal_entropy_magnitude": NaN
+    },
+    {
+      "epoch": 36,
+      "batch": 60,
+      "temporal_entropy_magnitude": NaN
+    },
+    {
+      "epoch": 36,
+      "batch": 80,
+      "temporal_entropy_magnitude": NaN
+    },
+    {
+      "epoch": 36,
+      "batch": 100,
+      "temporal_entropy_magnitude": NaN
+    },
+    {
+      "epoch": 36,
+      "batch": 120,
+      "temporal_entropy_magnitude": NaN
+    },
+    {
+      "epoch": 37,
+      "batch": 0,
+      "temporal_entropy_magnitude": NaN
+    },
+    {
+      "epoch": 37,
+      "batch": 20,
+      "temporal_entropy_magnitude": NaN
+    },
+    {
+      "epoch": 37,
+      "batch": 40,
+      "temporal_entropy_magnitude": NaN
+    },
+    {
+      "epoch": 37,
+      "batch": 60,
+      "temporal_entropy_magnitude": NaN
+    },
+    {
+      "epoch": 37,
+      "batch": 80,
+      "temporal_entropy_magnitude": NaN
+    },
+    {
+      "epoch": 37,
+      "batch": 100,
+      "temporal_entropy_magnitude": NaN
+    },
+    {
+      "epoch": 37,
+      "batch": 120,
+      "temporal_entropy_magnitude": NaN
+    },
+    {
+      "epoch": 38,
+      "batch": 0,
+      "temporal_entropy_magnitude": NaN
+    },
+    {
+      "epoch": 38,
+      "batch": 20,
+      "temporal_entropy_magnitude": NaN
+    },
+    {
+      "epoch": 38,
+      "batch": 40,
+      "temporal_entropy_magnitude": NaN
+    },
+    {
+      "epoch": 38,
+      "batch": 60,
+      "temporal_entropy_magnitude": NaN
+    },
+    {
+      "epoch": 38,
+      "batch": 80,
+      "temporal_entropy_magnitude": NaN
+    },
+    {
+      "epoch": 38,
+      "batch": 100,
+      "temporal_entropy_magnitude": NaN
+    },
+    {
+      "epoch": 38,
+      "batch": 120,
+      "temporal_entropy_magnitude": NaN
+    },
+    {
+      "epoch": 39,
+      "batch": 0,
+      "temporal_entropy_magnitude": NaN
+    },
+    {
+      "epoch": 39,
+      "batch": 20,
+      "temporal_entropy_magnitude": NaN
+    },
+    {
+      "epoch": 39,
+      "batch": 40,
+      "temporal_entropy_magnitude": NaN
+    },
+    {
+      "epoch": 39,
+      "batch": 60,
+      "temporal_entropy_magnitude": NaN
+    },
+    {
+      "epoch": 39,
+      "batch": 80,
+      "temporal_entropy_magnitude": NaN
+    },
+    {
+      "epoch": 39,
+      "batch": 100,
+      "temporal_entropy_magnitude": NaN
+    },
+    {
+      "epoch": 39,
+      "batch": 120,
+      "temporal_entropy_magnitude": NaN
+    },
+    {
+      "epoch": 40,
+      "batch": 0,
+      "temporal_entropy_magnitude": NaN
+    },
+    {
+      "epoch": 40,
+      "batch": 20,
+      "temporal_entropy_magnitude": NaN
+    },
+    {
+      "epoch": 40,
+      "batch": 40,
+      "temporal_entropy_magnitude": NaN
+    },
+    {
+      "epoch": 40,
+      "batch": 60,
+      "temporal_entropy_magnitude": NaN
+    },
+    {
+      "epoch": 40,
+      "batch": 80,
+      "temporal_entropy_magnitude": NaN
+    },
+    {
+      "epoch": 40,
+      "batch": 100,
+      "temporal_entropy_magnitude": NaN
+    },
+    {
+      "epoch": 40,
+      "batch": 120,
+      "temporal_entropy_magnitude": NaN
+    },
+    {
+      "epoch": 41,
+      "batch": 0,
+      "temporal_entropy_magnitude": NaN
+    },
+    {
+      "epoch": 41,
+      "batch": 20,
+      "temporal_entropy_magnitude": NaN
+    },
+    {
+      "epoch": 41,
+      "batch": 40,
+      "temporal_entropy_magnitude": NaN
+    },
+    {
+      "epoch": 41,
+      "batch": 60,
+      "temporal_entropy_magnitude": NaN
+    },
+    {
+      "epoch": 41,
+      "batch": 80,
+      "temporal_entropy_magnitude": NaN
+    },
+    {
+      "epoch": 41,
+      "batch": 100,
+      "temporal_entropy_magnitude": NaN
+    },
+    {
+      "epoch": 41,
+      "batch": 120,
+      "temporal_entropy_magnitude": NaN
+    },
+    {
+      "epoch": 42,
+      "batch": 0,
+      "temporal_entropy_magnitude": NaN
+    },
+    {
+      "epoch": 42,
+      "batch": 20,
+      "temporal_entropy_magnitude": NaN
+    },
+    {
+      "epoch": 42,
+      "batch": 40,
+      "temporal_entropy_magnitude": NaN
+    },
+    {
+      "epoch": 42,
+      "batch": 60,
+      "temporal_entropy_magnitude": NaN
+    },
+    {
+      "epoch": 42,
+      "batch": 80,
+      "temporal_entropy_magnitude": NaN
+    },
+    {
+      "epoch": 42,
+      "batch": 100,
+      "temporal_entropy_magnitude": NaN
+    },
+    {
+      "epoch": 42,
+      "batch": 120,
+      "temporal_entropy_magnitude": NaN
+    },
+    {
+      "epoch": 43,
+      "batch": 0,
+      "temporal_entropy_magnitude": NaN
+    },
+    {
+      "epoch": 43,
+      "batch": 20,
+      "temporal_entropy_magnitude": NaN
+    },
+    {
+      "epoch": 43,
+      "batch": 40,
+      "temporal_entropy_magnitude": NaN
+    },
+    {
+      "epoch": 43,
+      "batch": 60,
+      "temporal_entropy_magnitude": NaN
+    },
+    {
+      "epoch": 43,
+      "batch": 80,
+      "temporal_entropy_magnitude": NaN
+    },
+    {
+      "epoch": 43,
+      "batch": 100,
+      "temporal_entropy_magnitude": NaN
+    },
+    {
+      "epoch": 43,
+      "batch": 120,
+      "temporal_entropy_magnitude": NaN
+    },
+    {
+      "epoch": 44,
+      "batch": 0,
+      "temporal_entropy_magnitude": NaN
+    },
+    {
+      "epoch": 44,
+      "batch": 20,
+      "temporal_entropy_magnitude": NaN
+    },
+    {
+      "epoch": 44,
+      "batch": 40,
+      "temporal_entropy_magnitude": NaN
+    },
+    {
+      "epoch": 44,
+      "batch": 60,
+      "temporal_entropy_magnitude": NaN
+    },
+    {
+      "epoch": 44,
+      "batch": 80,
+      "temporal_entropy_magnitude": NaN
+    },
+    {
+      "epoch": 44,
+      "batch": 100,
+      "temporal_entropy_magnitude": NaN
+    },
+    {
+      "epoch": 44,
+      "batch": 120,
+      "temporal_entropy_magnitude": NaN
+    },
+    {
+      "epoch": 45,
+      "batch": 0,
+      "temporal_entropy_magnitude": NaN
+    },
+    {
+      "epoch": 45,
+      "batch": 20,
+      "temporal_entropy_magnitude": NaN
+    },
+    {
+      "epoch": 45,
+      "batch": 40,
+      "temporal_entropy_magnitude": NaN
+    },
+    {
+      "epoch": 45,
+      "batch": 60,
+      "temporal_entropy_magnitude": NaN
+    },
+    {
+      "epoch": 45,
+      "batch": 80,
+      "temporal_entropy_magnitude": NaN
+    },
+    {
+      "epoch": 45,
+      "batch": 100,
+      "temporal_entropy_magnitude": NaN
+    },
+    {
+      "epoch": 45,
+      "batch": 120,
+      "temporal_entropy_magnitude": NaN
+    },
+    {
+      "epoch": 46,
+      "batch": 0,
+      "temporal_entropy_magnitude": NaN
+    },
+    {
+      "epoch": 46,
+      "batch": 20,
+      "temporal_entropy_magnitude": NaN
+    },
+    {
+      "epoch": 46,
+      "batch": 40,
+      "temporal_entropy_magnitude": NaN
+    },
+    {
+      "epoch": 46,
+      "batch": 60,
+      "temporal_entropy_magnitude": NaN
+    },
+    {
+      "epoch": 46,
+      "batch": 80,
+      "temporal_entropy_magnitude": NaN
+    },
+    {
+      "epoch": 46,
+      "batch": 100,
+      "temporal_entropy_magnitude": NaN
+    },
+    {
+      "epoch": 46,
+      "batch": 120,
+      "temporal_entropy_magnitude": NaN
+    },
+    {
+      "epoch": 47,
+      "batch": 0,
+      "temporal_entropy_magnitude": NaN
+    },
+    {
+      "epoch": 47,
+      "batch": 20,
+      "temporal_entropy_magnitude": NaN
+    },
+    {
+      "epoch": 47,
+      "batch": 40,
+      "temporal_entropy_magnitude": NaN
+    },
+    {
+      "epoch": 47,
+      "batch": 60,
+      "temporal_entropy_magnitude": NaN
+    },
+    {
+      "epoch": 47,
+      "batch": 80,
+      "temporal_entropy_magnitude": NaN
+    },
+    {
+      "epoch": 47,
+      "batch": 100,
+      "temporal_entropy_magnitude": NaN
+    },
+    {
+      "epoch": 47,
+      "batch": 120,
+      "temporal_entropy_magnitude": NaN
+    },
+    {
+      "epoch": 48,
+      "batch": 0,
+      "temporal_entropy_magnitude": NaN
+    },
+    {
+      "epoch": 48,
+      "batch": 20,
+      "temporal_entropy_magnitude": NaN
+    },
+    {
+      "epoch": 48,
+      "batch": 40,
+      "temporal_entropy_magnitude": NaN
+    },
+    {
+      "epoch": 48,
+      "batch": 60,
+      "temporal_entropy_magnitude": NaN
+    },
+    {
+      "epoch": 48,
+      "batch": 80,
+      "temporal_entropy_magnitude": NaN
+    },
+    {
+      "epoch": 48,
+      "batch": 100,
+      "temporal_entropy_magnitude": NaN
+    },
+    {
+      "epoch": 48,
+      "batch": 120,
+      "temporal_entropy_magnitude": NaN
+    },
+    {
+      "epoch": 49,
+      "batch": 0,
+      "temporal_entropy_magnitude": NaN
+    },
+    {
+      "epoch": 49,
+      "batch": 20,
+      "temporal_entropy_magnitude": NaN
+    },
+    {
+      "epoch": 49,
+      "batch": 40,
+      "temporal_entropy_magnitude": NaN
+    },
+    {
+      "epoch": 49,
+      "batch": 60,
+      "temporal_entropy_magnitude": NaN
+    },
+    {
+      "epoch": 49,
+      "batch": 80,
+      "temporal_entropy_magnitude": NaN
+    },
+    {
+      "epoch": 49,
+      "batch": 100,
+      "temporal_entropy_magnitude": NaN
+    },
+    {
+      "epoch": 49,
+      "batch": 120,
+      "temporal_entropy_magnitude": NaN
+    }
+  ],
+  "config": {
+    "embedding_dim": 64,
+    "hidden_dims": [
+      64,
+      64,
+      64
+    ],
+    "n_patterns": 8,
+    "sequence_length": 20,
+    "learning_rate": 0.0003,
+    "batch_size": 64,
+    "epochs": 50,
+    "device": "cpu"
+  }
+}

@@ -1,0 +1,3024 @@
+{
+  "train_losses": [
+    3.8744801597595213,
+    3.3931037044525145,
+    3.3652918796539306,
+    3.3577182941436767,
+    3.3557846698760985,
+    3.3513703136444093,
+    3.344784278869629,
+    3.318879413604736,
+    3.277910797119141,
+    3.2558804779052735,
+    3.230688413619995,
+    3.2160784244537353,
+    3.202290996551514,
+    3.195522481918335,
+    3.1948698081970215,
+    3.1844111824035646,
+    3.173512727737427,
+    3.162727451324463,
+    3.159758508682251,
+    3.1561878719329832,
+    3.150152898788452,
+    3.1464132022857667,
+    3.142667406082153,
+    3.16652028465271,
+    3.1445439281463625,
+    3.1725202713012695,
+    3.138466779708862,
+    3.1434781646728513,
+    3.13178236579895,
+    3.1306996879577635,
+    3.1367802238464355,
+    3.1481708068847656,
+    3.1195382061004637,
+    3.116482633590698,
+    3.111113515853882,
+    3.101869850158691,
+    3.094936061859131,
+    3.0971537075042725,
+    3.1140422229766846,
+    3.0997358894348146,
+    3.1018708953857423,
+    3.085359468460083,
+    3.0925509147644044,
+    3.0775704135894775,
+    3.0733926429748535,
+    3.0866692447662354,
+    3.0804257698059083,
+    3.0689617443084716,
+    3.0757774028778075,
+    3.0685131759643554
+  ],
+  "test_losses": [
+    3.464795768260956,
+    3.2626630440354347,
+    3.2529868856072426,
+    3.244432158768177,
+    3.238247700035572,
+    3.231634922325611,
+    3.2210309877991676,
+    3.2317977026104927,
+    3.239754132926464,
+    3.2331168204545975,
+    3.2142872288823128,
+    3.226792685687542,
+    3.194644406437874,
+    3.187837600708008,
+    3.176639847457409,
+    3.1834281757473946,
+    3.1792948246002197,
+    3.1790635883808136,
+    3.1715130135416985,
+    3.1965171843767166,
+    3.1605832055211067,
+    3.1909278854727745,
+    3.151418127119541,
+    3.151315852999687,
+    3.1452467292547226,
+    3.150586247444153,
+    3.1435012742877007,
+    3.1598953008651733,
+    3.134138137102127,
+    3.1304832696914673,
+    3.1590128019452095,
+    3.1349498331546783,
+    3.142551437020302,
+    3.149903140962124,
+    3.13031318038702,
+    3.1121836230158806,
+    3.1158581376075745,
+    3.11999499052763,
+    3.1215920969843864,
+    3.121903695166111,
+    3.1278562769293785,
+    3.105495445430279,
+    3.1056929901242256,
+    3.094444878399372,
+    3.095786653459072,
+    3.1453246399760246,
+    3.0931800454854965,
+    3.084678567945957,
+    3.0794279128313065,
+    3.115548796951771
+  ],
+  "entropy_stats": [
+    [
+      {
+        "layer": 0,
+        "entropy_magnitude": 5.7893290519714355,
+        "temporal_entropy_magnitude": 4.350090980529785,
+        "composition_alpha": 0.0,
+        "paradox_magnitude": 5.781512260437012
+      },
+      {
+        "layer": 1,
+        "entropy_magnitude": 4.306110382080078,
+        "temporal_entropy_magnitude": 0.0,
+        "composition_alpha": 0.8310552090406418,
+        "paradox_magnitude": 4.301481246948242
+      },
+      {
+        "layer": 2,
+        "entropy_magnitude": 5.0242438316345215,
+        "temporal_entropy_magnitude": 0.0,
+        "composition_alpha": 0.83047716319561,
+        "paradox_magnitude": 5.005743026733398
+      }
+    ],
+    [
+      {
+        "layer": 0,
+        "entropy_magnitude": 8.426713943481445,
+        "temporal_entropy_magnitude": 2.981562376022339,
+        "composition_alpha": 0.0,
+        "paradox_magnitude": 8.475356101989746
+      },
+      {
+        "layer": 1,
+        "entropy_magnitude": 10.941086769104004,
+        "temporal_entropy_magnitude": 0.0,
+        "composition_alpha": 0.8308667540550232,
+        "paradox_magnitude": 11.13680362701416
+      },
+      {
+        "layer": 2,
+        "entropy_magnitude": 11.002822875976562,
+        "temporal_entropy_magnitude": 0.0,
+        "composition_alpha": 0.8301945328712463,
+        "paradox_magnitude": 11.115291595458984
+      }
+    ],
+    [
+      {
+        "layer": 0,
+        "entropy_magnitude": 9.393684387207031,
+        "temporal_entropy_magnitude": 3.387734889984131,
+        "composition_alpha": 0.0,
+        "paradox_magnitude": 9.515750885009766
+      },
+      {
+        "layer": 1,
+        "entropy_magnitude": 13.534865379333496,
+        "temporal_entropy_magnitude": 0.0,
+        "composition_alpha": 0.8304521888494492,
+        "paradox_magnitude": 13.86730670928955
+      },
+      {
+        "layer": 2,
+        "entropy_magnitude": 13.551613807678223,
+        "temporal_entropy_magnitude": 0.0,
+        "composition_alpha": 0.8303126096725464,
+        "paradox_magnitude": 13.739046096801758
+      }
+    ],
+    [
+      {
+        "layer": 0,
+        "entropy_magnitude": 8.462106704711914,
+        "temporal_entropy_magnitude": 2.861848831176758,
+        "composition_alpha": 0.0,
+        "paradox_magnitude": 8.582908630371094
+      },
+      {
+        "layer": 1,
+        "entropy_magnitude": 12.355009078979492,
+        "temporal_entropy_magnitude": 0.0,
+        "composition_alpha": 0.8303564041852951,
+        "paradox_magnitude": 12.727331161499023
+      },
+      {
+        "layer": 2,
+        "entropy_magnitude": 11.587921142578125,
+        "temporal_entropy_magnitude": 0.0,
+        "composition_alpha": 0.8304600417613983,
+        "paradox_magnitude": 11.882428169250488
+      }
+    ],
+    [
+      {
+        "layer": 0,
+        "entropy_magnitude": 7.316204071044922,
+        "temporal_entropy_magnitude": 2.8834517002105713,
+        "composition_alpha": 0.0,
+        "paradox_magnitude": 7.348724842071533
+      },
+      {
+        "layer": 1,
+        "entropy_magnitude": 10.587108612060547,
+        "temporal_entropy_magnitude": 0.0,
+        "composition_alpha": 0.8303385674953461,
+        "paradox_magnitude": 10.907769203186035
+      },
+      {
+        "layer": 2,
+        "entropy_magnitude": 9.811684608459473,
+        "temporal_entropy_magnitude": 0.0,
+        "composition_alpha": 0.8311937302350998,
+        "paradox_magnitude": 10.177013397216797
+      }
+    ],
+    [
+      {
+        "layer": 0,
+        "entropy_magnitude": 7.291207313537598,
+        "temporal_entropy_magnitude": 3.562492847442627,
+        "composition_alpha": 0.0,
+        "paradox_magnitude": 7.229569911956787
+      },
+      {
+        "layer": 1,
+        "entropy_magnitude": 11.076812744140625,
+        "temporal_entropy_magnitude": 0.0,
+        "composition_alpha": 0.8304054439067841,
+        "paradox_magnitude": 11.470843315124512
+      },
+      {
+        "layer": 2,
+        "entropy_magnitude": 10.051186561584473,
+        "temporal_entropy_magnitude": 0.0,
+        "composition_alpha": 0.8315068930387497,
+        "paradox_magnitude": 10.438179016113281
+      }
+    ],
+    [
+      {
+        "layer": 0,
+        "entropy_magnitude": 6.60926628112793,
+        "temporal_entropy_magnitude": 3.7545900344848633,
+        "composition_alpha": 0.0,
+        "paradox_magnitude": 6.410920143127441
+      },
+      {
+        "layer": 1,
+        "entropy_magnitude": 9.909500122070312,
+        "temporal_entropy_magnitude": 0.0,
+        "composition_alpha": 0.8304293006658554,
+        "paradox_magnitude": 10.218384742736816
+      },
+      {
+        "layer": 2,
+        "entropy_magnitude": 8.802247047424316,
+        "temporal_entropy_magnitude": 0.0,
+        "composition_alpha": 0.8318087607622147,
+        "paradox_magnitude": 9.165905952453613
+      }
+    ],
+    [
+      {
+        "layer": 0,
+        "entropy_magnitude": 6.414957523345947,
+        "temporal_entropy_magnitude": 3.644473075866699,
+        "composition_alpha": 0.0,
+        "paradox_magnitude": 6.107823371887207
+      },
+      {
+        "layer": 1,
+        "entropy_magnitude": 9.131011962890625,
+        "temporal_entropy_magnitude": 0.0,
+        "composition_alpha": 0.8303175121545792,
+        "paradox_magnitude": 9.402471542358398
+      },
+      {
+        "layer": 2,
+        "entropy_magnitude": 8.627434730529785,
+        "temporal_entropy_magnitude": 0.0,
+        "composition_alpha": 0.8320776671171188,
+        "paradox_magnitude": 8.959508895874023
+      }
+    ],
+    [
+      {
+        "layer": 0,
+        "entropy_magnitude": 6.588719844818115,
+        "temporal_entropy_magnitude": 3.842255115509033,
+        "composition_alpha": 0.0,
+        "paradox_magnitude": 6.196927547454834
+      },
+      {
+        "layer": 1,
+        "entropy_magnitude": 9.160825729370117,
+        "temporal_entropy_magnitude": 0.0,
+        "composition_alpha": 0.8301427215337753,
+        "paradox_magnitude": 9.452451705932617
+      },
+      {
+        "layer": 2,
+        "entropy_magnitude": 8.533548355102539,
+        "temporal_entropy_magnitude": 0.0,
+        "composition_alpha": 0.8323496133089066,
+        "paradox_magnitude": 8.869452476501465
+      }
+    ],
+    [
+      {
+        "layer": 0,
+        "entropy_magnitude": 6.16586446762085,
+        "temporal_entropy_magnitude": 3.5085597038269043,
+        "composition_alpha": 0.0,
+        "paradox_magnitude": 5.718053340911865
+      },
+      {
+        "layer": 1,
+        "entropy_magnitude": 7.979457378387451,
+        "temporal_entropy_magnitude": 0.0,
+        "composition_alpha": 0.8300378024578094,
+        "paradox_magnitude": 8.221318244934082
+      },
+      {
+        "layer": 2,
+        "entropy_magnitude": 7.796278953552246,
+        "temporal_entropy_magnitude": 0.0,
+        "composition_alpha": 0.8324375748634338,
+        "paradox_magnitude": 8.089895248413086
+      }
+    ],
+    [
+      {
+        "layer": 0,
+        "entropy_magnitude": 6.13144063949585,
+        "temporal_entropy_magnitude": 3.492530345916748,
+        "composition_alpha": 0.0,
+        "paradox_magnitude": 5.6253461837768555
+      },
+      {
+        "layer": 1,
+        "entropy_magnitude": 7.53680944442749,
+        "temporal_entropy_magnitude": 0.0,
+        "composition_alpha": 0.8298429995775223,
+        "paradox_magnitude": 7.766494274139404
+      },
+      {
+        "layer": 2,
+        "entropy_magnitude": 7.350307941436768,
+        "temporal_entropy_magnitude": 0.0,
+        "composition_alpha": 0.8325846344232559,
+        "paradox_magnitude": 7.574539661407471
+      }
+    ],
+    [
+      {
+        "layer": 0,
+        "entropy_magnitude": 6.329319000244141,
+        "temporal_entropy_magnitude": 3.5867366790771484,
+        "composition_alpha": 0.0,
+        "paradox_magnitude": 5.875476837158203
+      },
+      {
+        "layer": 1,
+        "entropy_magnitude": 8.119010925292969,
+        "temporal_entropy_magnitude": 0.0,
+        "composition_alpha": 0.8297092020511627,
+        "paradox_magnitude": 8.404926300048828
+      },
+      {
+        "layer": 2,
+        "entropy_magnitude": 7.73709774017334,
+        "temporal_entropy_magnitude": 0.0,
+        "composition_alpha": 0.8326362669467926,
+        "paradox_magnitude": 7.930916786193848
+      }
+    ],
+    [
+      {
+        "layer": 0,
+        "entropy_magnitude": 5.867212772369385,
+        "temporal_entropy_magnitude": 3.437864303588867,
+        "composition_alpha": 0.0,
+        "paradox_magnitude": 5.336019992828369
+      },
+      {
+        "layer": 1,
+        "entropy_magnitude": 7.100852966308594,
+        "temporal_entropy_magnitude": 0.0,
+        "composition_alpha": 0.8294181823730469,
+        "paradox_magnitude": 7.321401119232178
+      },
+      {
+        "layer": 2,
+        "entropy_magnitude": 7.089885711669922,
+        "temporal_entropy_magnitude": 0.0,
+        "composition_alpha": 0.8330128490924835,
+        "paradox_magnitude": 7.241517066955566
+      }
+    ],
+    [
+      {
+        "layer": 0,
+        "entropy_magnitude": 5.680998802185059,
+        "temporal_entropy_magnitude": 3.471153736114502,
+        "composition_alpha": 0.0,
+        "paradox_magnitude": 5.161521911621094
+      },
+      {
+        "layer": 1,
+        "entropy_magnitude": 7.400427341461182,
+        "temporal_entropy_magnitude": 0.0,
+        "composition_alpha": 0.8292091935873032,
+        "paradox_magnitude": 7.704189777374268
+      },
+      {
+        "layer": 2,
+        "entropy_magnitude": 7.172328948974609,
+        "temporal_entropy_magnitude": 0.0,
+        "composition_alpha": 0.8331626504659653,
+        "paradox_magnitude": 7.392364501953125
+      }
+    ],
+    [
+      {
+        "layer": 0,
+        "entropy_magnitude": 5.3915486335754395,
+        "temporal_entropy_magnitude": 3.351555347442627,
+        "composition_alpha": 0.0,
+        "paradox_magnitude": 4.819260597229004
+      },
+      {
+        "layer": 1,
+        "entropy_magnitude": 6.585239410400391,
+        "temporal_entropy_magnitude": 0.0,
+        "composition_alpha": 0.8290672898292542,
+        "paradox_magnitude": 6.791840076446533
+      },
+      {
+        "layer": 2,
+        "entropy_magnitude": 6.491910457611084,
+        "temporal_entropy_magnitude": 0.0,
+        "composition_alpha": 0.8333781063556671,
+        "paradox_magnitude": 6.5651021003723145
+      }
+    ],
+    [
+      {
+        "layer": 0,
+        "entropy_magnitude": 5.693294525146484,
+        "temporal_entropy_magnitude": 3.4848361015319824,
+        "composition_alpha": 0.0,
+        "paradox_magnitude": 5.135565280914307
+      },
+      {
+        "layer": 1,
+        "entropy_magnitude": 7.297813892364502,
+        "temporal_entropy_magnitude": 0.0,
+        "composition_alpha": 0.8290519714355469,
+        "paradox_magnitude": 7.610365867614746
+      },
+      {
+        "layer": 2,
+        "entropy_magnitude": 7.474311351776123,
+        "temporal_entropy_magnitude": 0.0,
+        "composition_alpha": 0.833612471818924,
+        "paradox_magnitude": 7.6329874992370605
+      }
+    ],
+    [
+      {
+        "layer": 0,
+        "entropy_magnitude": 5.804690361022949,
+        "temporal_entropy_magnitude": 3.727484941482544,
+        "composition_alpha": 0.0,
+        "paradox_magnitude": 5.1813740730285645
+      },
+      {
+        "layer": 1,
+        "entropy_magnitude": 6.531907081604004,
+        "temporal_entropy_magnitude": 0.0,
+        "composition_alpha": 0.8290223628282547,
+        "paradox_magnitude": 6.701168537139893
+      },
+      {
+        "layer": 2,
+        "entropy_magnitude": 6.275829792022705,
+        "temporal_entropy_magnitude": 0.0,
+        "composition_alpha": 0.8338517844676971,
+        "paradox_magnitude": 6.313313961029053
+      }
+    ],
+    [
+      {
+        "layer": 0,
+        "entropy_magnitude": 5.665622711181641,
+        "temporal_entropy_magnitude": 3.9249484539031982,
+        "composition_alpha": 0.0,
+        "paradox_magnitude": 4.972738265991211
+      },
+      {
+        "layer": 1,
+        "entropy_magnitude": 6.658219337463379,
+        "temporal_entropy_magnitude": 0.0,
+        "composition_alpha": 0.8290175050497055,
+        "paradox_magnitude": 6.785205364227295
+      },
+      {
+        "layer": 2,
+        "entropy_magnitude": 6.722620487213135,
+        "temporal_entropy_magnitude": 0.0,
+        "composition_alpha": 0.8338567018508911,
+        "paradox_magnitude": 6.727725028991699
+      }
+    ],
+    [
+      {
+        "layer": 0,
+        "entropy_magnitude": 5.792224884033203,
+        "temporal_entropy_magnitude": 4.074711799621582,
+        "composition_alpha": 0.0,
+        "paradox_magnitude": 5.075311660766602
+      },
+      {
+        "layer": 1,
+        "entropy_magnitude": 6.749044418334961,
+        "temporal_entropy_magnitude": 0.0,
+        "composition_alpha": 0.8289932757616043,
+        "paradox_magnitude": 6.853235721588135
+      },
+      {
+        "layer": 2,
+        "entropy_magnitude": 6.793554782867432,
+        "temporal_entropy_magnitude": 0.0,
+        "composition_alpha": 0.8337740451097488,
+        "paradox_magnitude": 6.760836124420166
+      }
+    ],
+    [
+      {
+        "layer": 0,
+        "entropy_magnitude": 5.470989227294922,
+        "temporal_entropy_magnitude": 4.323754787445068,
+        "composition_alpha": 0.0,
+        "paradox_magnitude": 4.646430015563965
+      },
+      {
+        "layer": 1,
+        "entropy_magnitude": 5.958978176116943,
+        "temporal_entropy_magnitude": 0.0,
+        "composition_alpha": 0.828988328576088,
+        "paradox_magnitude": 5.9199113845825195
+      },
+      {
+        "layer": 2,
+        "entropy_magnitude": 6.333156585693359,
+        "temporal_entropy_magnitude": 0.0,
+        "composition_alpha": 0.833248645067215,
+        "paradox_magnitude": 6.144345283508301
+      }
+    ],
+    [
+      {
+        "layer": 0,
+        "entropy_magnitude": 5.533522605895996,
+        "temporal_entropy_magnitude": 4.340029716491699,
+        "composition_alpha": 0.0,
+        "paradox_magnitude": 4.723530292510986
+      },
+      {
+        "layer": 1,
+        "entropy_magnitude": 6.141569137573242,
+        "temporal_entropy_magnitude": 0.0,
+        "composition_alpha": 0.8289147913455963,
+        "paradox_magnitude": 6.163295269012451
+      },
+      {
+        "layer": 2,
+        "entropy_magnitude": 6.028914451599121,
+        "temporal_entropy_magnitude": 0.0,
+        "composition_alpha": 0.832984060049057,
+        "paradox_magnitude": 5.881345748901367
+      }
+    ],
+    [
+      {
+        "layer": 0,
+        "entropy_magnitude": 5.368398189544678,
+        "temporal_entropy_magnitude": 4.839814186096191,
+        "composition_alpha": 0.0,
+        "paradox_magnitude": 4.408346176147461
+      },
+      {
+        "layer": 1,
+        "entropy_magnitude": 5.476121425628662,
+        "temporal_entropy_magnitude": 0.0,
+        "composition_alpha": 0.8289719820022583,
+        "paradox_magnitude": 5.3290181159973145
+      },
+      {
+        "layer": 2,
+        "entropy_magnitude": 5.702310085296631,
+        "temporal_entropy_magnitude": 0.0,
+        "composition_alpha": 0.8324196338653564,
+        "paradox_magnitude": 5.290452003479004
+      }
+    ],
+    [
+      {
+        "layer": 0,
+        "entropy_magnitude": 5.215334892272949,
+        "temporal_entropy_magnitude": 5.0222086906433105,
+        "composition_alpha": 0.0,
+        "paradox_magnitude": 4.163405418395996
+      },
+      {
+        "layer": 1,
+        "entropy_magnitude": 4.957647323608398,
+        "temporal_entropy_magnitude": 0.0,
+        "composition_alpha": 0.828896090388298,
+        "paradox_magnitude": 4.646419525146484
+      },
+      {
+        "layer": 2,
+        "entropy_magnitude": 4.692104339599609,
+        "temporal_entropy_magnitude": 0.0,
+        "composition_alpha": 0.8321816772222519,
+        "paradox_magnitude": 4.132984161376953
+      }
+    ],
+    [
+      {
+        "layer": 0,
+        "entropy_magnitude": 5.392332553863525,
+        "temporal_entropy_magnitude": 5.1672844886779785,
+        "composition_alpha": 0.0,
+        "paradox_magnitude": 4.284812927246094
+      },
+      {
+        "layer": 1,
+        "entropy_magnitude": 5.347205638885498,
+        "temporal_entropy_magnitude": 0.0,
+        "composition_alpha": 0.8288423269987106,
+        "paradox_magnitude": 5.0514445304870605
+      },
+      {
+        "layer": 2,
+        "entropy_magnitude": 5.11989688873291,
+        "temporal_entropy_magnitude": 0.0,
+        "composition_alpha": 0.8318761438131332,
+        "paradox_magnitude": 4.549349784851074
+      }
+    ],
+    [
+      {
+        "layer": 0,
+        "entropy_magnitude": 5.3027496337890625,
+        "temporal_entropy_magnitude": 5.1095170974731445,
+        "composition_alpha": 0.0,
+        "paradox_magnitude": 4.030313968658447
+      },
+      {
+        "layer": 1,
+        "entropy_magnitude": 4.730448246002197,
+        "temporal_entropy_magnitude": 0.0,
+        "composition_alpha": 0.8288875222206116,
+        "paradox_magnitude": 4.260550022125244
+      },
+      {
+        "layer": 2,
+        "entropy_magnitude": 4.728141784667969,
+        "temporal_entropy_magnitude": 0.0,
+        "composition_alpha": 0.831729918718338,
+        "paradox_magnitude": 4.0482001304626465
+      }
+    ],
+    [
+      {
+        "layer": 0,
+        "entropy_magnitude": 5.366889953613281,
+        "temporal_entropy_magnitude": 5.118910789489746,
+        "composition_alpha": 0.0,
+        "paradox_magnitude": 3.9973304271698
+      },
+      {
+        "layer": 1,
+        "entropy_magnitude": 4.466606140136719,
+        "temporal_entropy_magnitude": 0.0,
+        "composition_alpha": 0.8290275782346725,
+        "paradox_magnitude": 4.073858737945557
+      },
+      {
+        "layer": 2,
+        "entropy_magnitude": 4.356588840484619,
+        "temporal_entropy_magnitude": 0.0,
+        "composition_alpha": 0.8316028714179993,
+        "paradox_magnitude": 3.5653276443481445
+      }
+    ],
+    [
+      {
+        "layer": 0,
+        "entropy_magnitude": 4.945718765258789,
+        "temporal_entropy_magnitude": 5.5055623054504395,
+        "composition_alpha": 0.0,
+        "paradox_magnitude": 3.5947494506835938
+      },
+      {
+        "layer": 1,
+        "entropy_magnitude": 4.0783610343933105,
+        "temporal_entropy_magnitude": 0.0,
+        "composition_alpha": 0.8290023952722549,
+        "paradox_magnitude": 3.440891742706299
+      },
+      {
+        "layer": 2,
+        "entropy_magnitude": 4.192513465881348,
+        "temporal_entropy_magnitude": 0.0,
+        "composition_alpha": 0.831366702914238,
+        "paradox_magnitude": 3.0361998081207275
+      }
+    ],
+    [
+      {
+        "layer": 0,
+        "entropy_magnitude": 5.3771443367004395,
+        "temporal_entropy_magnitude": 5.825614929199219,
+        "composition_alpha": 0.0,
+        "paradox_magnitude": 3.960926055908203
+      },
+      {
+        "layer": 1,
+        "entropy_magnitude": 5.339409828186035,
+        "temporal_entropy_magnitude": 0.0,
+        "composition_alpha": 0.8290906548500061,
+        "paradox_magnitude": 5.032795429229736
+      },
+      {
+        "layer": 2,
+        "entropy_magnitude": 5.348063945770264,
+        "temporal_entropy_magnitude": 0.0,
+        "composition_alpha": 0.8313380479812622,
+        "paradox_magnitude": 4.532440662384033
+      }
+    ],
+    [
+      {
+        "layer": 0,
+        "entropy_magnitude": 5.0938873291015625,
+        "temporal_entropy_magnitude": 6.097592830657959,
+        "composition_alpha": 0.0,
+        "paradox_magnitude": 3.525660991668701
+      },
+      {
+        "layer": 1,
+        "entropy_magnitude": 4.800842761993408,
+        "temporal_entropy_magnitude": 0.0,
+        "composition_alpha": 0.8290355801582336,
+        "paradox_magnitude": 4.172654151916504
+      },
+      {
+        "layer": 2,
+        "entropy_magnitude": 4.87141752243042,
+        "temporal_entropy_magnitude": 0.0,
+        "composition_alpha": 0.8313232064247131,
+        "paradox_magnitude": 3.725456714630127
+      }
+    ],
+    [
+      {
+        "layer": 0,
+        "entropy_magnitude": 4.949357986450195,
+        "temporal_entropy_magnitude": 5.865207672119141,
+        "composition_alpha": 0.0,
+        "paradox_magnitude": 3.402859687805176
+      },
+      {
+        "layer": 1,
+        "entropy_magnitude": 4.576489448547363,
+        "temporal_entropy_magnitude": 0.0,
+        "composition_alpha": 0.829116091132164,
+        "paradox_magnitude": 3.9556732177734375
+      },
+      {
+        "layer": 2,
+        "entropy_magnitude": 4.682964324951172,
+        "temporal_entropy_magnitude": 0.0,
+        "composition_alpha": 0.8313717991113663,
+        "paradox_magnitude": 3.3750321865081787
+      }
+    ],
+    [
+      {
+        "layer": 0,
+        "entropy_magnitude": 5.273199081420898,
+        "temporal_entropy_magnitude": 6.175831317901611,
+        "composition_alpha": 0.0,
+        "paradox_magnitude": 3.5774543285369873
+      },
+      {
+        "layer": 1,
+        "entropy_magnitude": 4.788569450378418,
+        "temporal_entropy_magnitude": 0.0,
+        "composition_alpha": 0.8291815370321274,
+        "paradox_magnitude": 4.173671722412109
+      },
+      {
+        "layer": 2,
+        "entropy_magnitude": 4.813021183013916,
+        "temporal_entropy_magnitude": 0.0,
+        "composition_alpha": 0.8312729299068451,
+        "paradox_magnitude": 3.553701400756836
+      }
+    ],
+    [
+      {
+        "layer": 0,
+        "entropy_magnitude": 4.925043106079102,
+        "temporal_entropy_magnitude": 6.072993278503418,
+        "composition_alpha": 0.0,
+        "paradox_magnitude": 3.157377004623413
+      },
+      {
+        "layer": 1,
+        "entropy_magnitude": 4.040957450866699,
+        "temporal_entropy_magnitude": 0.0,
+        "composition_alpha": 0.8291947841644287,
+        "paradox_magnitude": 3.0722837448120117
+      },
+      {
+        "layer": 2,
+        "entropy_magnitude": 4.250164985656738,
+        "temporal_entropy_magnitude": 0.0,
+        "composition_alpha": 0.8314867317676544,
+        "paradox_magnitude": 2.759227752685547
+      }
+    ],
+    [
+      {
+        "layer": 0,
+        "entropy_magnitude": 4.578365325927734,
+        "temporal_entropy_magnitude": 6.185133934020996,
+        "composition_alpha": 0.0,
+        "paradox_magnitude": 2.955684185028076
+      },
+      {
+        "layer": 1,
+        "entropy_magnitude": 3.879046678543091,
+        "temporal_entropy_magnitude": 0.0,
+        "composition_alpha": 0.8291915506124496,
+        "paradox_magnitude": 2.830376386642456
+      },
+      {
+        "layer": 2,
+        "entropy_magnitude": 4.03980016708374,
+        "temporal_entropy_magnitude": 0.0,
+        "composition_alpha": 0.8315625190734863,
+        "paradox_magnitude": 2.3044424057006836
+      }
+    ],
+    [
+      {
+        "layer": 0,
+        "entropy_magnitude": 4.863710880279541,
+        "temporal_entropy_magnitude": 6.409574031829834,
+        "composition_alpha": 0.0,
+        "paradox_magnitude": 3.1699798107147217
+      },
+      {
+        "layer": 1,
+        "entropy_magnitude": 4.014870643615723,
+        "temporal_entropy_magnitude": 0.0,
+        "composition_alpha": 0.8292947262525558,
+        "paradox_magnitude": 3.0409209728240967
+      },
+      {
+        "layer": 2,
+        "entropy_magnitude": 4.415980815887451,
+        "temporal_entropy_magnitude": 0.0,
+        "composition_alpha": 0.8313845694065094,
+        "paradox_magnitude": 2.7304160594940186
+      }
+    ],
+    [
+      {
+        "layer": 0,
+        "entropy_magnitude": 5.2078328132629395,
+        "temporal_entropy_magnitude": 6.470666885375977,
+        "composition_alpha": 0.0,
+        "paradox_magnitude": 3.307518720626831
+      },
+      {
+        "layer": 1,
+        "entropy_magnitude": 4.146642684936523,
+        "temporal_entropy_magnitude": 0.0,
+        "composition_alpha": 0.829266145825386,
+        "paradox_magnitude": 3.35017728805542
+      },
+      {
+        "layer": 2,
+        "entropy_magnitude": 4.395203590393066,
+        "temporal_entropy_magnitude": 0.0,
+        "composition_alpha": 0.8316022008657455,
+        "paradox_magnitude": 2.85650634765625
+      }
+    ],
+    [
+      {
+        "layer": 0,
+        "entropy_magnitude": 5.118879318237305,
+        "temporal_entropy_magnitude": 6.452486991882324,
+        "composition_alpha": 0.0,
+        "paradox_magnitude": 3.2299489974975586
+      },
+      {
+        "layer": 1,
+        "entropy_magnitude": 4.457971572875977,
+        "temporal_entropy_magnitude": 0.0,
+        "composition_alpha": 0.8293394297361374,
+        "paradox_magnitude": 3.5097038745880127
+      },
+      {
+        "layer": 2,
+        "entropy_magnitude": 4.570149898529053,
+        "temporal_entropy_magnitude": 0.0,
+        "composition_alpha": 0.8316018432378769,
+        "paradox_magnitude": 2.9619390964508057
+      }
+    ],
+    [
+      {
+        "layer": 0,
+        "entropy_magnitude": 5.054171562194824,
+        "temporal_entropy_magnitude": 6.652909278869629,
+        "composition_alpha": 0.0,
+        "paradox_magnitude": 3.128037214279175
+      },
+      {
+        "layer": 1,
+        "entropy_magnitude": 3.950148344039917,
+        "temporal_entropy_magnitude": 0.0,
+        "composition_alpha": 0.8293376266956329,
+        "paradox_magnitude": 2.846750259399414
+      },
+      {
+        "layer": 2,
+        "entropy_magnitude": 4.210886478424072,
+        "temporal_entropy_magnitude": 0.0,
+        "composition_alpha": 0.831678032875061,
+        "paradox_magnitude": 2.3266212940216064
+      }
+    ],
+    [
+      {
+        "layer": 0,
+        "entropy_magnitude": 4.698329925537109,
+        "temporal_entropy_magnitude": 6.979854583740234,
+        "composition_alpha": 0.0,
+        "paradox_magnitude": 2.8789665699005127
+      },
+      {
+        "layer": 1,
+        "entropy_magnitude": 4.0473761558532715,
+        "temporal_entropy_magnitude": 0.0,
+        "composition_alpha": 0.8293687552213669,
+        "paradox_magnitude": 2.6485798358917236
+      },
+      {
+        "layer": 2,
+        "entropy_magnitude": 4.206064224243164,
+        "temporal_entropy_magnitude": 0.0,
+        "composition_alpha": 0.831789419054985,
+        "paradox_magnitude": 2.087827444076538
+      }
+    ],
+    [
+      {
+        "layer": 0,
+        "entropy_magnitude": 5.1308135986328125,
+        "temporal_entropy_magnitude": 6.627584934234619,
+        "composition_alpha": 0.0,
+        "paradox_magnitude": 3.1449577808380127
+      },
+      {
+        "layer": 1,
+        "entropy_magnitude": 4.219570159912109,
+        "temporal_entropy_magnitude": 0.0,
+        "composition_alpha": 0.8293677717447281,
+        "paradox_magnitude": 3.212831735610962
+      },
+      {
+        "layer": 2,
+        "entropy_magnitude": 4.41021728515625,
+        "temporal_entropy_magnitude": 0.0,
+        "composition_alpha": 0.8317914754152298,
+        "paradox_magnitude": 2.731825113296509
+      }
+    ],
+    [
+      {
+        "layer": 0,
+        "entropy_magnitude": 4.770413398742676,
+        "temporal_entropy_magnitude": 6.706867218017578,
+        "composition_alpha": 0.0,
+        "paradox_magnitude": 2.8589253425598145
+      },
+      {
+        "layer": 1,
+        "entropy_magnitude": 4.151276111602783,
+        "temporal_entropy_magnitude": 0.0,
+        "composition_alpha": 0.8294629007577896,
+        "paradox_magnitude": 2.809141159057617
+      },
+      {
+        "layer": 2,
+        "entropy_magnitude": 4.347939968109131,
+        "temporal_entropy_magnitude": 0.0,
+        "composition_alpha": 0.8319156318902969,
+        "paradox_magnitude": 2.2996907234191895
+      }
+    ],
+    [
+      {
+        "layer": 0,
+        "entropy_magnitude": 4.978521347045898,
+        "temporal_entropy_magnitude": 6.576123237609863,
+        "composition_alpha": 0.0,
+        "paradox_magnitude": 2.898047924041748
+      },
+      {
+        "layer": 1,
+        "entropy_magnitude": 3.862795114517212,
+        "temporal_entropy_magnitude": 0.0,
+        "composition_alpha": 0.8294549286365509,
+        "paradox_magnitude": 2.727572202682495
+      },
+      {
+        "layer": 2,
+        "entropy_magnitude": 4.235489368438721,
+        "temporal_entropy_magnitude": 0.0,
+        "composition_alpha": 0.8319089859724045,
+        "paradox_magnitude": 2.4574384689331055
+      }
+    ],
+    [
+      {
+        "layer": 0,
+        "entropy_magnitude": 5.015020847320557,
+        "temporal_entropy_magnitude": 6.657319068908691,
+        "composition_alpha": 0.0,
+        "paradox_magnitude": 2.891972541809082
+      },
+      {
+        "layer": 1,
+        "entropy_magnitude": 4.076288223266602,
+        "temporal_entropy_magnitude": 0.0,
+        "composition_alpha": 0.8294663727283478,
+        "paradox_magnitude": 2.882465362548828
+      },
+      {
+        "layer": 2,
+        "entropy_magnitude": 4.338776588439941,
+        "temporal_entropy_magnitude": 0.0,
+        "composition_alpha": 0.8320667743682861,
+        "paradox_magnitude": 2.4885802268981934
+      }
+    ],
+    [
+      {
+        "layer": 0,
+        "entropy_magnitude": 5.0149993896484375,
+        "temporal_entropy_magnitude": 6.6788249015808105,
+        "composition_alpha": 0.0,
+        "paradox_magnitude": 2.8573641777038574
+      },
+      {
+        "layer": 1,
+        "entropy_magnitude": 3.999401807785034,
+        "temporal_entropy_magnitude": 0.0,
+        "composition_alpha": 0.8294443935155869,
+        "paradox_magnitude": 2.859332799911499
+      },
+      {
+        "layer": 2,
+        "entropy_magnitude": 4.340923309326172,
+        "temporal_entropy_magnitude": 0.0,
+        "composition_alpha": 0.8319541662931442,
+        "paradox_magnitude": 2.5341970920562744
+      }
+    ],
+    [
+      {
+        "layer": 0,
+        "entropy_magnitude": 5.06130313873291,
+        "temporal_entropy_magnitude": 6.976685523986816,
+        "composition_alpha": 0.0,
+        "paradox_magnitude": 2.8921070098876953
+      },
+      {
+        "layer": 1,
+        "entropy_magnitude": 3.6677677631378174,
+        "temporal_entropy_magnitude": 0.0,
+        "composition_alpha": 0.8294137120246887,
+        "paradox_magnitude": 2.2362654209136963
+      },
+      {
+        "layer": 2,
+        "entropy_magnitude": 4.125515937805176,
+        "temporal_entropy_magnitude": 0.0,
+        "composition_alpha": 0.8319848328828812,
+        "paradox_magnitude": 1.8832573890686035
+      }
+    ],
+    [
+      {
+        "layer": 0,
+        "entropy_magnitude": 5.004823684692383,
+        "temporal_entropy_magnitude": 6.735875129699707,
+        "composition_alpha": 0.0,
+        "paradox_magnitude": 2.794342279434204
+      },
+      {
+        "layer": 1,
+        "entropy_magnitude": 4.036859035491943,
+        "temporal_entropy_magnitude": 0.0,
+        "composition_alpha": 0.8294146955013275,
+        "paradox_magnitude": 2.865969181060791
+      },
+      {
+        "layer": 2,
+        "entropy_magnitude": 4.310958385467529,
+        "temporal_entropy_magnitude": 0.0,
+        "composition_alpha": 0.8319999426603317,
+        "paradox_magnitude": 2.4152231216430664
+      }
+    ],
+    [
+      {
+        "layer": 0,
+        "entropy_magnitude": 5.2668609619140625,
+        "temporal_entropy_magnitude": 6.669078350067139,
+        "composition_alpha": 0.0,
+        "paradox_magnitude": 3.0191221237182617
+      },
+      {
+        "layer": 1,
+        "entropy_magnitude": 4.136306285858154,
+        "temporal_entropy_magnitude": 0.0,
+        "composition_alpha": 0.8293846696615219,
+        "paradox_magnitude": 3.2909440994262695
+      },
+      {
+        "layer": 2,
+        "entropy_magnitude": 4.4895453453063965,
+        "temporal_entropy_magnitude": 0.0,
+        "composition_alpha": 0.8319910913705826,
+        "paradox_magnitude": 2.9366164207458496
+      }
+    ],
+    [
+      {
+        "layer": 0,
+        "entropy_magnitude": 5.004750728607178,
+        "temporal_entropy_magnitude": 7.080043792724609,
+        "composition_alpha": 0.0,
+        "paradox_magnitude": 2.810868978500366
+      },
+      {
+        "layer": 1,
+        "entropy_magnitude": 4.021152019500732,
+        "temporal_entropy_magnitude": 0.0,
+        "composition_alpha": 0.8293900042772293,
+        "paradox_magnitude": 2.7371463775634766
+      },
+      {
+        "layer": 2,
+        "entropy_magnitude": 4.324298858642578,
+        "temporal_entropy_magnitude": 0.0,
+        "composition_alpha": 0.8320825695991516,
+        "paradox_magnitude": 2.3540380001068115
+      }
+    ],
+    [
+      {
+        "layer": 0,
+        "entropy_magnitude": 4.943166255950928,
+        "temporal_entropy_magnitude": 7.122989654541016,
+        "composition_alpha": 0.0,
+        "paradox_magnitude": 2.772162437438965
+      },
+      {
+        "layer": 1,
+        "entropy_magnitude": 3.829559564590454,
+        "temporal_entropy_magnitude": 0.0,
+        "composition_alpha": 0.829390287399292,
+        "paradox_magnitude": 2.2713444232940674
+      },
+      {
+        "layer": 2,
+        "entropy_magnitude": 4.207180500030518,
+        "temporal_entropy_magnitude": 0.0,
+        "composition_alpha": 0.8320667147636414,
+        "paradox_magnitude": 1.8120336532592773
+      }
+    ],
+    [
+      {
+        "layer": 0,
+        "entropy_magnitude": 5.114805698394775,
+        "temporal_entropy_magnitude": 6.968038558959961,
+        "composition_alpha": 0.0,
+        "paradox_magnitude": 2.8254683017730713
+      },
+      {
+        "layer": 1,
+        "entropy_magnitude": 4.038019180297852,
+        "temporal_entropy_magnitude": 0.0,
+        "composition_alpha": 0.8293860405683517,
+        "paradox_magnitude": 2.839808940887451
+      },
+      {
+        "layer": 2,
+        "entropy_magnitude": 4.3961710929870605,
+        "temporal_entropy_magnitude": 0.0,
+        "composition_alpha": 0.8320798575878143,
+        "paradox_magnitude": 2.4192676544189453
+      }
+    ],
+    [
+      {
+        "layer": 0,
+        "entropy_magnitude": 5.235766410827637,
+        "temporal_entropy_magnitude": 6.831045150756836,
+        "composition_alpha": 0.0,
+        "paradox_magnitude": 2.9448349475860596
+      },
+      {
+        "layer": 1,
+        "entropy_magnitude": 4.4285688400268555,
+        "temporal_entropy_magnitude": 0.0,
+        "composition_alpha": 0.8293470591306686,
+        "paradox_magnitude": 3.590036392211914
+      },
+      {
+        "layer": 2,
+        "entropy_magnitude": 4.815676212310791,
+        "temporal_entropy_magnitude": 0.0,
+        "composition_alpha": 0.8320925980806351,
+        "paradox_magnitude": 3.2936477661132812
+      }
+    ]
+  ],
+  "temporal_entropy_evolution": [
+    {
+      "epoch": 0,
+      "batch": 0,
+      "temporal_entropy_magnitude": 0.0
+    },
+    {
+      "epoch": 0,
+      "batch": 20,
+      "temporal_entropy_magnitude": 0.07342958450317383
+    },
+    {
+      "epoch": 0,
+      "batch": 40,
+      "temporal_entropy_magnitude": 0.10305751115083694
+    },
+    {
+      "epoch": 0,
+      "batch": 60,
+      "temporal_entropy_magnitude": 0.1904599815607071
+    },
+    {
+      "epoch": 0,
+      "batch": 80,
+      "temporal_entropy_magnitude": 0.7149125933647156
+    },
+    {
+      "epoch": 0,
+      "batch": 100,
+      "temporal_entropy_magnitude": 3.4763669967651367
+    },
+    {
+      "epoch": 0,
+      "batch": 120,
+      "temporal_entropy_magnitude": 4.350090980529785
+    },
+    {
+      "epoch": 1,
+      "batch": 0,
+      "temporal_entropy_magnitude": 3.748563051223755
+    },
+    {
+      "epoch": 1,
+      "batch": 20,
+      "temporal_entropy_magnitude": 3.20892333984375
+    },
+    {
+      "epoch": 1,
+      "batch": 40,
+      "temporal_entropy_magnitude": 3.14367413520813
+    },
+    {
+      "epoch": 1,
+      "batch": 60,
+      "temporal_entropy_magnitude": 2.807528495788574
+    },
+    {
+      "epoch": 1,
+      "batch": 80,
+      "temporal_entropy_magnitude": 2.9383256435394287
+    },
+    {
+      "epoch": 1,
+      "batch": 100,
+      "temporal_entropy_magnitude": 3.0403013229370117
+    },
+    {
+      "epoch": 1,
+      "batch": 120,
+      "temporal_entropy_magnitude": 2.981562376022339
+    },
+    {
+      "epoch": 2,
+      "batch": 0,
+      "temporal_entropy_magnitude": 2.784762382507324
+    },
+    {
+      "epoch": 2,
+      "batch": 20,
+      "temporal_entropy_magnitude": 3.0504422187805176
+    },
+    {
+      "epoch": 2,
+      "batch": 40,
+      "temporal_entropy_magnitude": 3.0097692012786865
+    },
+    {
+      "epoch": 2,
+      "batch": 60,
+      "temporal_entropy_magnitude": 2.8680458068847656
+    },
+    {
+      "epoch": 2,
+      "batch": 80,
+      "temporal_entropy_magnitude": 2.7913098335266113
+    },
+    {
+      "epoch": 2,
+      "batch": 100,
+      "temporal_entropy_magnitude": 2.9497854709625244
+    },
+    {
+      "epoch": 2,
+      "batch": 120,
+      "temporal_entropy_magnitude": 3.387734889984131
+    },
+    {
+      "epoch": 3,
+      "batch": 0,
+      "temporal_entropy_magnitude": 2.471712827682495
+    },
+    {
+      "epoch": 3,
+      "batch": 20,
+      "temporal_entropy_magnitude": 2.736649751663208
+    },
+    {
+      "epoch": 3,
+      "batch": 40,
+      "temporal_entropy_magnitude": 2.9383111000061035
+    },
+    {
+      "epoch": 3,
+      "batch": 60,
+      "temporal_entropy_magnitude": 2.696315288543701
+    },
+    {
+      "epoch": 3,
+      "batch": 80,
+      "temporal_entropy_magnitude": 2.809992790222168
+    },
+    {
+      "epoch": 3,
+      "batch": 100,
+      "temporal_entropy_magnitude": 2.980255603790283
+    },
+    {
+      "epoch": 3,
+      "batch": 120,
+      "temporal_entropy_magnitude": 2.861848831176758
+    },
+    {
+      "epoch": 4,
+      "batch": 0,
+      "temporal_entropy_magnitude": 2.782789468765259
+    },
+    {
+      "epoch": 4,
+      "batch": 20,
+      "temporal_entropy_magnitude": 2.8852686882019043
+    },
+    {
+      "epoch": 4,
+      "batch": 40,
+      "temporal_entropy_magnitude": 3.2204415798187256
+    },
+    {
+      "epoch": 4,
+      "batch": 60,
+      "temporal_entropy_magnitude": 2.8685245513916016
+    },
+    {
+      "epoch": 4,
+      "batch": 80,
+      "temporal_entropy_magnitude": 3.0481255054473877
+    },
+    {
+      "epoch": 4,
+      "batch": 100,
+      "temporal_entropy_magnitude": 2.923076629638672
+    },
+    {
+      "epoch": 4,
+      "batch": 120,
+      "temporal_entropy_magnitude": 2.8834517002105713
+    },
+    {
+      "epoch": 5,
+      "batch": 0,
+      "temporal_entropy_magnitude": 3.1095612049102783
+    },
+    {
+      "epoch": 5,
+      "batch": 20,
+      "temporal_entropy_magnitude": 2.936121940612793
+    },
+    {
+      "epoch": 5,
+      "batch": 40,
+      "temporal_entropy_magnitude": 3.2628092765808105
+    },
+    {
+      "epoch": 5,
+      "batch": 60,
+      "temporal_entropy_magnitude": 3.3612382411956787
+    },
+    {
+      "epoch": 5,
+      "batch": 80,
+      "temporal_entropy_magnitude": 3.2832798957824707
+    },
+    {
+      "epoch": 5,
+      "batch": 100,
+      "temporal_entropy_magnitude": 3.681718111038208
+    },
+    {
+      "epoch": 5,
+      "batch": 120,
+      "temporal_entropy_magnitude": 3.562492847442627
+    },
+    {
+      "epoch": 6,
+      "batch": 0,
+      "temporal_entropy_magnitude": 3.3096837997436523
+    },
+    {
+      "epoch": 6,
+      "batch": 20,
+      "temporal_entropy_magnitude": 3.3947370052337646
+    },
+    {
+      "epoch": 6,
+      "batch": 40,
+      "temporal_entropy_magnitude": 3.7096171379089355
+    },
+    {
+      "epoch": 6,
+      "batch": 60,
+      "temporal_entropy_magnitude": 3.3855435848236084
+    },
+    {
+      "epoch": 6,
+      "batch": 80,
+      "temporal_entropy_magnitude": 3.8621747493743896
+    },
+    {
+      "epoch": 6,
+      "batch": 100,
+      "temporal_entropy_magnitude": 3.773859739303589
+    },
+    {
+      "epoch": 6,
+      "batch": 120,
+      "temporal_entropy_magnitude": 3.7545900344848633
+    },
+    {
+      "epoch": 7,
+      "batch": 0,
+      "temporal_entropy_magnitude": 3.446310043334961
+    },
+    {
+      "epoch": 7,
+      "batch": 20,
+      "temporal_entropy_magnitude": 3.8208305835723877
+    },
+    {
+      "epoch": 7,
+      "batch": 40,
+      "temporal_entropy_magnitude": 3.83597731590271
+    },
+    {
+      "epoch": 7,
+      "batch": 60,
+      "temporal_entropy_magnitude": 3.7736284732818604
+    },
+    {
+      "epoch": 7,
+      "batch": 80,
+      "temporal_entropy_magnitude": 3.532982349395752
+    },
+    {
+      "epoch": 7,
+      "batch": 100,
+      "temporal_entropy_magnitude": 3.7241976261138916
+    },
+    {
+      "epoch": 7,
+      "batch": 120,
+      "temporal_entropy_magnitude": 3.644473075866699
+    },
+    {
+      "epoch": 8,
+      "batch": 0,
+      "temporal_entropy_magnitude": 3.481315851211548
+    },
+    {
+      "epoch": 8,
+      "batch": 20,
+      "temporal_entropy_magnitude": 3.646045446395874
+    },
+    {
+      "epoch": 8,
+      "batch": 40,
+      "temporal_entropy_magnitude": 3.7293057441711426
+    },
+    {
+      "epoch": 8,
+      "batch": 60,
+      "temporal_entropy_magnitude": 3.57308292388916
+    },
+    {
+      "epoch": 8,
+      "batch": 80,
+      "temporal_entropy_magnitude": 3.6908810138702393
+    },
+    {
+      "epoch": 8,
+      "batch": 100,
+      "temporal_entropy_magnitude": 3.5012965202331543
+    },
+    {
+      "epoch": 8,
+      "batch": 120,
+      "temporal_entropy_magnitude": 3.842255115509033
+    },
+    {
+      "epoch": 9,
+      "batch": 0,
+      "temporal_entropy_magnitude": 3.555013418197632
+    },
+    {
+      "epoch": 9,
+      "batch": 20,
+      "temporal_entropy_magnitude": 3.3150017261505127
+    },
+    {
+      "epoch": 9,
+      "batch": 40,
+      "temporal_entropy_magnitude": 3.7870943546295166
+    },
+    {
+      "epoch": 9,
+      "batch": 60,
+      "temporal_entropy_magnitude": 3.080639362335205
+    },
+    {
+      "epoch": 9,
+      "batch": 80,
+      "temporal_entropy_magnitude": 3.925703525543213
+    },
+    {
+      "epoch": 9,
+      "batch": 100,
+      "temporal_entropy_magnitude": 3.5374550819396973
+    },
+    {
+      "epoch": 9,
+      "batch": 120,
+      "temporal_entropy_magnitude": 3.5085597038269043
+    },
+    {
+      "epoch": 10,
+      "batch": 0,
+      "temporal_entropy_magnitude": 3.425102949142456
+    },
+    {
+      "epoch": 10,
+      "batch": 20,
+      "temporal_entropy_magnitude": 3.3136940002441406
+    },
+    {
+      "epoch": 10,
+      "batch": 40,
+      "temporal_entropy_magnitude": 3.745521068572998
+    },
+    {
+      "epoch": 10,
+      "batch": 60,
+      "temporal_entropy_magnitude": 3.458263397216797
+    },
+    {
+      "epoch": 10,
+      "batch": 80,
+      "temporal_entropy_magnitude": 3.515157699584961
+    },
+    {
+      "epoch": 10,
+      "batch": 100,
+      "temporal_entropy_magnitude": 3.4341559410095215
+    },
+    {
+      "epoch": 10,
+      "batch": 120,
+      "temporal_entropy_magnitude": 3.492530345916748
+    },
+    {
+      "epoch": 11,
+      "batch": 0,
+      "temporal_entropy_magnitude": 3.2572624683380127
+    },
+    {
+      "epoch": 11,
+      "batch": 20,
+      "temporal_entropy_magnitude": 3.3031609058380127
+    },
+    {
+      "epoch": 11,
+      "batch": 40,
+      "temporal_entropy_magnitude": 3.4806478023529053
+    },
+    {
+      "epoch": 11,
+      "batch": 60,
+      "temporal_entropy_magnitude": 3.489907741546631
+    },
+    {
+      "epoch": 11,
+      "batch": 80,
+      "temporal_entropy_magnitude": 3.613600015640259
+    },
+    {
+      "epoch": 11,
+      "batch": 100,
+      "temporal_entropy_magnitude": 3.4907002449035645
+    },
+    {
+      "epoch": 11,
+      "batch": 120,
+      "temporal_entropy_magnitude": 3.5867366790771484
+    },
+    {
+      "epoch": 12,
+      "batch": 0,
+      "temporal_entropy_magnitude": 3.3404150009155273
+    },
+    {
+      "epoch": 12,
+      "batch": 20,
+      "temporal_entropy_magnitude": 3.327955722808838
+    },
+    {
+      "epoch": 12,
+      "batch": 40,
+      "temporal_entropy_magnitude": 3.2956676483154297
+    },
+    {
+      "epoch": 12,
+      "batch": 60,
+      "temporal_entropy_magnitude": 3.2440288066864014
+    },
+    {
+      "epoch": 12,
+      "batch": 80,
+      "temporal_entropy_magnitude": 3.500520706176758
+    },
+    {
+      "epoch": 12,
+      "batch": 100,
+      "temporal_entropy_magnitude": 3.333418607711792
+    },
+    {
+      "epoch": 12,
+      "batch": 120,
+      "temporal_entropy_magnitude": 3.437864303588867
+    },
+    {
+      "epoch": 13,
+      "batch": 0,
+      "temporal_entropy_magnitude": 3.269495725631714
+    },
+    {
+      "epoch": 13,
+      "batch": 20,
+      "temporal_entropy_magnitude": 3.4931206703186035
+    },
+    {
+      "epoch": 13,
+      "batch": 40,
+      "temporal_entropy_magnitude": 3.437291145324707
+    },
+    {
+      "epoch": 13,
+      "batch": 60,
+      "temporal_entropy_magnitude": 3.476555347442627
+    },
+    {
+      "epoch": 13,
+      "batch": 80,
+      "temporal_entropy_magnitude": 3.4003610610961914
+    },
+    {
+      "epoch": 13,
+      "batch": 100,
+      "temporal_entropy_magnitude": 3.5662074089050293
+    },
+    {
+      "epoch": 13,
+      "batch": 120,
+      "temporal_entropy_magnitude": 3.471153736114502
+    },
+    {
+      "epoch": 14,
+      "batch": 0,
+      "temporal_entropy_magnitude": 3.209867477416992
+    },
+    {
+      "epoch": 14,
+      "batch": 20,
+      "temporal_entropy_magnitude": 3.4541330337524414
+    },
+    {
+      "epoch": 14,
+      "batch": 40,
+      "temporal_entropy_magnitude": 3.45521879196167
+    },
+    {
+      "epoch": 14,
+      "batch": 60,
+      "temporal_entropy_magnitude": 3.7015810012817383
+    },
+    {
+      "epoch": 14,
+      "batch": 80,
+      "temporal_entropy_magnitude": 3.650512218475342
+    },
+    {
+      "epoch": 14,
+      "batch": 100,
+      "temporal_entropy_magnitude": 3.7379889488220215
+    },
+    {
+      "epoch": 14,
+      "batch": 120,
+      "temporal_entropy_magnitude": 3.351555347442627
+    },
+    {
+      "epoch": 15,
+      "batch": 0,
+      "temporal_entropy_magnitude": 3.173307418823242
+    },
+    {
+      "epoch": 15,
+      "batch": 20,
+      "temporal_entropy_magnitude": 3.781693935394287
+    },
+    {
+      "epoch": 15,
+      "batch": 40,
+      "temporal_entropy_magnitude": 3.181210517883301
+    },
+    {
+      "epoch": 15,
+      "batch": 60,
+      "temporal_entropy_magnitude": 3.8146374225616455
+    },
+    {
+      "epoch": 15,
+      "batch": 80,
+      "temporal_entropy_magnitude": 3.0007405281066895
+    },
+    {
+      "epoch": 15,
+      "batch": 100,
+      "temporal_entropy_magnitude": 3.848919630050659
+    },
+    {
+      "epoch": 15,
+      "batch": 120,
+      "temporal_entropy_magnitude": 3.4848361015319824
+    },
+    {
+      "epoch": 16,
+      "batch": 0,
+      "temporal_entropy_magnitude": 3.411726951599121
+    },
+    {
+      "epoch": 16,
+      "batch": 20,
+      "temporal_entropy_magnitude": 3.423074245452881
+    },
+    {
+      "epoch": 16,
+      "batch": 40,
+      "temporal_entropy_magnitude": 3.6365389823913574
+    },
+    {
+      "epoch": 16,
+      "batch": 60,
+      "temporal_entropy_magnitude": 3.713289499282837
+    },
+    {
+      "epoch": 16,
+      "batch": 80,
+      "temporal_entropy_magnitude": 3.441486358642578
+    },
+    {
+      "epoch": 16,
+      "batch": 100,
+      "temporal_entropy_magnitude": 3.9581973552703857
+    },
+    {
+      "epoch": 16,
+      "batch": 120,
+      "temporal_entropy_magnitude": 3.727484941482544
+    },
+    {
+      "epoch": 17,
+      "batch": 0,
+      "temporal_entropy_magnitude": 3.5499260425567627
+    },
+    {
+      "epoch": 17,
+      "batch": 20,
+      "temporal_entropy_magnitude": 3.72200870513916
+    },
+    {
+      "epoch": 17,
+      "batch": 40,
+      "temporal_entropy_magnitude": 3.7466392517089844
+    },
+    {
+      "epoch": 17,
+      "batch": 60,
+      "temporal_entropy_magnitude": 3.8166515827178955
+    },
+    {
+      "epoch": 17,
+      "batch": 80,
+      "temporal_entropy_magnitude": 3.684905767440796
+    },
+    {
+      "epoch": 17,
+      "batch": 100,
+      "temporal_entropy_magnitude": 4.215424060821533
+    },
+    {
+      "epoch": 17,
+      "batch": 120,
+      "temporal_entropy_magnitude": 3.9249484539031982
+    },
+    {
+      "epoch": 18,
+      "batch": 0,
+      "temporal_entropy_magnitude": 3.7954187393188477
+    },
+    {
+      "epoch": 18,
+      "batch": 20,
+      "temporal_entropy_magnitude": 3.749616861343384
+    },
+    {
+      "epoch": 18,
+      "batch": 40,
+      "temporal_entropy_magnitude": 3.9842190742492676
+    },
+    {
+      "epoch": 18,
+      "batch": 60,
+      "temporal_entropy_magnitude": 3.8646867275238037
+    },
+    {
+      "epoch": 18,
+      "batch": 80,
+      "temporal_entropy_magnitude": 3.857914447784424
+    },
+    {
+      "epoch": 18,
+      "batch": 100,
+      "temporal_entropy_magnitude": 3.9624290466308594
+    },
+    {
+      "epoch": 18,
+      "batch": 120,
+      "temporal_entropy_magnitude": 4.074711799621582
+    },
+    {
+      "epoch": 19,
+      "batch": 0,
+      "temporal_entropy_magnitude": 3.882871389389038
+    },
+    {
+      "epoch": 19,
+      "batch": 20,
+      "temporal_entropy_magnitude": 3.937441825866699
+    },
+    {
+      "epoch": 19,
+      "batch": 40,
+      "temporal_entropy_magnitude": 4.253233432769775
+    },
+    {
+      "epoch": 19,
+      "batch": 60,
+      "temporal_entropy_magnitude": 3.8311424255371094
+    },
+    {
+      "epoch": 19,
+      "batch": 80,
+      "temporal_entropy_magnitude": 4.334282875061035
+    },
+    {
+      "epoch": 19,
+      "batch": 100,
+      "temporal_entropy_magnitude": 3.9530510902404785
+    },
+    {
+      "epoch": 19,
+      "batch": 120,
+      "temporal_entropy_magnitude": 4.323754787445068
+    },
+    {
+      "epoch": 20,
+      "batch": 0,
+      "temporal_entropy_magnitude": 4.32079553604126
+    },
+    {
+      "epoch": 20,
+      "batch": 20,
+      "temporal_entropy_magnitude": 3.9159069061279297
+    },
+    {
+      "epoch": 20,
+      "batch": 40,
+      "temporal_entropy_magnitude": 4.2472381591796875
+    },
+    {
+      "epoch": 20,
+      "batch": 60,
+      "temporal_entropy_magnitude": 4.119442462921143
+    },
+    {
+      "epoch": 20,
+      "batch": 80,
+      "temporal_entropy_magnitude": 4.366033554077148
+    },
+    {
+      "epoch": 20,
+      "batch": 100,
+      "temporal_entropy_magnitude": 4.48792028427124
+    },
+    {
+      "epoch": 20,
+      "batch": 120,
+      "temporal_entropy_magnitude": 4.340029716491699
+    },
+    {
+      "epoch": 21,
+      "batch": 0,
+      "temporal_entropy_magnitude": 4.255375385284424
+    },
+    {
+      "epoch": 21,
+      "batch": 20,
+      "temporal_entropy_magnitude": 4.378817081451416
+    },
+    {
+      "epoch": 21,
+      "batch": 40,
+      "temporal_entropy_magnitude": 4.737915992736816
+    },
+    {
+      "epoch": 21,
+      "batch": 60,
+      "temporal_entropy_magnitude": 4.380693435668945
+    },
+    {
+      "epoch": 21,
+      "batch": 80,
+      "temporal_entropy_magnitude": 4.768609523773193
+    },
+    {
+      "epoch": 21,
+      "batch": 100,
+      "temporal_entropy_magnitude": 4.544410228729248
+    },
+    {
+      "epoch": 21,
+      "batch": 120,
+      "temporal_entropy_magnitude": 4.839814186096191
+    },
+    {
+      "epoch": 22,
+      "batch": 0,
+      "temporal_entropy_magnitude": 4.665970325469971
+    },
+    {
+      "epoch": 22,
+      "batch": 20,
+      "temporal_entropy_magnitude": 4.571151256561279
+    },
+    {
+      "epoch": 22,
+      "batch": 40,
+      "temporal_entropy_magnitude": 4.573342800140381
+    },
+    {
+      "epoch": 22,
+      "batch": 60,
+      "temporal_entropy_magnitude": 4.8488850593566895
+    },
+    {
+      "epoch": 22,
+      "batch": 80,
+      "temporal_entropy_magnitude": 5.03184700012207
+    },
+    {
+      "epoch": 22,
+      "batch": 100,
+      "temporal_entropy_magnitude": 4.614450454711914
+    },
+    {
+      "epoch": 22,
+      "batch": 120,
+      "temporal_entropy_magnitude": 5.0222086906433105
+    },
+    {
+      "epoch": 23,
+      "batch": 0,
+      "temporal_entropy_magnitude": 4.812065601348877
+    },
+    {
+      "epoch": 23,
+      "batch": 20,
+      "temporal_entropy_magnitude": 5.002410888671875
+    },
+    {
+      "epoch": 23,
+      "batch": 40,
+      "temporal_entropy_magnitude": 5.986081123352051
+    },
+    {
+      "epoch": 23,
+      "batch": 60,
+      "temporal_entropy_magnitude": 5.014166831970215
+    },
+    {
+      "epoch": 23,
+      "batch": 80,
+      "temporal_entropy_magnitude": 4.459868431091309
+    },
+    {
+      "epoch": 23,
+      "batch": 100,
+      "temporal_entropy_magnitude": 4.97802734375
+    },
+    {
+      "epoch": 23,
+      "batch": 120,
+      "temporal_entropy_magnitude": 5.1672844886779785
+    },
+    {
+      "epoch": 24,
+      "batch": 0,
+      "temporal_entropy_magnitude": 5.013648509979248
+    },
+    {
+      "epoch": 24,
+      "batch": 20,
+      "temporal_entropy_magnitude": 5.217912673950195
+    },
+    {
+      "epoch": 24,
+      "batch": 40,
+      "temporal_entropy_magnitude": 5.369522571563721
+    },
+    {
+      "epoch": 24,
+      "batch": 60,
+      "temporal_entropy_magnitude": 5.054180145263672
+    },
+    {
+      "epoch": 24,
+      "batch": 80,
+      "temporal_entropy_magnitude": 5.388946056365967
+    },
+    {
+      "epoch": 24,
+      "batch": 100,
+      "temporal_entropy_magnitude": 5.444689750671387
+    },
+    {
+      "epoch": 24,
+      "batch": 120,
+      "temporal_entropy_magnitude": 5.1095170974731445
+    },
+    {
+      "epoch": 25,
+      "batch": 0,
+      "temporal_entropy_magnitude": 5.0383782386779785
+    },
+    {
+      "epoch": 25,
+      "batch": 20,
+      "temporal_entropy_magnitude": 5.554408073425293
+    },
+    {
+      "epoch": 25,
+      "batch": 40,
+      "temporal_entropy_magnitude": 5.373944282531738
+    },
+    {
+      "epoch": 25,
+      "batch": 60,
+      "temporal_entropy_magnitude": 6.116711616516113
+    },
+    {
+      "epoch": 25,
+      "batch": 80,
+      "temporal_entropy_magnitude": 5.594128131866455
+    },
+    {
+      "epoch": 25,
+      "batch": 100,
+      "temporal_entropy_magnitude": 5.021416187286377
+    },
+    {
+      "epoch": 25,
+      "batch": 120,
+      "temporal_entropy_magnitude": 5.118910789489746
+    },
+    {
+      "epoch": 26,
+      "batch": 0,
+      "temporal_entropy_magnitude": 4.998100757598877
+    },
+    {
+      "epoch": 26,
+      "batch": 20,
+      "temporal_entropy_magnitude": 5.4840874671936035
+    },
+    {
+      "epoch": 26,
+      "batch": 40,
+      "temporal_entropy_magnitude": 5.444379806518555
+    },
+    {
+      "epoch": 26,
+      "batch": 60,
+      "temporal_entropy_magnitude": 5.649608135223389
+    },
+    {
+      "epoch": 26,
+      "batch": 80,
+      "temporal_entropy_magnitude": 5.644623756408691
+    },
+    {
+      "epoch": 26,
+      "batch": 100,
+      "temporal_entropy_magnitude": 5.490766525268555
+    },
+    {
+      "epoch": 26,
+      "batch": 120,
+      "temporal_entropy_magnitude": 5.5055623054504395
+    },
+    {
+      "epoch": 27,
+      "batch": 0,
+      "temporal_entropy_magnitude": 5.504522800445557
+    },
+    {
+      "epoch": 27,
+      "batch": 20,
+      "temporal_entropy_magnitude": 5.650465965270996
+    },
+    {
+      "epoch": 27,
+      "batch": 40,
+      "temporal_entropy_magnitude": 5.56982421875
+    },
+    {
+      "epoch": 27,
+      "batch": 60,
+      "temporal_entropy_magnitude": 5.802318572998047
+    },
+    {
+      "epoch": 27,
+      "batch": 80,
+      "temporal_entropy_magnitude": 6.282768726348877
+    },
+    {
+      "epoch": 27,
+      "batch": 100,
+      "temporal_entropy_magnitude": 5.792736053466797
+    },
+    {
+      "epoch": 27,
+      "batch": 120,
+      "temporal_entropy_magnitude": 5.825614929199219
+    },
+    {
+      "epoch": 28,
+      "batch": 0,
+      "temporal_entropy_magnitude": 5.475531101226807
+    },
+    {
+      "epoch": 28,
+      "batch": 20,
+      "temporal_entropy_magnitude": 5.621300220489502
+    },
+    {
+      "epoch": 28,
+      "batch": 40,
+      "temporal_entropy_magnitude": 5.895089626312256
+    },
+    {
+      "epoch": 28,
+      "batch": 60,
+      "temporal_entropy_magnitude": 5.906872272491455
+    },
+    {
+      "epoch": 28,
+      "batch": 80,
+      "temporal_entropy_magnitude": 5.812812328338623
+    },
+    {
+      "epoch": 28,
+      "batch": 100,
+      "temporal_entropy_magnitude": 5.772176742553711
+    },
+    {
+      "epoch": 28,
+      "batch": 120,
+      "temporal_entropy_magnitude": 6.097592830657959
+    },
+    {
+      "epoch": 29,
+      "batch": 0,
+      "temporal_entropy_magnitude": 5.650508403778076
+    },
+    {
+      "epoch": 29,
+      "batch": 20,
+      "temporal_entropy_magnitude": 6.011902332305908
+    },
+    {
+      "epoch": 29,
+      "batch": 40,
+      "temporal_entropy_magnitude": 6.106640815734863
+    },
+    {
+      "epoch": 29,
+      "batch": 60,
+      "temporal_entropy_magnitude": 6.071136951446533
+    },
+    {
+      "epoch": 29,
+      "batch": 80,
+      "temporal_entropy_magnitude": 6.002262115478516
+    },
+    {
+      "epoch": 29,
+      "batch": 100,
+      "temporal_entropy_magnitude": 5.911153316497803
+    },
+    {
+      "epoch": 29,
+      "batch": 120,
+      "temporal_entropy_magnitude": 5.865207672119141
+    },
+    {
+      "epoch": 30,
+      "batch": 0,
+      "temporal_entropy_magnitude": 5.780062198638916
+    },
+    {
+      "epoch": 30,
+      "batch": 20,
+      "temporal_entropy_magnitude": 6.1557230949401855
+    },
+    {
+      "epoch": 30,
+      "batch": 40,
+      "temporal_entropy_magnitude": 5.997420310974121
+    },
+    {
+      "epoch": 30,
+      "batch": 60,
+      "temporal_entropy_magnitude": 6.12615966796875
+    },
+    {
+      "epoch": 30,
+      "batch": 80,
+      "temporal_entropy_magnitude": 5.990189552307129
+    },
+    {
+      "epoch": 30,
+      "batch": 100,
+      "temporal_entropy_magnitude": 6.058745861053467
+    },
+    {
+      "epoch": 30,
+      "batch": 120,
+      "temporal_entropy_magnitude": 6.175831317901611
+    },
+    {
+      "epoch": 31,
+      "batch": 0,
+      "temporal_entropy_magnitude": 5.890517711639404
+    },
+    {
+      "epoch": 31,
+      "batch": 20,
+      "temporal_entropy_magnitude": 6.258302688598633
+    },
+    {
+      "epoch": 31,
+      "batch": 40,
+      "temporal_entropy_magnitude": 6.275288105010986
+    },
+    {
+      "epoch": 31,
+      "batch": 60,
+      "temporal_entropy_magnitude": 6.175185680389404
+    },
+    {
+      "epoch": 31,
+      "batch": 80,
+      "temporal_entropy_magnitude": 6.014188289642334
+    },
+    {
+      "epoch": 31,
+      "batch": 100,
+      "temporal_entropy_magnitude": 6.235363483428955
+    },
+    {
+      "epoch": 31,
+      "batch": 120,
+      "temporal_entropy_magnitude": 6.072993278503418
+    },
+    {
+      "epoch": 32,
+      "batch": 0,
+      "temporal_entropy_magnitude": 5.836301803588867
+    },
+    {
+      "epoch": 32,
+      "batch": 20,
+      "temporal_entropy_magnitude": 6.215311050415039
+    },
+    {
+      "epoch": 32,
+      "batch": 40,
+      "temporal_entropy_magnitude": 6.442963600158691
+    },
+    {
+      "epoch": 32,
+      "batch": 60,
+      "temporal_entropy_magnitude": 6.52884578704834
+    },
+    {
+      "epoch": 32,
+      "batch": 80,
+      "temporal_entropy_magnitude": 6.337901592254639
+    },
+    {
+      "epoch": 32,
+      "batch": 100,
+      "temporal_entropy_magnitude": 6.330575942993164
+    },
+    {
+      "epoch": 32,
+      "batch": 120,
+      "temporal_entropy_magnitude": 6.185133934020996
+    },
+    {
+      "epoch": 33,
+      "batch": 0,
+      "temporal_entropy_magnitude": 5.936567783355713
+    },
+    {
+      "epoch": 33,
+      "batch": 20,
+      "temporal_entropy_magnitude": 6.441740036010742
+    },
+    {
+      "epoch": 33,
+      "batch": 40,
+      "temporal_entropy_magnitude": 6.090697288513184
+    },
+    {
+      "epoch": 33,
+      "batch": 60,
+      "temporal_entropy_magnitude": 6.216676712036133
+    },
+    {
+      "epoch": 33,
+      "batch": 80,
+      "temporal_entropy_magnitude": 6.456390380859375
+    },
+    {
+      "epoch": 33,
+      "batch": 100,
+      "temporal_entropy_magnitude": 6.457418918609619
+    },
+    {
+      "epoch": 33,
+      "batch": 120,
+      "temporal_entropy_magnitude": 6.409574031829834
+    },
+    {
+      "epoch": 34,
+      "batch": 0,
+      "temporal_entropy_magnitude": 6.178982257843018
+    },
+    {
+      "epoch": 34,
+      "batch": 20,
+      "temporal_entropy_magnitude": 6.3759026527404785
+    },
+    {
+      "epoch": 34,
+      "batch": 40,
+      "temporal_entropy_magnitude": 6.297016620635986
+    },
+    {
+      "epoch": 34,
+      "batch": 60,
+      "temporal_entropy_magnitude": 6.24897575378418
+    },
+    {
+      "epoch": 34,
+      "batch": 80,
+      "temporal_entropy_magnitude": 6.183661460876465
+    },
+    {
+      "epoch": 34,
+      "batch": 100,
+      "temporal_entropy_magnitude": 6.286327838897705
+    },
+    {
+      "epoch": 34,
+      "batch": 120,
+      "temporal_entropy_magnitude": 6.470666885375977
+    },
+    {
+      "epoch": 35,
+      "batch": 0,
+      "temporal_entropy_magnitude": 6.132001876831055
+    },
+    {
+      "epoch": 35,
+      "batch": 20,
+      "temporal_entropy_magnitude": 6.465907573699951
+    },
+    {
+      "epoch": 35,
+      "batch": 40,
+      "temporal_entropy_magnitude": 6.410952091217041
+    },
+    {
+      "epoch": 35,
+      "batch": 60,
+      "temporal_entropy_magnitude": 6.2455315589904785
+    },
+    {
+      "epoch": 35,
+      "batch": 80,
+      "temporal_entropy_magnitude": 6.53685998916626
+    },
+    {
+      "epoch": 35,
+      "batch": 100,
+      "temporal_entropy_magnitude": 6.642571926116943
+    },
+    {
+      "epoch": 35,
+      "batch": 120,
+      "temporal_entropy_magnitude": 6.452486991882324
+    },
+    {
+      "epoch": 36,
+      "batch": 0,
+      "temporal_entropy_magnitude": 6.267899036407471
+    },
+    {
+      "epoch": 36,
+      "batch": 20,
+      "temporal_entropy_magnitude": 6.55476188659668
+    },
+    {
+      "epoch": 36,
+      "batch": 40,
+      "temporal_entropy_magnitude": 6.620147705078125
+    },
+    {
+      "epoch": 36,
+      "batch": 60,
+      "temporal_entropy_magnitude": 6.658866882324219
+    },
+    {
+      "epoch": 36,
+      "batch": 80,
+      "temporal_entropy_magnitude": 6.621178150177002
+    },
+    {
+      "epoch": 36,
+      "batch": 100,
+      "temporal_entropy_magnitude": 6.481271266937256
+    },
+    {
+      "epoch": 36,
+      "batch": 120,
+      "temporal_entropy_magnitude": 6.652909278869629
+    },
+    {
+      "epoch": 37,
+      "batch": 0,
+      "temporal_entropy_magnitude": 6.399735927581787
+    },
+    {
+      "epoch": 37,
+      "batch": 20,
+      "temporal_entropy_magnitude": 6.745352745056152
+    },
+    {
+      "epoch": 37,
+      "batch": 40,
+      "temporal_entropy_magnitude": 6.549166202545166
+    },
+    {
+      "epoch": 37,
+      "batch": 60,
+      "temporal_entropy_magnitude": 6.558820724487305
+    },
+    {
+      "epoch": 37,
+      "batch": 80,
+      "temporal_entropy_magnitude": 6.701091766357422
+    },
+    {
+      "epoch": 37,
+      "batch": 100,
+      "temporal_entropy_magnitude": 6.549278259277344
+    },
+    {
+      "epoch": 37,
+      "batch": 120,
+      "temporal_entropy_magnitude": 6.979854583740234
+    },
+    {
+      "epoch": 38,
+      "batch": 0,
+      "temporal_entropy_magnitude": 6.525831699371338
+    },
+    {
+      "epoch": 38,
+      "batch": 20,
+      "temporal_entropy_magnitude": 6.688910007476807
+    },
+    {
+      "epoch": 38,
+      "batch": 40,
+      "temporal_entropy_magnitude": 6.599891185760498
+    },
+    {
+      "epoch": 38,
+      "batch": 60,
+      "temporal_entropy_magnitude": 6.560303211212158
+    },
+    {
+      "epoch": 38,
+      "batch": 80,
+      "temporal_entropy_magnitude": 6.520463943481445
+    },
+    {
+      "epoch": 38,
+      "batch": 100,
+      "temporal_entropy_magnitude": 6.8388872146606445
+    },
+    {
+      "epoch": 38,
+      "batch": 120,
+      "temporal_entropy_magnitude": 6.627584934234619
+    },
+    {
+      "epoch": 39,
+      "batch": 0,
+      "temporal_entropy_magnitude": 6.342454433441162
+    },
+    {
+      "epoch": 39,
+      "batch": 20,
+      "temporal_entropy_magnitude": 6.745835304260254
+    },
+    {
+      "epoch": 39,
+      "batch": 40,
+      "temporal_entropy_magnitude": 6.680267333984375
+    },
+    {
+      "epoch": 39,
+      "batch": 60,
+      "temporal_entropy_magnitude": 6.599885940551758
+    },
+    {
+      "epoch": 39,
+      "batch": 80,
+      "temporal_entropy_magnitude": 6.647287368774414
+    },
+    {
+      "epoch": 39,
+      "batch": 100,
+      "temporal_entropy_magnitude": 6.604959011077881
+    },
+    {
+      "epoch": 39,
+      "batch": 120,
+      "temporal_entropy_magnitude": 6.706867218017578
+    },
+    {
+      "epoch": 40,
+      "batch": 0,
+      "temporal_entropy_magnitude": 6.536954402923584
+    },
+    {
+      "epoch": 40,
+      "batch": 20,
+      "temporal_entropy_magnitude": 6.711819171905518
+    },
+    {
+      "epoch": 40,
+      "batch": 40,
+      "temporal_entropy_magnitude": 6.568756103515625
+    },
+    {
+      "epoch": 40,
+      "batch": 60,
+      "temporal_entropy_magnitude": 6.697080612182617
+    },
+    {
+      "epoch": 40,
+      "batch": 80,
+      "temporal_entropy_magnitude": 6.550005912780762
+    },
+    {
+      "epoch": 40,
+      "batch": 100,
+      "temporal_entropy_magnitude": 6.600649356842041
+    },
+    {
+      "epoch": 40,
+      "batch": 120,
+      "temporal_entropy_magnitude": 6.576123237609863
+    },
+    {
+      "epoch": 41,
+      "batch": 0,
+      "temporal_entropy_magnitude": 6.311434268951416
+    },
+    {
+      "epoch": 41,
+      "batch": 20,
+      "temporal_entropy_magnitude": 6.613033294677734
+    },
+    {
+      "epoch": 41,
+      "batch": 40,
+      "temporal_entropy_magnitude": 6.810643672943115
+    },
+    {
+      "epoch": 41,
+      "batch": 60,
+      "temporal_entropy_magnitude": 6.598301887512207
+    },
+    {
+      "epoch": 41,
+      "batch": 80,
+      "temporal_entropy_magnitude": 6.8446149826049805
+    },
+    {
+      "epoch": 41,
+      "batch": 100,
+      "temporal_entropy_magnitude": 6.785070419311523
+    },
+    {
+      "epoch": 41,
+      "batch": 120,
+      "temporal_entropy_magnitude": 6.657319068908691
+    },
+    {
+      "epoch": 42,
+      "batch": 0,
+      "temporal_entropy_magnitude": 6.4906392097473145
+    },
+    {
+      "epoch": 42,
+      "batch": 20,
+      "temporal_entropy_magnitude": 6.736469268798828
+    },
+    {
+      "epoch": 42,
+      "batch": 40,
+      "temporal_entropy_magnitude": 6.673093795776367
+    },
+    {
+      "epoch": 42,
+      "batch": 60,
+      "temporal_entropy_magnitude": 6.775692462921143
+    },
+    {
+      "epoch": 42,
+      "batch": 80,
+      "temporal_entropy_magnitude": 6.653391361236572
+    },
+    {
+      "epoch": 42,
+      "batch": 100,
+      "temporal_entropy_magnitude": 6.554684638977051
+    },
+    {
+      "epoch": 42,
+      "batch": 120,
+      "temporal_entropy_magnitude": 6.6788249015808105
+    },
+    {
+      "epoch": 43,
+      "batch": 0,
+      "temporal_entropy_magnitude": 6.428678512573242
+    },
+    {
+      "epoch": 43,
+      "batch": 20,
+      "temporal_entropy_magnitude": 6.824300289154053
+    },
+    {
+      "epoch": 43,
+      "batch": 40,
+      "temporal_entropy_magnitude": 6.748551368713379
+    },
+    {
+      "epoch": 43,
+      "batch": 60,
+      "temporal_entropy_magnitude": 6.7544097900390625
+    },
+    {
+      "epoch": 43,
+      "batch": 80,
+      "temporal_entropy_magnitude": 6.847764015197754
+    },
+    {
+      "epoch": 43,
+      "batch": 100,
+      "temporal_entropy_magnitude": 6.863912582397461
+    },
+    {
+      "epoch": 43,
+      "batch": 120,
+      "temporal_entropy_magnitude": 6.976685523986816
+    },
+    {
+      "epoch": 44,
+      "batch": 0,
+      "temporal_entropy_magnitude": 6.635231018066406
+    },
+    {
+      "epoch": 44,
+      "batch": 20,
+      "temporal_entropy_magnitude": 6.870201587677002
+    },
+    {
+      "epoch": 44,
+      "batch": 40,
+      "temporal_entropy_magnitude": 6.813318729400635
+    },
+    {
+      "epoch": 44,
+      "batch": 60,
+      "temporal_entropy_magnitude": 6.985983848571777
+    },
+    {
+      "epoch": 44,
+      "batch": 80,
+      "temporal_entropy_magnitude": 6.890864849090576
+    },
+    {
+      "epoch": 44,
+      "batch": 100,
+      "temporal_entropy_magnitude": 6.932460308074951
+    },
+    {
+      "epoch": 44,
+      "batch": 120,
+      "temporal_entropy_magnitude": 6.735875129699707
+    },
+    {
+      "epoch": 45,
+      "batch": 0,
+      "temporal_entropy_magnitude": 6.512029647827148
+    },
+    {
+      "epoch": 45,
+      "batch": 20,
+      "temporal_entropy_magnitude": 6.960287094116211
+    },
+    {
+      "epoch": 45,
+      "batch": 40,
+      "temporal_entropy_magnitude": 6.819339275360107
+    },
+    {
+      "epoch": 45,
+      "batch": 60,
+      "temporal_entropy_magnitude": 7.20017147064209
+    },
+    {
+      "epoch": 45,
+      "batch": 80,
+      "temporal_entropy_magnitude": 6.868316173553467
+    },
+    {
+      "epoch": 45,
+      "batch": 100,
+      "temporal_entropy_magnitude": 7.220479965209961
+    },
+    {
+      "epoch": 45,
+      "batch": 120,
+      "temporal_entropy_magnitude": 6.669078350067139
+    },
+    {
+      "epoch": 46,
+      "batch": 0,
+      "temporal_entropy_magnitude": 5.664278507232666
+    },
+    {
+      "epoch": 46,
+      "batch": 20,
+      "temporal_entropy_magnitude": 6.864382266998291
+    },
+    {
+      "epoch": 46,
+      "batch": 40,
+      "temporal_entropy_magnitude": 6.9211835861206055
+    },
+    {
+      "epoch": 46,
+      "batch": 60,
+      "temporal_entropy_magnitude": 6.874704837799072
+    },
+    {
+      "epoch": 46,
+      "batch": 80,
+      "temporal_entropy_magnitude": 6.947125434875488
+    },
+    {
+      "epoch": 46,
+      "batch": 100,
+      "temporal_entropy_magnitude": 7.148690700531006
+    },
+    {
+      "epoch": 46,
+      "batch": 120,
+      "temporal_entropy_magnitude": 7.080043792724609
+    },
+    {
+      "epoch": 47,
+      "batch": 0,
+      "temporal_entropy_magnitude": 6.498692989349365
+    },
+    {
+      "epoch": 47,
+      "batch": 20,
+      "temporal_entropy_magnitude": 6.968869209289551
+    },
+    {
+      "epoch": 47,
+      "batch": 40,
+      "temporal_entropy_magnitude": 7.093380928039551
+    },
+    {
+      "epoch": 47,
+      "batch": 60,
+      "temporal_entropy_magnitude": 6.8901519775390625
+    },
+    {
+      "epoch": 47,
+      "batch": 80,
+      "temporal_entropy_magnitude": 6.980749130249023
+    },
+    {
+      "epoch": 47,
+      "batch": 100,
+      "temporal_entropy_magnitude": 7.131645679473877
+    },
+    {
+      "epoch": 47,
+      "batch": 120,
+      "temporal_entropy_magnitude": 7.122989654541016
+    },
+    {
+      "epoch": 48,
+      "batch": 0,
+      "temporal_entropy_magnitude": 6.687200546264648
+    },
+    {
+      "epoch": 48,
+      "batch": 20,
+      "temporal_entropy_magnitude": 7.1552910804748535
+    },
+    {
+      "epoch": 48,
+      "batch": 40,
+      "temporal_entropy_magnitude": 7.226357460021973
+    },
+    {
+      "epoch": 48,
+      "batch": 60,
+      "temporal_entropy_magnitude": 6.947615623474121
+    },
+    {
+      "epoch": 48,
+      "batch": 80,
+      "temporal_entropy_magnitude": 6.882369041442871
+    },
+    {
+      "epoch": 48,
+      "batch": 100,
+      "temporal_entropy_magnitude": 6.851673126220703
+    },
+    {
+      "epoch": 48,
+      "batch": 120,
+      "temporal_entropy_magnitude": 6.968038558959961
+    },
+    {
+      "epoch": 49,
+      "batch": 0,
+      "temporal_entropy_magnitude": 6.560572147369385
+    },
+    {
+      "epoch": 49,
+      "batch": 20,
+      "temporal_entropy_magnitude": 7.081097602844238
+    },
+    {
+      "epoch": 49,
+      "batch": 40,
+      "temporal_entropy_magnitude": 6.889323711395264
+    },
+    {
+      "epoch": 49,
+      "batch": 60,
+      "temporal_entropy_magnitude": 7.156428813934326
+    },
+    {
+      "epoch": 49,
+      "batch": 80,
+      "temporal_entropy_magnitude": 6.853392124176025
+    },
+    {
+      "epoch": 49,
+      "batch": 100,
+      "temporal_entropy_magnitude": 7.15204381942749
+    },
+    {
+      "epoch": 49,
+      "batch": 120,
+      "temporal_entropy_magnitude": 6.831045150756836
+    }
+  ],
+  "config": {
+    "embedding_dim": 64,
+    "hidden_dims": [
+      64,
+      64,
+      64
+    ],
+    "n_patterns": 8,
+    "sequence_length": 20,
+    "learning_rate": 0.0003,
+    "batch_size": 64,
+    "epochs": 50,
+    "device": "cpu"
+  }
+}
