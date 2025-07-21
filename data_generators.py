@@ -83,7 +83,7 @@ def get_tiny_shakespeare_data(sequence_length=20):
     """Reads the first 10000 characters of the local Tiny Shakespeare dataset."""
     # This function assumes you have a 'data' directory with 'tinyshakespeare.txt' in it.
     with open("data/tinyshakespeare.txt", 'r', encoding='utf-8') as f:
-        text = f.read()#[:10000]
+        text = f.read()[:10000]
     
     # Create character vocabulary
     chars = sorted(list(set(text)))
