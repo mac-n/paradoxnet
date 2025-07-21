@@ -1,0 +1,1063 @@
+🔮 COMPLEX TEMPORAL ENTROPY RECYCLING + ROPE EXPERIMENT 🔮
+Device: cpu
+Hidden dims: [64, 64, 64]
+Patterns: 8
+Features: Complex space + RoPE + Temporal entropy recycling + Pattern prediction
+Loss components: Task + 0.1*Temporal + 0.1*Pattern
+Loading Tiny Shakespeare...
+Vocab size: 57
+Model parameters: 29,386
+Starting training for 50 epochs...
+    Loss components - Task: 4.0774, Temporal: 0.0000, Pattern: 0.0035
+Epoch   0: Train=3.8241, Test=3.3340
+  Complex temporal entropy stats:
+    Layer 0: entropy=6.994, temporal=5.376, composition=0.000
+    Layer 1: entropy=5.611, temporal=0.000, composition=0.841
+    Layer 2: entropy=4.408, temporal=0.000, composition=0.835
+  Stored temporal entropy magnitude: 4.319
+Epoch   1: Train=3.2773, Test=3.2553
+Epoch   2: Train=3.2465, Test=3.2528
+Epoch   3: Train=3.2464, Test=3.2478
+Epoch   4: Train=3.2453, Test=3.2473
+Epoch   5: Train=3.2420, Test=3.2462
+  Complex temporal entropy stats:
+    Layer 0: entropy=10.665, temporal=9.965, composition=0.000
+    Layer 1: entropy=12.442, temporal=0.000, composition=0.840
+    Layer 2: entropy=10.233, temporal=0.000, composition=0.835
+  Stored temporal entropy magnitude: 9.232
+Epoch   6: Train=3.2421, Test=3.2361
+Epoch   7: Train=3.2432, Test=3.2367
+Epoch   8: Train=3.2600, Test=3.2318
+Epoch   9: Train=3.2735, Test=3.2213
+    Loss components - Task: 3.2187, Temporal: 0.0820, Pattern: 1.0384
+Epoch  10: Train=3.2816, Test=3.2084
+  Complex temporal entropy stats:
+    Layer 0: entropy=8.230, temporal=9.677, composition=0.000
+    Layer 1: entropy=10.001, temporal=0.000, composition=0.835
+    Layer 2: entropy=10.970, temporal=0.000, composition=0.831
+  Stored temporal entropy magnitude: 8.617
+Epoch  11: Train=3.2935, Test=3.1979
+Epoch  12: Train=3.3193, Test=3.1900
+Epoch  13: Train=3.3536, Test=3.1868
+Epoch  14: Train=3.4088, Test=3.1817
+Epoch  15: Train=3.4565, Test=3.1877
+  Complex temporal entropy stats:
+    Layer 0: entropy=10.159, temporal=12.475, composition=0.000
+    Layer 1: entropy=12.255, temporal=0.000, composition=0.833
+    Layer 2: entropy=14.055, temporal=0.000, composition=0.832
+  Stored temporal entropy magnitude: 10.497
+Epoch  16: Train=3.4695, Test=3.2641
+Epoch  17: Train=3.4056, Test=3.1524
+Epoch  18: Train=3.2324, Test=3.1344
+Epoch  19: Train=3.2080, Test=3.1265
+    Loss components - Task: 3.0310, Temporal: 0.0714, Pattern: 1.2414
+Epoch  20: Train=3.2132, Test=3.1221
+  Complex temporal entropy stats:
+    Layer 0: entropy=9.372, temporal=8.013, composition=0.000
+    Layer 1: entropy=8.664, temporal=0.000, composition=0.833
+    Layer 2: entropy=8.115, temporal=0.000, composition=0.831
+  Stored temporal entropy magnitude: 6.025
+Epoch  21: Train=3.1886, Test=3.1131
+Epoch  22: Train=3.1546, Test=3.1026
+Epoch  23: Train=3.1442, Test=3.0960
+Epoch  24: Train=3.1461, Test=3.0953
+Epoch  25: Train=3.1604, Test=3.1227
+  Complex temporal entropy stats:
+    Layer 0: entropy=9.460, temporal=9.173, composition=0.000
+    Layer 1: entropy=10.339, temporal=0.000, composition=0.834
+    Layer 2: entropy=10.787, temporal=0.000, composition=0.831
+  Stored temporal entropy magnitude: 7.982
+Epoch  26: Train=3.2322, Test=3.1010
+Epoch  27: Train=3.2934, Test=3.0887
+Epoch  28: Train=3.1949, Test=3.0934
+Epoch  29: Train=3.2066, Test=3.0730
+    Loss components - Task: 3.0901, Temporal: 0.0360, Pattern: 2.0772
+Epoch  30: Train=3.2161, Test=3.0755
+  Complex temporal entropy stats:
+    Layer 0: entropy=9.175, temporal=7.482, composition=0.000
+    Layer 1: entropy=12.308, temporal=0.000, composition=0.833
+    Layer 2: entropy=8.798, temporal=0.000, composition=0.831
+  Stored temporal entropy magnitude: 6.057
+Epoch  31: Train=3.2030, Test=3.0647
+Epoch  32: Train=3.1921, Test=3.0607
+Epoch  33: Train=3.1759, Test=3.0516
+Epoch  34: Train=3.1737, Test=3.0365
+Epoch  35: Train=3.1635, Test=3.0522
+  Complex temporal entropy stats:
+    Layer 0: entropy=9.744, temporal=7.939, composition=0.000
+    Layer 1: entropy=12.922, temporal=0.000, composition=0.835
+    Layer 2: entropy=8.884, temporal=0.000, composition=0.831
+  Stored temporal entropy magnitude: 6.854
+Epoch  36: Train=3.1975, Test=3.0208
+Epoch  37: Train=3.1806, Test=3.0087
+Epoch  38: Train=3.2105, Test=3.0179
+Epoch  39: Train=3.2265, Test=2.9938
+    Loss components - Task: 2.8346, Temporal: 0.0656, Pattern: 3.6485
+Epoch  40: Train=3.2397, Test=3.0291
+  Complex temporal entropy stats:
+    Layer 0: entropy=10.695, temporal=10.358, composition=0.000
+    Layer 1: entropy=16.187, temporal=0.000, composition=0.837
+    Layer 2: entropy=11.292, temporal=0.000, composition=0.831
+  Stored temporal entropy magnitude: 8.375
+Epoch  41: Train=3.2466, Test=3.0121
+Epoch  42: Train=3.3031, Test=3.0110
+Epoch  43: Train=3.2387, Test=2.9836
+Epoch  44: Train=3.3014, Test=2.9806
+Epoch  45: Train=3.3032, Test=2.9719
+  Complex temporal entropy stats:
+    Layer 0: entropy=10.965, temporal=11.118, composition=0.000
+    Layer 1: entropy=17.140, temporal=0.000, composition=0.837
+    Layer 2: entropy=12.801, temporal=0.000, composition=0.831
+  Stored temporal entropy magnitude: 10.475
+Epoch  46: Train=3.2772, Test=2.9526
+Epoch  47: Train=3.2296, Test=3.0026
+Epoch  48: Train=3.3386, Test=2.9735
+Epoch  49: Train=3.3111, Test=2.9616
+
+🎯 FINAL RESULTS:
+Final Train Loss: 3.3111
+Final Test Loss: 2.9616
+Best Test Loss: 2.9526
+
+📊 COMPARISON TO BASELINES:
+Standard Transformer: ~2.68
+Transformer + RoPE: ~2.61
+ParadoxNet Complex + RoPE: ~2.58
+Entropy Recycling (real): ~3.16
+Temporal Entropy (real): ~3.13
+Complex Temporal + RoPE: 2.9526
+
+Performance gaps:
+  vs Standard Transformer: +10.2%
+  vs Transformer + RoPE: +13.1%
+  vs ParadoxNet Complex + RoPE: +14.4%
+  vs Temporal (real): -5.7%
+🎉 Complex temporal beats real temporal recycling!
+🚀 Breaking the 3.0 barrier!
+
+⏰ TEMPORAL ENTROPY ANALYSIS:
+  Temporal entropy became active after 1 steps
+  Average temporal entropy magnitude: 8.962
+  Temporal entropy range: 0.069 - 12.879
+Results saved to: complex_temporal_entropy_results_1753051471.json
+(venv) macn@Niamhs-MacBook-Air paradox_3d % python  run_complex_temporal_experiment.py
+🔮 COMPLEX TEMPORAL ENTROPY RECYCLING + ROPE EXPERIMENT 🔮
+Device: cpu
+Hidden dims: [64, 64, 64]
+Patterns: 8
+Features: Complex space + RoPE + Temporal entropy recycling + Pattern prediction
+Loss components: Task + 0.1*Temporal + 0.1*Pattern
+Loading Tiny Shakespeare...
+Vocab size: 57
+Model parameters: 29,386
+Starting training for 100 epochs...
+    Loss components - Task: 4.0832, Temporal: 0.0000, Pattern: 0.0040
+Epoch   0: Train=3.8014, Test=3.3071
+  Complex temporal entropy stats:
+    Layer 0: entropy=7.291, temporal=6.406, composition=0.000
+    Layer 1: entropy=6.438, temporal=0.000, composition=0.844
+    Layer 2: entropy=4.559, temporal=0.000, composition=0.831
+  Stored temporal entropy magnitude: 5.294
+Epoch   1: Train=3.2774, Test=3.2542
+Epoch   2: Train=3.2590, Test=3.2466
+Epoch   3: Train=3.2477, Test=3.2439
+Epoch   4: Train=3.2377, Test=3.2435
+Epoch   5: Train=3.2247, Test=3.2381
+  Complex temporal entropy stats:
+    Layer 0: entropy=8.387, temporal=6.551, composition=0.000
+    Layer 1: entropy=8.468, temporal=0.000, composition=0.843
+    Layer 2: entropy=5.610, temporal=0.000, composition=0.832
+  Stored temporal entropy magnitude: 6.712
+Epoch   6: Train=3.2155, Test=3.2384
+Epoch   7: Train=3.2109, Test=3.2303
+Epoch   8: Train=3.2148, Test=3.2332
+Epoch   9: Train=3.2748, Test=3.2169
+    Loss components - Task: 3.0375, Temporal: 0.0283, Pattern: 1.6362
+Epoch  10: Train=3.4238, Test=3.1989
+  Complex temporal entropy stats:
+    Layer 0: entropy=8.473, temporal=10.810, composition=0.000
+    Layer 1: entropy=13.351, temporal=0.000, composition=0.841
+    Layer 2: entropy=15.234, temporal=0.000, composition=0.831
+  Stored temporal entropy magnitude: 10.019
+Epoch  11: Train=3.6312, Test=3.1970
+Epoch  12: Train=3.7525, Test=3.1810
+Epoch  13: Train=3.8980, Test=3.1665
+Epoch  14: Train=3.8837, Test=3.1635
+Epoch  15: Train=3.9484, Test=3.1631
+  Complex temporal entropy stats:
+    Layer 0: entropy=9.647, temporal=13.827, composition=0.000
+    Layer 1: entropy=14.945, temporal=0.000, composition=0.839
+    Layer 2: entropy=17.110, temporal=0.000, composition=0.832
+  Stored temporal entropy magnitude: 13.699
+Epoch  16: Train=3.9525, Test=3.1382
+Epoch  17: Train=4.0224, Test=3.1249
+Epoch  18: Train=3.9092, Test=3.1311
+Epoch  19: Train=3.8067, Test=3.1258
+    Loss components - Task: 3.0579, Temporal: 0.1116, Pattern: 8.1300
+Epoch  20: Train=3.9287, Test=3.1167
+  Complex temporal entropy stats:
+    Layer 0: entropy=10.946, temporal=15.451, composition=0.000
+    Layer 1: entropy=17.147, temporal=0.000, composition=0.838
+    Layer 2: entropy=18.457, temporal=0.000, composition=0.833
+  Stored temporal entropy magnitude: 14.921
+Epoch  21: Train=3.8585, Test=3.1114
+Epoch  22: Train=3.7933, Test=3.1082
+Epoch  23: Train=3.7285, Test=3.1017
+Epoch  24: Train=3.6784, Test=3.0996
+Epoch  25: Train=3.5820, Test=3.0919
+  Complex temporal entropy stats:
+    Layer 0: entropy=11.120, temporal=14.142, composition=0.000
+    Layer 1: entropy=15.988, temporal=0.000, composition=0.838
+    Layer 2: entropy=16.653, temporal=0.000, composition=0.833
+  Stored temporal entropy magnitude: 12.832
+Epoch  26: Train=3.6145, Test=3.0917
+Epoch  27: Train=3.5805, Test=3.0999
+Epoch  28: Train=3.5035, Test=3.0833
+Epoch  29: Train=3.4550, Test=3.0774
+    Loss components - Task: 3.0371, Temporal: 0.1271, Pattern: 5.5980
+Epoch  30: Train=3.4145, Test=3.0742
+  Complex temporal entropy stats:
+    Layer 0: entropy=11.119, temporal=11.647, composition=0.000
+    Layer 1: entropy=14.525, temporal=0.000, composition=0.839
+    Layer 2: entropy=14.868, temporal=0.000, composition=0.833
+  Stored temporal entropy magnitude: 9.934
+Epoch  31: Train=3.4233, Test=3.0767
+Epoch  32: Train=3.4026, Test=3.0750
+Epoch  33: Train=3.4046, Test=3.0748
+Epoch  34: Train=3.4189, Test=3.0667
+Epoch  35: Train=3.4328, Test=3.0642
+  Complex temporal entropy stats:
+    Layer 0: entropy=11.387, temporal=12.102, composition=0.000
+    Layer 1: entropy=15.598, temporal=0.000, composition=0.839
+    Layer 2: entropy=14.041, temporal=0.000, composition=0.834
+  Stored temporal entropy magnitude: 9.264
+Epoch  36: Train=3.4296, Test=3.0751
+Epoch  37: Train=3.4338, Test=3.0588
+Epoch  38: Train=3.4058, Test=3.0609
+Epoch  39: Train=3.4143, Test=3.0532
+    Loss components - Task: 2.7423, Temporal: 0.1070, Pattern: 7.6866
+Epoch  40: Train=3.4160, Test=3.0466
+  Complex temporal entropy stats:
+    Layer 0: entropy=11.523, temporal=11.898, composition=0.000
+    Layer 1: entropy=16.827, temporal=0.000, composition=0.838
+    Layer 2: entropy=14.406, temporal=0.000, composition=0.834
+  Stored temporal entropy magnitude: 9.417
+Epoch  41: Train=3.4112, Test=3.0533
+Epoch  42: Train=3.4128, Test=3.0508
+Epoch  43: Train=3.4154, Test=3.0509
+Epoch  44: Train=3.4033, Test=3.0415
+Epoch  45: Train=3.4584, Test=3.0279
+  Complex temporal entropy stats:
+    Layer 0: entropy=11.547, temporal=10.963, composition=0.000
+    Layer 1: entropy=18.581, temporal=0.000, composition=0.837
+    Layer 2: entropy=12.484, temporal=0.000, composition=0.834
+  Stored temporal entropy magnitude: 9.055
+Epoch  46: Train=3.4220, Test=3.0312
+Epoch  47: Train=3.4171, Test=3.0241
+Epoch  48: Train=3.4069, Test=3.0196
+Epoch  49: Train=3.4209, Test=3.0207
+    Loss components - Task: 2.8469, Temporal: 0.1214, Pattern: 5.7379
+Epoch  50: Train=3.3844, Test=3.0232
+  Complex temporal entropy stats:
+    Layer 0: entropy=11.899, temporal=11.260, composition=0.000
+    Layer 1: entropy=20.529, temporal=0.000, composition=0.835
+    Layer 2: entropy=13.299, temporal=0.000, composition=0.833
+  Stored temporal entropy magnitude: 9.368
+Epoch  51: Train=3.3931, Test=3.0275
+Epoch  52: Train=3.3858, Test=3.0094
+Epoch  53: Train=3.3875, Test=3.0047
+Epoch  54: Train=3.4298, Test=3.0150
+Epoch  55: Train=3.4290, Test=3.0090
+  Complex temporal entropy stats:
+    Layer 0: entropy=11.973, temporal=10.477, composition=0.000
+    Layer 1: entropy=20.814, temporal=0.000, composition=0.834
+    Layer 2: entropy=11.872, temporal=0.000, composition=0.832
+  Stored temporal entropy magnitude: 8.375
+Epoch  56: Train=3.4513, Test=3.0086
+Epoch  57: Train=3.4636, Test=3.0110
+Epoch  58: Train=3.4487, Test=2.9687
+Epoch  59: Train=3.4427, Test=2.9801
+    Loss components - Task: 2.9300, Temporal: 0.1297, Pattern: 7.0231
+Epoch  60: Train=3.4903, Test=2.9522
+  Complex temporal entropy stats:
+    Layer 0: entropy=12.367, temporal=11.068, composition=0.000
+    Layer 1: entropy=22.003, temporal=0.000, composition=0.832
+    Layer 2: entropy=14.300, temporal=0.000, composition=0.831
+  Stored temporal entropy magnitude: 8.859
+Epoch  61: Train=3.5225, Test=2.9604
+Epoch  62: Train=3.5317, Test=2.9581
+Epoch  63: Train=3.5388, Test=2.9539
+Epoch  64: Train=3.5614, Test=2.9516
+Epoch  65: Train=3.6026, Test=2.9495
+  Complex temporal entropy stats:
+    Layer 0: entropy=12.345, temporal=11.721, composition=0.000
+    Layer 1: entropy=22.132, temporal=0.000, composition=0.831
+    Layer 2: entropy=15.721, temporal=0.000, composition=0.831
+  Stored temporal entropy magnitude: 10.997
+Epoch  66: Train=3.5746, Test=2.9749
+Epoch  67: Train=3.6040, Test=2.9421
+Epoch  68: Train=3.6174, Test=2.9447
+Epoch  69: Train=3.6193, Test=2.9360
+    Loss components - Task: 2.7094, Temporal: 0.1364, Pattern: 7.3319
+Epoch  70: Train=3.6829, Test=2.9175
+  Complex temporal entropy stats:
+    Layer 0: entropy=12.445, temporal=13.969, composition=0.000
+    Layer 1: entropy=21.711, temporal=0.000, composition=0.830
+    Layer 2: entropy=15.968, temporal=0.000, composition=0.830
+  Stored temporal entropy magnitude: 10.527
+Epoch  71: Train=3.6649, Test=2.9395
+Epoch  72: Train=3.6865, Test=2.9402
+Epoch  73: Train=3.6946, Test=2.9555
+Epoch  74: Train=3.8033, Test=2.9214
+Epoch  75: Train=3.8442, Test=2.9403
+  Complex temporal entropy stats:
+    Layer 0: entropy=12.444, temporal=13.042, composition=0.000
+    Layer 1: entropy=21.574, temporal=0.000, composition=0.830
+    Layer 2: entropy=17.096, temporal=0.000, composition=0.829
+  Stored temporal entropy magnitude: 9.676
+Epoch  76: Train=4.0528, Test=2.9419
+Epoch  77: Train=4.3206, Test=2.9884
+Epoch  78: Train=4.4170, Test=2.9407
+Epoch  79: Train=4.2526, Test=2.9242
+    Loss components - Task: 2.4450, Temporal: 0.1411, Pattern: 11.1340
+Epoch  80: Train=4.2566, Test=2.9028
+  Complex temporal entropy stats:
+    Layer 0: entropy=12.640, temporal=16.413, composition=0.000
+    Layer 1: entropy=22.239, temporal=0.000, composition=0.832
+    Layer 2: entropy=19.919, temporal=0.000, composition=0.830
+  Stored temporal entropy magnitude: 14.646
+Epoch  81: Train=4.4049, Test=2.9357
+Epoch  82: Train=4.4878, Test=2.9176
+Epoch  83: Train=4.4497, Test=2.9330
+Epoch  84: Train=4.3126, Test=2.9117
+Epoch  85: Train=4.5533, Test=2.8950
+  Complex temporal entropy stats:
+    Layer 0: entropy=13.084, temporal=20.676, composition=0.000
+    Layer 1: entropy=26.287, temporal=0.000, composition=0.831
+    Layer 2: entropy=26.787, temporal=0.000, composition=0.831
+  Stored temporal entropy magnitude: 20.013
+Epoch  86: Train=4.6183, Test=2.8999
+Epoch  87: Train=4.9645, Test=2.8862
+Epoch  88: Train=4.7143, Test=2.8783
+Epoch  89: Train=4.8899, Test=2.9049
+    Loss components - Task: 2.7316, Temporal: 0.3425, Pattern: 31.1107
+Epoch  90: Train=4.7962, Test=2.8782
+  Complex temporal entropy stats:
+    Layer 0: entropy=13.316, temporal=19.641, composition=0.000
+    Layer 1: entropy=26.341, temporal=0.000, composition=0.830
+    Layer 2: entropy=24.935, temporal=0.000, composition=0.832
+  Stored temporal entropy magnitude: 18.655
+Epoch  91: Train=4.8972, Test=2.8590
+Epoch  92: Train=4.8375, Test=2.8462
+Epoch  93: Train=4.9927, Test=2.8887
+Epoch  94: Train=5.1248, Test=2.8517
+Epoch  95: Train=4.9389, Test=2.8862
+  Complex temporal entropy stats:
+    Layer 0: entropy=13.128, temporal=16.717, composition=0.000
+    Layer 1: entropy=23.984, temporal=0.000, composition=0.830
+    Layer 2: entropy=21.342, temporal=0.000, composition=0.833
+  Stored temporal entropy magnitude: 16.361
+Epoch  96: Train=4.8979, Test=2.9223
+Epoch  97: Train=5.0742, Test=2.8450
+Epoch  98: Train=4.9388, Test=2.8635
+Epoch  99: Train=5.0786, Test=2.8643
+
+🎯 FINAL RESULTS:
+Final Train Loss: 5.0786
+Final Test Loss: 2.8643
+Best Test Loss: 2.8450
+
+📊 COMPARISON TO BASELINES:
+Standard Transformer: ~2.68
+Transformer + RoPE: ~2.61
+ParadoxNet Complex + RoPE: ~2.58
+Entropy Recycling (real): ~3.16
+Temporal Entropy (real): ~3.13
+Complex Temporal + RoPE: 2.8450
+
+Performance gaps:
+  vs Standard Transformer: +6.2%
+  vs Transformer + RoPE: +9.0%
+  vs ParadoxNet Complex + RoPE: +10.3%
+  vs Temporal (real): -9.1%
+🎉 Complex temporal beats real temporal recycling!
+🚀 Breaking the 3.0 barrier!
+
+⏰ TEMPORAL ENTROPY ANALYSIS:
+  Temporal entropy became active after 1 steps
+  Average temporal entropy magnitude: 12.927
+  Temporal entropy range: 0.077 - 23.194
+Results saved to: complex_temporal_entropy_results_1753053011.json
+(venv) macn@Niamhs-MacBook-Air paradox_3d % python  run_complex_temporal_experiment.py
+🌙 EPIC OVERNIGHT DIFFERENTIABLE LEMPEL-ZIV RUN 🌙
+Target: Beat 2.68 transformer, reach 2.2 if possible!
+Current best: 2.845 - only 0.165 to transformer baseline!
+Sweet dreams - let the entropy recycling work its magic! 🔮
+🔮 COMPLEX TEMPORAL ENTROPY RECYCLING + ROPE EXPERIMENT 🔮
+Device: cpu
+Hidden dims: [64, 64, 64]
+Patterns: 8
+Features: Complex space + RoPE + Temporal entropy recycling + Pattern prediction
+Loss components: Task + 0.1*Temporal + 0.1*Pattern
+Loading Tiny Shakespeare...
+Vocab size: 57
+Model parameters: 29,386
+Starting training for 300 epochs...
+    Loss components - Task: 4.0569, Temporal: 0.0000, Pattern: 0.0031
+Epoch   0: Train=3.8487, Test=3.3641
+  Complex temporal entropy stats:
+    Layer 0: entropy=9.778, temporal=6.930, composition=0.000
+    Layer 1: entropy=9.374, temporal=0.000, composition=0.842
+    Layer 2: entropy=7.337, temporal=0.000, composition=0.847
+  Stored temporal entropy magnitude: 6.658
+Epoch   1: Train=3.2675, Test=3.2600
+Epoch   2: Train=3.2336, Test=3.2491
+Epoch   3: Train=3.2276, Test=3.2497
+Epoch   4: Train=3.2258, Test=3.2445
+Epoch   5: Train=3.2213, Test=3.2491
+  Complex temporal entropy stats:
+    Layer 0: entropy=10.005, temporal=7.444, composition=0.000
+    Layer 1: entropy=10.712, temporal=0.000, composition=0.843
+    Layer 2: entropy=8.245, temporal=0.000, composition=0.845
+  Stored temporal entropy magnitude: 6.984
+Epoch   6: Train=3.2222, Test=3.2465
+Epoch   7: Train=3.2206, Test=3.2412
+Epoch   8: Train=3.2211, Test=3.2321
+Epoch   9: Train=3.2308, Test=3.2319
+    Loss components - Task: 3.1479, Temporal: 0.0050, Pattern: 0.4941
+Epoch  10: Train=3.2433, Test=3.2260
+  Complex temporal entropy stats:
+    Layer 0: entropy=7.265, temporal=6.469, composition=0.000
+    Layer 1: entropy=9.435, temporal=0.000, composition=0.839
+    Layer 2: entropy=8.379, temporal=0.000, composition=0.841
+  Stored temporal entropy magnitude: 5.869
+Epoch  11: Train=3.3908, Test=3.2230
+Epoch  12: Train=3.6975, Test=3.2124
+Epoch  13: Train=3.6594, Test=3.1974
+Epoch  14: Train=3.5568, Test=3.1966
+Epoch  15: Train=3.5808, Test=3.1843
+  Complex temporal entropy stats:
+    Layer 0: entropy=7.355, temporal=5.999, composition=0.000
+    Layer 1: entropy=10.268, temporal=0.000, composition=0.832
+    Layer 2: entropy=7.023, temporal=0.000, composition=0.840
+  Stored temporal entropy magnitude: 5.760
+Epoch  16: Train=3.5824, Test=3.1700
+Epoch  17: Train=3.6033, Test=3.1569
+Epoch  18: Train=3.6607, Test=3.1607
+Epoch  19: Train=3.6583, Test=3.1386
+    Loss components - Task: 3.2123, Temporal: 0.0419, Pattern: 7.5461
+Epoch  20: Train=3.6998, Test=3.1286
+  Complex temporal entropy stats:
+    Layer 0: entropy=7.436, temporal=6.066, composition=0.000
+    Layer 1: entropy=9.686, temporal=0.000, composition=0.832
+    Layer 2: entropy=6.766, temporal=0.000, composition=0.841
+  Stored temporal entropy magnitude: 6.109
+Epoch  21: Train=3.7056, Test=3.1193
+Epoch  22: Train=3.7280, Test=3.1051
+Epoch  23: Train=3.7070, Test=3.1045
+Epoch  24: Train=3.7034, Test=3.1014
+Epoch  25: Train=3.7552, Test=3.0785
+  Complex temporal entropy stats:
+    Layer 0: entropy=7.071, temporal=5.680, composition=0.000
+    Layer 1: entropy=8.629, temporal=0.000, composition=0.833
+    Layer 2: entropy=5.754, temporal=0.000, composition=0.841
+  Stored temporal entropy magnitude: 5.880
+Epoch  26: Train=3.8347, Test=3.1131
+Epoch  27: Train=3.7981, Test=3.0658
+Epoch  28: Train=3.7719, Test=3.0436
+Epoch  29: Train=3.8015, Test=3.1216
+    Loss components - Task: 3.1042, Temporal: 0.0549, Pattern: 5.0572
+Epoch  30: Train=3.7715, Test=3.0651
+  Complex temporal entropy stats:
+    Layer 0: entropy=6.846, temporal=5.617, composition=0.000
+    Layer 1: entropy=8.806, temporal=0.000, composition=0.835
+    Layer 2: entropy=5.527, temporal=0.000, composition=0.842
+  Stored temporal entropy magnitude: 5.534
+Epoch  31: Train=3.6921, Test=3.0485
+Epoch  32: Train=3.5898, Test=3.0364
+Epoch  33: Train=3.6606, Test=3.0373
+Epoch  34: Train=3.7021, Test=3.0473
+Epoch  35: Train=3.6932, Test=3.0307
+  Complex temporal entropy stats:
+    Layer 0: entropy=6.568, temporal=5.634, composition=0.000
+    Layer 1: entropy=8.361, temporal=0.000, composition=0.835
+    Layer 2: entropy=5.277, temporal=0.000, composition=0.842
+  Stored temporal entropy magnitude: 5.426
+Epoch  36: Train=3.6360, Test=3.0323
+Epoch  37: Train=3.7040, Test=3.0278
+Epoch  38: Train=3.6815, Test=3.0304
+Epoch  39: Train=3.6200, Test=3.0175
+    Loss components - Task: 2.8220, Temporal: 0.0575, Pattern: 4.4166
+Epoch  40: Train=3.5496, Test=3.0130
+  Complex temporal entropy stats:
+    Layer 0: entropy=6.072, temporal=5.413, composition=0.000
+    Layer 1: entropy=7.411, temporal=0.000, composition=0.835
+    Layer 2: entropy=4.528, temporal=0.000, composition=0.842
+  Stored temporal entropy magnitude: 5.477
+Epoch  41: Train=3.5472, Test=3.0410
+Epoch  42: Train=3.5449, Test=3.0029
+Epoch  43: Train=3.5547, Test=3.0081
+Epoch  44: Train=3.5205, Test=3.0632
+Epoch  45: Train=3.5734, Test=3.1403
+  Complex temporal entropy stats:
+    Layer 0: entropy=5.993, temporal=5.186, composition=0.000
+    Layer 1: entropy=7.133, temporal=0.000, composition=0.835
+    Layer 2: entropy=4.790, temporal=0.000, composition=0.842
+  Stored temporal entropy magnitude: 5.154
+Epoch  46: Train=3.4437, Test=3.0082
+Epoch  47: Train=3.4705, Test=2.9917
+Epoch  48: Train=3.5366, Test=2.9738
+Epoch  49: Train=3.5324, Test=2.9942
+    Loss components - Task: 2.7588, Temporal: 0.0482, Pattern: 5.3523
+Epoch  50: Train=3.5961, Test=3.0096
+  Complex temporal entropy stats:
+    Layer 0: entropy=5.913, temporal=5.136, composition=0.000
+    Layer 1: entropy=7.135, temporal=0.000, composition=0.834
+    Layer 2: entropy=4.687, temporal=0.000, composition=0.842
+  Stored temporal entropy magnitude: 4.549
+Epoch  51: Train=3.5721, Test=2.9684
+Epoch  52: Train=3.6474, Test=2.9770
+Epoch  53: Train=3.6502, Test=2.9805
+Epoch  54: Train=3.6915, Test=2.9676
+Epoch  55: Train=3.7989, Test=3.0756
+  Complex temporal entropy stats:
+    Layer 0: entropy=5.841, temporal=6.200, composition=0.000
+    Layer 1: entropy=7.635, temporal=0.000, composition=0.834
+    Layer 2: entropy=6.433, temporal=0.000, composition=0.842
+  Stored temporal entropy magnitude: 6.637
+Epoch  56: Train=3.8027, Test=2.9606
+Epoch  57: Train=3.8755, Test=2.9887
+Epoch  58: Train=4.0287, Test=2.9513
+Epoch  59: Train=4.0371, Test=2.9497
+    Loss components - Task: 2.9793, Temporal: 0.1115, Pattern: 10.6299
+Epoch  60: Train=4.0643, Test=2.9833
+  Complex temporal entropy stats:
+    Layer 0: entropy=5.484, temporal=4.984, composition=0.000
+    Layer 1: entropy=6.021, temporal=0.000, composition=0.835
+    Layer 2: entropy=4.534, temporal=0.000, composition=0.842
+  Stored temporal entropy magnitude: 4.959
+Epoch  61: Train=4.2587, Test=3.0125
+Epoch  62: Train=4.3978, Test=2.9698
+Epoch  63: Train=4.4443, Test=2.9460
+Epoch  64: Train=4.6425, Test=2.9905
+Epoch  65: Train=4.6846, Test=2.9746
+  Complex temporal entropy stats:
+    Layer 0: entropy=5.691, temporal=5.994, composition=0.000
+    Layer 1: entropy=6.682, temporal=0.000, composition=0.835
+    Layer 2: entropy=5.380, temporal=0.000, composition=0.842
+  Stored temporal entropy magnitude: 5.311
+Epoch  66: Train=4.8463, Test=2.9447
+Epoch  67: Train=5.0188, Test=2.9544
+Epoch  68: Train=5.1928, Test=2.9565
+Epoch  69: Train=5.4493, Test=2.9514
+    Loss components - Task: 3.0641, Temporal: 0.1078, Pattern: 19.9129
+Epoch  70: Train=5.4333, Test=2.9531
+  Complex temporal entropy stats:
+    Layer 0: entropy=6.096, temporal=5.859, composition=0.000
+    Layer 1: entropy=7.441, temporal=0.000, composition=0.834
+    Layer 2: entropy=6.121, temporal=0.000, composition=0.842
+  Stored temporal entropy magnitude: 5.632
+Epoch  71: Train=5.6366, Test=2.9842
+Epoch  72: Train=5.6914, Test=2.9419
+Epoch  73: Train=5.8636, Test=2.9421
+Epoch  74: Train=5.9131, Test=2.9507
+Epoch  75: Train=5.8841, Test=2.9408
+  Complex temporal entropy stats:
+    Layer 0: entropy=6.129, temporal=5.879, composition=0.000
+    Layer 1: entropy=8.016, temporal=0.000, composition=0.833
+    Layer 2: entropy=6.747, temporal=0.000, composition=0.842
+  Stored temporal entropy magnitude: 5.399
+Epoch  76: Train=6.1726, Test=2.9594
+Epoch  77: Train=5.8694, Test=2.9533
+Epoch  78: Train=6.0400, Test=2.9617
+Epoch  79: Train=6.2074, Test=2.9389
+    Loss components - Task: 2.8839, Temporal: 0.1993, Pattern: 39.3747
+Epoch  80: Train=6.2650, Test=2.9741
+  Complex temporal entropy stats:
+    Layer 0: entropy=6.048, temporal=5.530, composition=0.000
+    Layer 1: entropy=6.999, temporal=0.000, composition=0.832
+    Layer 2: entropy=5.620, temporal=0.000, composition=0.842
+  Stored temporal entropy magnitude: 4.861
+Epoch  81: Train=6.0316, Test=2.9404
+Epoch  82: Train=6.1856, Test=2.9612
+Epoch  83: Train=6.3285, Test=2.9724
+Epoch  84: Train=6.3533, Test=2.9449
+Epoch  85: Train=6.1886, Test=2.9140
+  Complex temporal entropy stats:
+    Layer 0: entropy=5.998, temporal=5.653, composition=0.000
+    Layer 1: entropy=7.229, temporal=0.000, composition=0.833
+    Layer 2: entropy=5.720, temporal=0.000, composition=0.842
+  Stored temporal entropy magnitude: 5.449
+Epoch  86: Train=6.2295, Test=2.9506
+Epoch  87: Train=6.2803, Test=2.9314
+Epoch  88: Train=6.3867, Test=2.9382
+Epoch  89: Train=6.0603, Test=2.9079
+    Loss components - Task: 2.8584, Temporal: 0.1433, Pattern: 26.5917
+Epoch  90: Train=6.1533, Test=2.9192
+  Complex temporal entropy stats:
+    Layer 0: entropy=6.196, temporal=5.643, composition=0.000
+    Layer 1: entropy=7.127, temporal=0.000, composition=0.833
+    Layer 2: entropy=5.512, temporal=0.000, composition=0.842
+  Stored temporal entropy magnitude: 5.338
+Epoch  91: Train=6.1580, Test=2.9358
+Epoch  92: Train=6.1144, Test=2.9168
+Epoch  93: Train=6.0838, Test=2.9276
+Epoch  94: Train=6.1373, Test=2.9110
+Epoch  95: Train=5.9939, Test=2.9332
+  Complex temporal entropy stats:
+    Layer 0: entropy=6.185, temporal=5.413, composition=0.000
+    Layer 1: entropy=8.034, temporal=0.000, composition=0.833
+    Layer 2: entropy=6.402, temporal=0.000, composition=0.843
+  Stored temporal entropy magnitude: 5.623
+Epoch  96: Train=5.9100, Test=2.9298
+Epoch  97: Train=5.8761, Test=2.9121
+Epoch  98: Train=6.0522, Test=2.9344
+Epoch  99: Train=5.9229, Test=2.9069
+    Loss components - Task: 3.0865, Temporal: 0.1637, Pattern: 27.4156
+Epoch 100: Train=5.7632, Test=2.9143
+  Complex temporal entropy stats:
+    Layer 0: entropy=6.133, temporal=5.649, composition=0.000
+    Layer 1: entropy=6.920, temporal=0.000, composition=0.833
+    Layer 2: entropy=6.341, temporal=0.000, composition=0.842
+  Stored temporal entropy magnitude: 5.609
+Epoch 101: Train=6.1187, Test=2.9475
+Epoch 102: Train=5.9077, Test=2.9174
+Epoch 103: Train=6.0741, Test=2.9022
+Epoch 104: Train=6.0683, Test=2.9282
+Epoch 105: Train=6.0553, Test=2.9036
+  Complex temporal entropy stats:
+    Layer 0: entropy=6.447, temporal=6.059, composition=0.000
+    Layer 1: entropy=8.310, temporal=0.000, composition=0.833
+    Layer 2: entropy=7.432, temporal=0.000, composition=0.842
+  Stored temporal entropy magnitude: 5.718
+Epoch 106: Train=6.1388, Test=2.8920
+Epoch 107: Train=6.0298, Test=2.8806
+Epoch 108: Train=6.0464, Test=2.8769
+Epoch 109: Train=5.8459, Test=2.8907
+    Loss components - Task: 2.6471, Temporal: 0.1521, Pattern: 25.3739
+Epoch 110: Train=5.9093, Test=2.8922
+  Complex temporal entropy stats:
+    Layer 0: entropy=6.122, temporal=6.060, composition=0.000
+    Layer 1: entropy=6.701, temporal=0.000, composition=0.833
+    Layer 2: entropy=5.738, temporal=0.000, composition=0.842
+  Stored temporal entropy magnitude: 5.523
+Epoch 111: Train=5.8921, Test=2.9540
+Epoch 112: Train=5.9905, Test=2.8980
+Epoch 113: Train=5.8739, Test=2.8803
+Epoch 114: Train=5.9645, Test=2.9075
+Epoch 115: Train=5.8425, Test=2.8845
+  Complex temporal entropy stats:
+    Layer 0: entropy=6.498, temporal=5.715, composition=0.000
+    Layer 1: entropy=7.771, temporal=0.000, composition=0.833
+    Layer 2: entropy=6.680, temporal=0.000, composition=0.843
+  Stored temporal entropy magnitude: 5.352
+Epoch 116: Train=5.7858, Test=2.8628
+Epoch 117: Train=5.7859, Test=2.8797
+Epoch 118: Train=5.7599, Test=2.8656
+Epoch 119: Train=5.7202, Test=2.8743
+    Loss components - Task: 2.6288, Temporal: 0.1646, Pattern: 18.0070
+Epoch 120: Train=5.7350, Test=2.8829
+  Complex temporal entropy stats:
+    Layer 0: entropy=6.521, temporal=6.280, composition=0.000
+    Layer 1: entropy=7.674, temporal=0.000, composition=0.833
+    Layer 2: entropy=6.049, temporal=0.000, composition=0.843
+  Stored temporal entropy magnitude: 5.984
+Epoch 121: Train=5.5613, Test=2.8653
+Epoch 122: Train=5.6062, Test=2.8780
+Epoch 123: Train=5.6322, Test=2.8527
+Epoch 124: Train=5.4931, Test=2.8551
+Epoch 125: Train=5.3318, Test=2.8783
+  Complex temporal entropy stats:
+    Layer 0: entropy=6.421, temporal=6.490, composition=0.000
+    Layer 1: entropy=7.600, temporal=0.000, composition=0.833
+    Layer 2: entropy=6.043, temporal=0.000, composition=0.843
+  Stored temporal entropy magnitude: 6.248
+Epoch 126: Train=5.4398, Test=2.9066
+Epoch 127: Train=5.2812, Test=2.8454
+Epoch 128: Train=5.2854, Test=2.8743
+Epoch 129: Train=5.1961, Test=2.8465
+    Loss components - Task: 2.8168, Temporal: 0.1388, Pattern: 32.1689
+Epoch 130: Train=5.4584, Test=2.8632
+  Complex temporal entropy stats:
+    Layer 0: entropy=6.310, temporal=6.221, composition=0.000
+    Layer 1: entropy=7.014, temporal=0.000, composition=0.833
+    Layer 2: entropy=5.766, temporal=0.000, composition=0.843
+  Stored temporal entropy magnitude: 5.748
+Epoch 131: Train=5.2875, Test=2.8589
+Epoch 132: Train=5.2584, Test=2.8470
+Epoch 133: Train=5.1444, Test=2.8648
+Epoch 134: Train=5.0908, Test=2.8653
+Epoch 135: Train=5.3621, Test=2.8370
+  Complex temporal entropy stats:
+    Layer 0: entropy=6.362, temporal=6.524, composition=0.000
+    Layer 1: entropy=7.416, temporal=0.000, composition=0.833
+    Layer 2: entropy=6.119, temporal=0.000, composition=0.843
+  Stored temporal entropy magnitude: 6.185
+Epoch 136: Train=5.1933, Test=2.8466
+Epoch 137: Train=5.1495, Test=2.8451
+Epoch 138: Train=5.0856, Test=2.8424
+Epoch 139: Train=4.9529, Test=2.8477
+    Loss components - Task: 2.5923, Temporal: 0.1130, Pattern: 20.4147
+Epoch 140: Train=4.9195, Test=2.8393
+  Complex temporal entropy stats:
+    Layer 0: entropy=5.924, temporal=5.735, composition=0.000
+    Layer 1: entropy=6.360, temporal=0.000, composition=0.834
+    Layer 2: entropy=4.767, temporal=0.000, composition=0.843
+  Stored temporal entropy magnitude: 5.728
+Epoch 141: Train=4.7514, Test=2.8272
+Epoch 142: Train=4.8273, Test=2.8290
+Epoch 143: Train=4.8545, Test=2.8332
+Epoch 144: Train=4.8187, Test=2.8413
+Epoch 145: Train=4.8708, Test=2.8209
+  Complex temporal entropy stats:
+    Layer 0: entropy=6.060, temporal=6.331, composition=0.000
+    Layer 1: entropy=7.165, temporal=0.000, composition=0.834
+    Layer 2: entropy=5.600, temporal=0.000, composition=0.843
+  Stored temporal entropy magnitude: 6.282
+Epoch 146: Train=4.8264, Test=2.8390
+Epoch 147: Train=4.8426, Test=2.8232
+Epoch 148: Train=4.7165, Test=2.8736
+Epoch 149: Train=4.7951, Test=2.8285
+    Loss components - Task: 2.9155, Temporal: 0.1161, Pattern: 23.1401
+Epoch 150: Train=4.6585, Test=2.8414
+  Complex temporal entropy stats:
+    Layer 0: entropy=6.018, temporal=5.693, composition=0.000
+    Layer 1: entropy=6.608, temporal=0.000, composition=0.834
+    Layer 2: entropy=5.340, temporal=0.000, composition=0.843
+  Stored temporal entropy magnitude: 6.036
+Epoch 151: Train=4.6939, Test=2.8362
+Epoch 152: Train=4.6411, Test=2.8285
+Epoch 153: Train=4.6951, Test=2.8293
+Epoch 154: Train=4.7217, Test=2.8278
+Epoch 155: Train=4.6042, Test=2.8979
+  Complex temporal entropy stats:
+    Layer 0: entropy=5.907, temporal=5.911, composition=0.000
+    Layer 1: entropy=6.496, temporal=0.000, composition=0.834
+    Layer 2: entropy=5.315, temporal=0.000, composition=0.843
+  Stored temporal entropy magnitude: 5.815
+Epoch 156: Train=4.5476, Test=2.8113
+Epoch 157: Train=4.6053, Test=2.8111
+Epoch 158: Train=4.5095, Test=2.8075
+Epoch 159: Train=4.6401, Test=2.7919
+    Loss components - Task: 2.5526, Temporal: 0.1155, Pattern: 18.1266
+Epoch 160: Train=4.4426, Test=2.8306
+  Complex temporal entropy stats:
+    Layer 0: entropy=6.372, temporal=5.784, composition=0.000
+    Layer 1: entropy=7.061, temporal=0.000, composition=0.834
+    Layer 2: entropy=5.514, temporal=0.000, composition=0.843
+  Stored temporal entropy magnitude: 6.088
+Epoch 161: Train=4.4832, Test=2.7852
+Epoch 162: Train=4.4635, Test=2.7836
+Epoch 163: Train=4.3527, Test=2.7795
+Epoch 164: Train=4.3070, Test=2.8514
+Epoch 165: Train=4.3900, Test=2.9150
+  Complex temporal entropy stats:
+    Layer 0: entropy=6.316, temporal=5.774, composition=0.000
+    Layer 1: entropy=7.435, temporal=0.000, composition=0.834
+    Layer 2: entropy=6.149, temporal=0.000, composition=0.844
+  Stored temporal entropy magnitude: 5.606
+Epoch 166: Train=4.1657, Test=2.7729
+Epoch 167: Train=4.2303, Test=2.8339
+Epoch 168: Train=4.2160, Test=2.8348
+Epoch 169: Train=4.1993, Test=2.7825
+    Loss components - Task: 2.5243, Temporal: 0.0753, Pattern: 9.4670
+Epoch 170: Train=4.0847, Test=2.7752
+  Complex temporal entropy stats:
+    Layer 0: entropy=5.905, temporal=5.546, composition=0.000
+    Layer 1: entropy=6.350, temporal=0.000, composition=0.834
+    Layer 2: entropy=4.915, temporal=0.000, composition=0.844
+  Stored temporal entropy magnitude: 5.904
+Epoch 171: Train=4.1621, Test=2.8009
+Epoch 172: Train=4.0299, Test=2.7798
+Epoch 173: Train=4.0581, Test=2.7978
+Epoch 174: Train=4.0350, Test=2.7531
+Epoch 175: Train=3.9935, Test=2.7789
+  Complex temporal entropy stats:
+    Layer 0: entropy=6.031, temporal=5.421, composition=0.000
+    Layer 1: entropy=6.565, temporal=0.000, composition=0.834
+    Layer 2: entropy=5.048, temporal=0.000, composition=0.844
+  Stored temporal entropy magnitude: 5.504
+Epoch 176: Train=4.0105, Test=2.7698
+Epoch 177: Train=4.0157, Test=2.8186
+Epoch 178: Train=3.9202, Test=2.7895
+Epoch 179: Train=3.9431, Test=2.7985
+    Loss components - Task: 2.4693, Temporal: 0.1206, Pattern: 16.0869
+Epoch 180: Train=3.7821, Test=2.7918
+  Complex temporal entropy stats:
+    Layer 0: entropy=6.046, temporal=5.287, composition=0.000
+    Layer 1: entropy=6.741, temporal=0.000, composition=0.834
+    Layer 2: entropy=5.065, temporal=0.000, composition=0.844
+  Stored temporal entropy magnitude: 5.725
+Epoch 181: Train=3.8826, Test=2.8092
+Epoch 182: Train=3.8957, Test=2.8079
+Epoch 183: Train=3.8650, Test=2.7698
+Epoch 184: Train=3.7976, Test=2.7820
+Epoch 185: Train=3.8736, Test=2.7741
+  Complex temporal entropy stats:
+    Layer 0: entropy=6.085, temporal=5.559, composition=0.000
+    Layer 1: entropy=6.651, temporal=0.000, composition=0.834
+    Layer 2: entropy=5.065, temporal=0.000, composition=0.844
+  Stored temporal entropy magnitude: 5.666
+Epoch 186: Train=3.8712, Test=2.7869
+Epoch 187: Train=3.7646, Test=2.7508
+Epoch 188: Train=3.8335, Test=2.8712
+Epoch 189: Train=3.7433, Test=2.8114
+    Loss components - Task: 2.8904, Temporal: 0.1389, Pattern: 19.2273
+Epoch 190: Train=3.7522, Test=2.7569
+  Complex temporal entropy stats:
+    Layer 0: entropy=6.071, temporal=5.478, composition=0.000
+    Layer 1: entropy=6.622, temporal=0.000, composition=0.834
+    Layer 2: entropy=5.293, temporal=0.000, composition=0.844
+  Stored temporal entropy magnitude: 5.744
+Epoch 191: Train=3.8614, Test=2.7690
+Epoch 192: Train=3.7163, Test=2.7541
+Epoch 193: Train=3.7219, Test=2.7873
+Epoch 194: Train=3.7606, Test=2.9393
+Epoch 195: Train=3.7513, Test=2.7434
+  Complex temporal entropy stats:
+    Layer 0: entropy=6.134, temporal=5.111, composition=0.000
+    Layer 1: entropy=6.238, temporal=0.000, composition=0.834
+    Layer 2: entropy=4.559, temporal=0.000, composition=0.844
+  Stored temporal entropy magnitude: 5.661
+Epoch 196: Train=3.7209, Test=2.8033
+Epoch 197: Train=3.6982, Test=2.9094
+Epoch 198: Train=3.6275, Test=2.7176
+Epoch 199: Train=3.6567, Test=2.7915
+    Loss components - Task: 2.3159, Temporal: 0.0940, Pattern: 9.8000
+Epoch 200: Train=3.6518, Test=2.9396
+  Complex temporal entropy stats:
+    Layer 0: entropy=6.484, temporal=5.492, composition=0.000
+    Layer 1: entropy=7.180, temporal=0.000, composition=0.834
+    Layer 2: entropy=5.041, temporal=0.000, composition=0.844
+  Stored temporal entropy magnitude: 5.642
+Epoch 201: Train=3.6081, Test=2.7226
+Epoch 202: Train=3.5874, Test=2.7601
+Epoch 203: Train=3.5491, Test=2.7422
+Epoch 204: Train=3.5979, Test=2.7225
+Epoch 205: Train=3.5576, Test=2.8500
+  Complex temporal entropy stats:
+    Layer 0: entropy=6.209, temporal=5.507, composition=0.000
+    Layer 1: entropy=6.551, temporal=0.000, composition=0.834
+    Layer 2: entropy=4.828, temporal=0.000, composition=0.844
+  Stored temporal entropy magnitude: 5.866
+Epoch 206: Train=3.5372, Test=2.8247
+Epoch 207: Train=3.5152, Test=2.7712
+Epoch 208: Train=3.6397, Test=2.7568
+Epoch 209: Train=3.5668, Test=2.7149
+    Loss components - Task: 2.6566, Temporal: 0.0952, Pattern: 9.4571
+Epoch 210: Train=3.4972, Test=2.9360
+  Complex temporal entropy stats:
+    Layer 0: entropy=6.170, temporal=5.364, composition=0.000
+    Layer 1: entropy=6.248, temporal=0.000, composition=0.835
+    Layer 2: entropy=5.001, temporal=0.000, composition=0.844
+  Stored temporal entropy magnitude: 5.506
+Epoch 211: Train=3.5183, Test=2.8738
+Epoch 212: Train=3.6252, Test=2.8055
+Epoch 213: Train=3.4719, Test=2.7642
+Epoch 214: Train=3.5077, Test=2.7299
+Epoch 215: Train=3.5007, Test=2.8555
+  Complex temporal entropy stats:
+    Layer 0: entropy=6.052, temporal=5.121, composition=0.000
+    Layer 1: entropy=6.399, temporal=0.000, composition=0.835
+    Layer 2: entropy=4.691, temporal=0.000, composition=0.845
+  Stored temporal entropy magnitude: 5.006
+Epoch 216: Train=3.5529, Test=2.8610
+Epoch 217: Train=3.5389, Test=2.8731
+Epoch 218: Train=3.5180, Test=2.7529
+Epoch 219: Train=3.5097, Test=2.7984
+    Loss components - Task: 2.7948, Temporal: 0.1078, Pattern: 9.9441
+Epoch 220: Train=3.4512, Test=2.7351
+  Complex temporal entropy stats:
+    Layer 0: entropy=6.100, temporal=5.334, composition=0.000
+    Layer 1: entropy=6.349, temporal=0.000, composition=0.835
+    Layer 2: entropy=4.785, temporal=0.000, composition=0.845
+  Stored temporal entropy magnitude: 5.689
+Epoch 221: Train=3.5067, Test=2.7378
+Epoch 222: Train=3.4768, Test=2.8489
+Epoch 223: Train=3.5997, Test=2.7192
+Epoch 224: Train=3.4495, Test=2.7182
+Epoch 225: Train=3.4901, Test=2.7063
+  Complex temporal entropy stats:
+    Layer 0: entropy=6.124, temporal=5.470, composition=0.000
+    Layer 1: entropy=6.399, temporal=0.000, composition=0.835
+    Layer 2: entropy=4.928, temporal=0.000, composition=0.845
+  Stored temporal entropy magnitude: 5.516
+Epoch 226: Train=3.4308, Test=2.7854
+Epoch 227: Train=3.4718, Test=2.8206
+Epoch 228: Train=3.5739, Test=2.8531
+Epoch 229: Train=3.4630, Test=2.7126
+    Loss components - Task: 2.5126, Temporal: 0.1118, Pattern: 9.5899
+Epoch 230: Train=3.5225, Test=2.7069
+  Complex temporal entropy stats:
+    Layer 0: entropy=5.818, temporal=5.233, composition=0.000
+    Layer 1: entropy=6.039, temporal=0.000, composition=0.835
+    Layer 2: entropy=4.475, temporal=0.000, composition=0.845
+  Stored temporal entropy magnitude: 5.478
+Epoch 231: Train=3.4718, Test=2.7549
+Epoch 232: Train=3.4525, Test=2.8684
+Epoch 233: Train=3.5242, Test=2.7847
+Epoch 234: Train=3.5406, Test=2.7962
+Epoch 235: Train=3.4972, Test=2.7682
+  Complex temporal entropy stats:
+    Layer 0: entropy=5.664, temporal=4.769, composition=0.000
+    Layer 1: entropy=5.534, temporal=0.000, composition=0.835
+    Layer 2: entropy=4.137, temporal=0.000, composition=0.845
+  Stored temporal entropy magnitude: 5.384
+Epoch 236: Train=3.5094, Test=2.8492
+Epoch 237: Train=3.7036, Test=2.7438
+Epoch 238: Train=3.7956, Test=2.7504
+Epoch 239: Train=3.7226, Test=2.7465
+    Loss components - Task: 2.7065, Temporal: 0.0820, Pattern: 11.1384
+Epoch 240: Train=3.7938, Test=2.7445
+  Complex temporal entropy stats:
+    Layer 0: entropy=6.016, temporal=5.478, composition=0.000
+    Layer 1: entropy=6.339, temporal=0.000, composition=0.835
+    Layer 2: entropy=5.156, temporal=0.000, composition=0.845
+  Stored temporal entropy magnitude: 5.197
+Epoch 241: Train=3.6404, Test=2.7150
+Epoch 242: Train=3.7507, Test=2.7380
+Epoch 243: Train=3.7042, Test=2.7349
+Epoch 244: Train=3.7861, Test=2.7768
+Epoch 245: Train=3.7610, Test=2.7542
+  Complex temporal entropy stats:
+    Layer 0: entropy=6.002, temporal=5.420, composition=0.000
+    Layer 1: entropy=6.204, temporal=0.000, composition=0.835
+    Layer 2: entropy=4.586, temporal=0.000, composition=0.845
+  Stored temporal entropy magnitude: 5.443
+Epoch 246: Train=3.6643, Test=2.8220
+Epoch 247: Train=3.8821, Test=2.7576
+Epoch 248: Train=3.7453, Test=2.7346
+Epoch 249: Train=3.8160, Test=2.7999
+    Loss components - Task: 2.9231, Temporal: 0.1151, Pattern: 20.8010
+Epoch 250: Train=3.7237, Test=2.7547
+  Complex temporal entropy stats:
+    Layer 0: entropy=5.959, temporal=5.340, composition=0.000
+    Layer 1: entropy=6.491, temporal=0.000, composition=0.835
+    Layer 2: entropy=5.360, temporal=0.000, composition=0.845
+  Stored temporal entropy magnitude: 5.000
+Epoch 251: Train=3.7712, Test=2.7480
+Epoch 252: Train=3.8587, Test=2.8042
+Epoch 253: Train=3.8668, Test=2.6853
+Epoch 254: Train=3.9104, Test=2.7653
+Epoch 255: Train=3.8440, Test=2.7851
+  Complex temporal entropy stats:
+    Layer 0: entropy=6.190, temporal=6.164, composition=0.000
+    Layer 1: entropy=7.320, temporal=0.000, composition=0.836
+    Layer 2: entropy=6.240, temporal=0.000, composition=0.845
+  Stored temporal entropy magnitude: 5.203
+Epoch 256: Train=3.9387, Test=2.7406
+Epoch 257: Train=3.7605, Test=2.7315
+Epoch 258: Train=3.8540, Test=2.7333
+Epoch 259: Train=3.8657, Test=2.7254
+    Loss components - Task: 2.8151, Temporal: 0.1874, Pattern: 20.0114
+Epoch 260: Train=3.8985, Test=2.7023
+  Complex temporal entropy stats:
+    Layer 0: entropy=5.977, temporal=5.734, composition=0.000
+    Layer 1: entropy=6.638, temporal=0.000, composition=0.836
+    Layer 2: entropy=4.961, temporal=0.000, composition=0.845
+  Stored temporal entropy magnitude: 5.156
+Epoch 261: Train=3.8543, Test=2.7232
+Epoch 262: Train=3.9035, Test=2.7142
+Epoch 263: Train=3.8247, Test=2.6905
+Epoch 264: Train=3.8605, Test=2.7638
+Epoch 265: Train=3.7734, Test=2.7166
+  Complex temporal entropy stats:
+    Layer 0: entropy=6.243, temporal=6.090, composition=0.000
+    Layer 1: entropy=7.242, temporal=0.000, composition=0.836
+    Layer 2: entropy=5.645, temporal=0.000, composition=0.845
+  Stored temporal entropy magnitude: 5.747
+Epoch 266: Train=3.7889, Test=2.7005
+Epoch 267: Train=3.8337, Test=2.7480
+Epoch 268: Train=3.7527, Test=2.7997
+Epoch 269: Train=3.8850, Test=2.7412
+    Loss components - Task: 2.2278, Temporal: 0.1432, Pattern: 11.1020
+Epoch 270: Train=3.7439, Test=2.7021
+  Complex temporal entropy stats:
+    Layer 0: entropy=6.009, temporal=6.237, composition=0.000
+    Layer 1: entropy=7.024, temporal=0.000, composition=0.836
+    Layer 2: entropy=5.725, temporal=0.000, composition=0.845
+  Stored temporal entropy magnitude: 5.771
+Epoch 271: Train=3.7864, Test=2.7029
+Epoch 272: Train=3.7696, Test=2.6622
+Epoch 273: Train=3.6585, Test=2.6833
+Epoch 274: Train=3.7090, Test=2.7000
+Epoch 275: Train=3.6860, Test=2.7221
+  Complex temporal entropy stats:
+    Layer 0: entropy=6.163, temporal=5.201, composition=0.000
+    Layer 1: entropy=6.809, temporal=0.000, composition=0.835
+    Layer 2: entropy=5.356, temporal=0.000, composition=0.845
+  Stored temporal entropy magnitude: 5.113
+Epoch 276: Train=3.7292, Test=2.7327
+Epoch 277: Train=3.7078, Test=2.6964
+Epoch 278: Train=3.7101, Test=2.6954
+Epoch 279: Train=3.6637, Test=2.7334
+    Loss components - Task: 2.4438, Temporal: 0.1177, Pattern: 10.9894
+Epoch 280: Train=3.6438, Test=2.6826
+  Complex temporal entropy stats:
+    Layer 0: entropy=6.124, temporal=5.645, composition=0.000
+    Layer 1: entropy=6.814, temporal=0.000, composition=0.836
+    Layer 2: entropy=5.434, temporal=0.000, composition=0.845
+  Stored temporal entropy magnitude: 5.401
+Epoch 281: Train=3.6273, Test=2.6778
+Epoch 282: Train=3.5957, Test=2.7117
+Epoch 283: Train=3.6509, Test=2.7010
+Epoch 284: Train=3.7103, Test=2.6680
+Epoch 285: Train=3.7028, Test=2.6937
+  Complex temporal entropy stats:
+    Layer 0: entropy=6.060, temporal=5.807, composition=0.000
+    Layer 1: entropy=7.016, temporal=0.000, composition=0.836
+    Layer 2: entropy=5.325, temporal=0.000, composition=0.845
+  Stored temporal entropy magnitude: 5.227
+Epoch 286: Train=3.5215, Test=2.6746
+Epoch 287: Train=3.7035, Test=2.6974
+Epoch 288: Train=3.5807, Test=2.6569
+Epoch 289: Train=3.7570, Test=2.6874
+    Loss components - Task: 2.5557, Temporal: 0.1136, Pattern: 10.9190
+Epoch 290: Train=3.6040, Test=2.6809
+  Complex temporal entropy stats:
+    Layer 0: entropy=6.345, temporal=5.366, composition=0.000
+    Layer 1: entropy=7.413, temporal=0.000, composition=0.836
+    Layer 2: entropy=5.653, temporal=0.000, composition=0.845
+  Stored temporal entropy magnitude: 5.226
+Epoch 291: Train=3.6123, Test=2.6809
+Epoch 292: Train=3.5656, Test=2.6968
+Epoch 293: Train=3.7313, Test=2.7070
+Epoch 294: Train=3.7293, Test=2.6890
+Epoch 295: Train=3.6649, Test=2.6663
+  Complex temporal entropy stats:
+    Layer 0: entropy=6.214, temporal=5.868, composition=0.000
+    Layer 1: entropy=7.214, temporal=0.000, composition=0.836
+    Layer 2: entropy=5.677, temporal=0.000, composition=0.846
+  Stored temporal entropy magnitude: 5.590
+Epoch 296: Train=3.5094, Test=2.6730
+Epoch 297: Train=3.5531, Test=2.7058
+Epoch 298: Train=3.5716, Test=2.6433
+Epoch 299: Train=3.5309, Test=2.7038
+
+🎯 FINAL RESULTS:
+Final Train Loss: 3.5309
+Final Test Loss: 2.7038
+Best Test Loss: 2.6433
+
+📊 COMPARISON TO BASELINES:
+Standard Transformer: ~2.68
+Transformer + RoPE: ~2.61
+ParadoxNet Complex + RoPE: ~2.58
+Entropy Recycling (real): ~3.16
+Temporal Entropy (real): ~3.13
+Complex Temporal + RoPE: 2.6433
+
+Performance gaps:
+  vs Standard Transformer: -1.4%
+  vs Transformer + RoPE: +1.3%
+  vs ParadoxNet Complex + RoPE: +2.5%
+  vs Temporal (real): -15.6%
+🎉 Complex temporal beats real temporal recycling!
+🚀 Breaking the 3.0 barrier!
+🔥 Getting competitive with transformers!
+🏆 BEATING THE TRANSFORMER + ROPE BASELINE!
+
+⏰ TEMPORAL ENTROPY ANALYSIS:
+  Temporal entropy became active after 1 steps
+  Average temporal entropy magnitude: 5.781
+  Temporal entropy range: 0.057 - 8.456
