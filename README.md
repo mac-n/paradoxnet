@@ -30,22 +30,10 @@ The final architecture that emerged from this process has four key components:
 
 2.  **Complex-Valued Representations**: All hidden states are represented as complex numbers, providing a rich space where both magnitude and phase can encode information.
 
-3. **The "Paradox" Non-linearity**: The engine of the network. A layer's output is modulated by its own self-prediction error (`paradox = h_pred − h_linear`), allowing it to dynamically regulate information flow based on its "surprise" at the input. For a given complex hidden-state **h<sub>linear</sub>**, the transformation is
+3. **The "Paradox" Non-linearity**: The engine of the network. A layer's output is modulated by its own self-prediction error (`paradox = h_pred − h_linear`), allowing it to dynamically regulate information flow based on its "surprise" at the input. 
 
-$$
-\begin{aligned}
-\text{paradox} &= h_{\text{pred}} - h_{\text{linear}} 
-h_{\text{out}} &= h_{\text{linear}} \cdot \sigma\!\left(|\text{paradox}|\right)
-\end{aligned}
-$$
 
-where  
-- **h<sub>linear</sub>** is the initial linear transformation of the layer's input,  
-- **h<sub>pred</sub>** is the layer's prediction of its own state,  
-- **σ** is the sigmoid function, and  
-- **|·|** denotes the magnitude of the complex number.
-
-**Understanding the Paradox Mechanism:** The key insight that's difficult to convey in mathematical notation is how backpropagation interacts with the self-prediction. Each layer is essentially **learning to predict its own learning strategy** (nonlinear transformation). The temporal dynamics work as follows:
+**Understanding the Paradox Mechanism:** The key insight is how backpropagation interacts with the self-prediction. Each layer is essentially **learning to predict its own learning strategy** (nonlinear transformation). The temporal dynamics work as follows:
 
 ```pseudocode
 # Initialization (epoch 0)
@@ -68,9 +56,8 @@ self_prediction = self_predictor(hidden_linear)  # Now slightly less random
 # ... repeat cycle: prediction becomes more informed about optimal transformation
 ```
 
-**Mathematical Formulation with Temporal Dynamics:**
+alternative expression of the process: 
 
-The same process expressed mathematically with time indices to show the learning dynamics:
 
 $$
 \begin{aligned}
@@ -88,7 +75,7 @@ h_{\text{out}}^{(t)} &= h_{\text{linear}}^{(t)} \cdot \sigma(|\text{paradox}^{(t
 \end{aligned}
 $$
 
-The key insight is that $h_{\text{pred}}^{(t)}$ uses the predictor weights $\theta^{(t-1)}$ learned from previous iterations, creating a temporal feedback loop where each layer learns to predict its own optimal transformation strategy.
+ $h_{\text{pred}}^{(t)}$ uses the predictor weights $\theta^{(t-1)}$ learned from previous iterations, creating a temporal feedback loop where each layer learns to predict its own optimal transformation strategy.
 
 The `self_predictor` starts with random weights but gradually learns to predict the optimal nonlinear transformation for the task. The paradox mechanism uses the difference between "current transformation" and "learned optimal transformation" as the gating signal. This creates a transparent, learnable nonlinearity that eliminates the opacity of ReLU while maintaining differentiability.
 
